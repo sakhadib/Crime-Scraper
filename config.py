@@ -64,29 +64,6 @@ CRIME_KEYWORDS = [
     "trial", "guilty", "plea", "warrant", "manhunt"
 ]
 
-# Import all source arrays
-from sources.source_array import (
-    north_american_sources, 
-    european_sources, 
-    asian_sources, 
-    latin_american_sources, 
-    african_sources, 
-    australian_sources,
-    middle_eastern_sources
-)
-
-# Combine all sources for comprehensive coverage
-# Start with North American sources (most reliable)
-ALL_NEWS_SOURCES = north_american_sources.copy()
-
-# Add other regions - can be enabled/disabled as needed
-ALL_NEWS_SOURCES.extend(european_sources)
-ALL_NEWS_SOURCES.extend(asian_sources[:10])  # Limit Asian sources to first 10 to avoid overwhelming
-ALL_NEWS_SOURCES.extend(latin_american_sources[:5])  # Limit Latin American sources
-ALL_NEWS_SOURCES.extend(african_sources[:5])  # Limit African sources
-ALL_NEWS_SOURCES.extend(australian_sources[:5])  # Limit Australian sources
-ALL_NEWS_SOURCES.extend(middle_eastern_sources[:3])  # Limit Middle Eastern sources
-
 # Use verified sources from comprehensive testing
 NEWS_WEBSITES = VERIFIED_NEWS_WEBSITES
 
