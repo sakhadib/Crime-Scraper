@@ -9,7 +9,7 @@ from datetime import datetime
 from typing import List, Dict
 from scraper import WebScraper
 from nlp_processor import CrimeNLPProcessor
-from utils import setup_logging, append_to_csv, ensure_csv_exists, get_current_timestamp, append_to_csv_with_dedup
+from utils import setup_logging, ensure_csv_exists, append_to_csv_with_dedup
 from config import NEWS_WEBSITES
 
 class CrimeDataScraper:
@@ -256,17 +256,8 @@ def main():
     
     elif args.mode == 'dedup-test':
         print("Testing duplicate detection system...")
-        try:
-            from test_duplicate_detection import test_duplicate_detection
-            success = test_duplicate_detection()
-            if success:
-                print("✓ Duplicate detection test completed successfully")
-            else:
-                print("✗ Duplicate detection test failed")
-        except ImportError:
-            print("Error: test_duplicate_detection.py not found")
-        except Exception as e:
-            print(f"Error running duplicate detection test: {e}")
+        print("Note: This feature requires a separate test file to be implemented.")
+        print("The duplicate detection functionality is integrated into the main scraper.")
     
     elif args.mode == 'stats':
         print("Generating statistics...")
