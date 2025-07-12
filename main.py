@@ -9,7 +9,7 @@ from datetime import datetime
 from typing import List, Dict
 from scraper import WebScraper
 from nlp_processor import CrimeNLPProcessor
-from utils import setup_logging, append_to_csv, ensure_csv_exists, get_current_timestamp
+from utils import setup_logging, append_to_csv, ensure_csv_exists, get_current_timestamp, append_to_csv_with_dedup
 from config import NEWS_WEBSITES
 
 class CrimeDataScraper:
@@ -48,15 +48,35 @@ class CrimeDataScraper:
             self.logger.info(f"Processing {len(raw_articles)} articles with NLP")
             processed_articles = self.nlp_processor.process_multiple_articles(raw_articles)
             
-            # Save to CSV
+            # Save to CSV with duplicate detection
             saved_count = 0
+            skipped_count = 0
+            duplicate_info = []
+            
             for article in processed_articles:
-                if append_to_csv(article):
+                result = append_to_csv_with_dedup(article)
+                
+                if result['success']:
                     saved_count += 1
+                    if result.get('duplicate_info'):
+                        duplicate_info.append({
+                            'title': article.get('headline', 'Unknown'),
+                            'type': result['duplicate_info']['duplicate_type'],
+                            'reason': result['duplicate_info']['reason']
+                        })
+                elif result.get('skipped'):
+                    skipped_count += 1
+                    self.logger.info(f"Skipped duplicate: {article.get('headline', 'Unknown')} - {result['reason']}")
                 else:
                     self.logger.error(f"Failed to save article: {article.get('headline', 'Unknown')}")
             
+            # Log summary
             self.logger.info(f"Successfully processed and saved {saved_count} articles")
+            if skipped_count > 0:
+                self.logger.info(f"Skipped {skipped_count} duplicate articles")
+            if duplicate_info:
+                self.logger.info(f"Found {len(duplicate_info)} similar articles from different sources (kept both)")
+            
             return saved_count
             
         except Exception as e:
@@ -108,13 +128,24 @@ class CrimeDataScraper:
             # Process articles with NLP
             processed_articles = self.nlp_processor.process_multiple_articles(full_articles)
             
-            # Save to CSV
+            # Save to CSV with duplicate detection
             saved_count = 0
-            for article in processed_articles:
-                if append_to_csv(article):
-                    saved_count += 1
+            skipped_count = 0
             
-            self.logger.info(f"Successfully processed and saved {saved_count} articles from {website_name}")
+            for article in processed_articles:
+                result = append_to_csv_with_dedup(article)
+                
+                if result['success']:
+                    saved_count += 1
+                elif result.get('skipped'):
+                    skipped_count += 1
+                    self.logger.info(f"Skipped duplicate from {website_name}: {article.get('headline', 'Unknown')}")
+            
+            if skipped_count > 0:
+                self.logger.info(f"Successfully processed and saved {saved_count} articles from {website_name} (skipped {skipped_count} duplicates)")
+            else:
+                self.logger.info(f"Successfully processed and saved {saved_count} articles from {website_name}")
+            
             return saved_count
             
         except Exception as e:
@@ -179,11 +210,17 @@ class CrimeDataScraper:
                     'earliest': df['date_scraped'].min(),
                     'latest': df['date_scraped'].max()
                 },
-                'crime_types': df['what'].value_counts().to_dict(),
-                'locations': df['where'].value_counts().head(10).to_dict(),
-                'articles_with_injuries': len(df[df['injuries'] != '']),
-                'articles_with_fatalities': len(df[df['fatalities'] != '']),
-                'articles_with_arrests': len(df[df['arrests'] != ''])
+                'crime_types': df['what'].value_counts().to_dict() if 'what' in df.columns else {},
+                'locations': df['where'].value_counts().head(10).to_dict() if 'where' in df.columns else {},
+                'articles_with_injuries': len(df[df['injuries'] != '']) if 'injuries' in df.columns else 0,
+                'articles_with_fatalities': len(df[df['fatalities'] != '']) if 'fatalities' in df.columns else 0,
+                'articles_with_arrests': len(df[df['arrests'] != '']) if 'arrests' in df.columns else 0,
+                'duplicate_stats': {
+                    'total_with_hashes': len(df[df['content_hash'].notna()]) if 'content_hash' in df.columns else 0,
+                    'articles_marked_similar': len(df[df['duplicate_note'].notna()]) if 'duplicate_note' in df.columns else 0,
+                    'unique_content_hashes': len(df['content_hash'].dropna().unique()) if 'content_hash' in df.columns else 0,
+                    'unique_similarity_hashes': len(df['similarity_hash'].dropna().unique()) if 'similarity_hash' in df.columns else 0
+                }
             }
             
             return stats
@@ -197,7 +234,7 @@ def main():
     Main function to run the crime data scraper with command line interface
     """
     parser = argparse.ArgumentParser(description='Crime Data Scraper')
-    parser.add_argument('--mode', choices=['full', 'single', 'test', 'stats'], 
+    parser.add_argument('--mode', choices=['full', 'single', 'test', 'stats', 'dedup-test'], 
                        default='full', help='Scraping mode')
     parser.add_argument('--website', type=str, help='Website name for single mode')
     parser.add_argument('--verbose', '-v', action='store_true', help='Verbose output')
@@ -217,6 +254,20 @@ def main():
             print("✗ Configuration test failed")
             sys.exit(1)
     
+    elif args.mode == 'dedup-test':
+        print("Testing duplicate detection system...")
+        try:
+            from test_duplicate_detection import test_duplicate_detection
+            success = test_duplicate_detection()
+            if success:
+                print("✓ Duplicate detection test completed successfully")
+            else:
+                print("✗ Duplicate detection test failed")
+        except ImportError:
+            print("Error: test_duplicate_detection.py not found")
+        except Exception as e:
+            print(f"Error running duplicate detection test: {e}")
+    
     elif args.mode == 'stats':
         print("Generating statistics...")
         stats = scraper.get_statistics()
@@ -227,6 +278,15 @@ def main():
             print(f"Articles with Injuries: {stats.get('articles_with_injuries', 0)}")
             print(f"Articles with Fatalities: {stats.get('articles_with_fatalities', 0)}")
             print(f"Articles with Arrests: {stats.get('articles_with_arrests', 0)}")
+            
+            # Duplicate detection stats
+            dup_stats = stats.get('duplicate_stats', {})
+            if dup_stats:
+                print(f"\n=== Duplicate Detection Stats ===")
+                print(f"Articles with Hash Data: {dup_stats.get('total_with_hashes', 0)}")
+                print(f"Similar Articles (Different Sources): {dup_stats.get('articles_marked_similar', 0)}")
+                print(f"Unique Content Signatures: {dup_stats.get('unique_content_hashes', 0)}")
+                print(f"Unique Similarity Signatures: {dup_stats.get('unique_similarity_hashes', 0)}")
             
             print("\nTop Crime Types:")
             for crime_type, count in list(stats.get('crime_types', {}).items())[:5]:

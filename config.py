@@ -6,6 +6,9 @@ Contains settings for websites, keywords, file paths, and other constants
 import os
 from typing import List, Dict
 
+# Import verified sources
+from verified_sources_config import VERIFIED_NEWS_WEBSITES
+
 # Base directory for the project
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
@@ -61,111 +64,31 @@ CRIME_KEYWORDS = [
     "trial", "guilty", "plea", "warrant", "manhunt"
 ]
 
-# List of news websites to scrape
-# Note: Always check robots.txt and terms of service before scraping
-# These configurations have been tested and verified as accessible
-NEWS_WEBSITES = [
-    {
-        "name": "AP News",
-        "url": "https://apnews.com/hub/crime",
-        "article_selector": "h3 a[href*='/article/']",
-        "headline_selector": "h1",
-        "content_selector": "div[data-key='article'] p"
-    },
-    {
-        "name": "CBS News Crime",
-        "url": "https://www.cbsnews.com/crime/",
-        "article_selector": "h4 a[href*='/news/']",
-        "headline_selector": "h1",
-        "content_selector": "section.content__body p"
-    },
-    {
-        "name": "NBC News Crime",
-        "url": "https://www.nbcnews.com/news/crime-courts",
-        "article_selector": "h2 a[href*='/news/']",
-        "headline_selector": "h1",
-        "content_selector": "div.ArticleBody p"
-    },
-    {
-        "name": "Fox News Crime",
-        "url": "https://www.foxnews.com/category/us/crime",
-        "article_selector": "h2 a[href*='/us/']",
-        "headline_selector": "h1",
-        "content_selector": "div.article-body p"
-    },
-    {
-        "name": "CNN Crime",
-        "url": "https://www.cnn.com/specials/us/crime-and-justice",
-        "article_selector": "h3 a[href*='/2024/']",
-        "headline_selector": "h1",
-        "content_selector": "div.zn-body__paragraph"
-    },
-    {
-        "name": "New York Post Crime",
-        "url": "https://nypost.com/metro/",
-        "article_selector": "h3 a[href*='/2024/']",
-        "headline_selector": "h1",
-        "content_selector": "div.entry-content p"
-    },
-    {
-        "name": "Chicago Tribune Crime",
-        "url": "https://www.chicagotribune.com/news/breaking/",
-        "article_selector": "h3 a[href*='/news/']",
-        "headline_selector": "h1",
-        "content_selector": "div.body-copy p"
-    },
-    {
-        "name": "Los Angeles Times Crime",
-        "url": "https://www.latimes.com/california/",
-        "article_selector": "h3 a[href*='/california/']",
-        "headline_selector": "h1",
-        "content_selector": "div.rich-text p"
-    },
-    {
-        "name": "Washington Post Crime",
-        "url": "https://www.washingtonpost.com/dc-md-va/",
-        "article_selector": "h3 a[href*='/dc-md-va/']",
-        "headline_selector": "h1",
-        "content_selector": "div.article-body p"
-    },
-    {
-        "name": "Miami Herald Crime",
-        "url": "https://www.miamiherald.com/news/local/crime/",
-        "article_selector": "h3 a[href*='/news/local/crime/']",
-        "headline_selector": "h1",
-        "content_selector": "div.story-body p"
-    },
+# Import all source arrays
+from sources.source_array import (
+    north_american_sources, 
+    european_sources, 
+    asian_sources, 
+    latin_american_sources, 
+    african_sources, 
+    australian_sources,
+    middle_eastern_sources
+)
 
-    {
-        "name": "Boston Globe Crime",
-        "url": "https://www.bostonglobe.com/metro/",
-        "article_selector": "h3 a[href*='/metro/']",
-        "headline_selector": "h1",
-        "content_selector": "div.article-body p"
-    },
-    {
-        "name": "San Francisco Chronicle Crime",
-        "url": "https://www.sfchronicle.com/crime/",
-        "article_selector": "h3 a[href*='/crime/']",
-        "headline_selector": "h1",
-        "content_selector": "div.body p"
-    },
-    {
-        "name": "Atlanta Journal Constitution Crime",
-        "url": "https://www.ajc.com/news/crime/",
-        "article_selector": "h3 a[href*='/news/crime/']",
-        "headline_selector": "h1",
-        "content_selector": "div.article-body p"
-    }
-    # Additional sites can be added here - test with --mode test first
-    # Sites that were tested but blocked access:
-    # - Reuters (401 Forbidden)
-    # - ABC News (404 Not Found) 
-    # - USA Today (403 Forbidden)
-    # - Philadelphia Inquirer (404 Not Found)
-    # - Detroit Free Press (403 Forbidden)
-    # - Dallas Morning News (403 Forbidden)
-]
+# Combine all sources for comprehensive coverage
+# Start with North American sources (most reliable)
+ALL_NEWS_SOURCES = north_american_sources.copy()
+
+# Add other regions - can be enabled/disabled as needed
+ALL_NEWS_SOURCES.extend(european_sources)
+ALL_NEWS_SOURCES.extend(asian_sources[:10])  # Limit Asian sources to first 10 to avoid overwhelming
+ALL_NEWS_SOURCES.extend(latin_american_sources[:5])  # Limit Latin American sources
+ALL_NEWS_SOURCES.extend(african_sources[:5])  # Limit African sources
+ALL_NEWS_SOURCES.extend(australian_sources[:5])  # Limit Australian sources
+ALL_NEWS_SOURCES.extend(middle_eastern_sources[:3])  # Limit Middle Eastern sources
+
+# Use verified sources from comprehensive testing
+NEWS_WEBSITES = VERIFIED_NEWS_WEBSITES
 
 # HTTP request settings
 REQUEST_TIMEOUT = 30
@@ -191,7 +114,10 @@ CSV_COLUMNS = [
     "injuries",
     "fatalities", 
     "arrests",
-    "full_text"
+    "full_text",
+    "content_hash",
+    "similarity_hash",
+    "duplicate_note"
 ]
 
 # Entity types for spaCy NER
