@@ -2,6 +2,20 @@
 
 An advanced AI-powered web scraper that extracts crime-related news articles from **40 verified international news sources**, processes them using Natural Language Processing (NLP), and stores structured data with intelligent duplicate detection. Features comprehensive global coverage across 6 continents with hash-based deduplication system.
 
+## 🤖 Automated Dataset Generation
+
+### GitHub Actions Integration
+This scraper includes **fully automated GitHub Actions workflows** that run daily to:
+
+- 🕛 **Scheduled Execution**: Automatically runs every day at midnight UTC
+- 📊 **Dataset Building**: Continuously builds and updates the crime dataset
+- 🔄 **Data Persistence**: Automatically commits new data back to the repository
+- 🚀 **Zero Maintenance**: Runs completely hands-free once configured
+- 🌐 **Cloud Processing**: Leverages GitHub's cloud infrastructure for scraping
+- 📈 **Growing Dataset**: Creates an ever-expanding database of global crime data
+
+**Perfect for researchers, journalists, and data scientists who need continuously updated crime datasets without manual intervention!**
+
 ## 🚀 Key Features
 
 ### 🌐 Global News Coverage
@@ -458,7 +472,84 @@ black *.py
 flake8 *.py
 ```
 
-## 📄 License & Legal
+## �‍💻 Developer
+
+**Developed by [Sakhawat Adib](https://portfolio.sakhawatadib.com)**
+
+I'm a passionate software developer specializing in AI, web scraping, and data analysis. This project combines my interests in:
+- 🤖 **Artificial Intelligence & NLP** for intelligent data extraction
+- 🌐 **Web Technologies** for robust scraping systems
+- 📊 **Data Science** for meaningful insights from unstructured data
+- 🔧 **Automation** for building self-sustaining data pipelines
+
+*Visit my [portfolio](https://portfolio.sakhawatadib.com) to see more innovative projects and get in touch for collaborations!*
+
+---
+
+## 📄 License & Contributing
+
+### MIT License
+This project is open-source and available under the [MIT License](LICENSE). You are free to:
+- ✅ Use commercially
+- ✅ Modify and distribute
+- ✅ Use privately
+- ✅ Use for any purpose
+
+**Only requirement**: Include the original copyright notice and license in any copies.
+
+### 🤝 Contributing Guidelines
+
+We welcome contributions from the community! Here's how you can help:
+
+#### Ways to Contribute
+1. **🐛 Bug Reports**: Report issues via GitHub Issues with detailed descriptions
+2. **💡 Feature Requests**: Suggest new features or improvements
+3. **🌐 New Sources**: Add verified international news sources
+4. **🔧 Code Improvements**: Enhance existing functionality
+5. **📚 Documentation**: Improve README, add examples, write tutorials
+6. **🧪 Testing**: Add test cases and improve reliability
+
+#### Contribution Process
+1. **Fork** the repository to your GitHub account
+2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
+3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
+4. **Push** to the branch (`git push origin feature/amazing-feature`)
+5. **Open** a Pull Request with detailed description
+
+#### Development Setup
+```bash
+# Clone your fork
+git clone https://github.com/yourusername/Crime-Scraper.git
+cd Crime-Scraper
+
+# Install dependencies
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+
+# Run tests
+python main.py --mode test
+
+# Make your changes and test thoroughly
+```
+
+#### Code Standards
+- **Python Style**: Follow PEP 8 guidelines
+- **Documentation**: Add docstrings to new functions
+- **Error Handling**: Include comprehensive error handling
+- **Testing**: Test new sources and features thoroughly
+- **Logging**: Use appropriate logging levels
+
+### 🌟 Recognition
+Contributors will be recognized in:
+- **README.md Credits** section
+- **GitHub Contributors** page  
+- **Release Notes** for major contributions
+
+*Your contributions help build better tools for global journalism and research!*
+
+---
+
+## �📄 License & Legal
 
 ### License
 This project is released under the **MIT License** for educational and research purposes. 
