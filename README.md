@@ -1,4 +1,4 @@
-# Global Crime Data Scraper 🌍
+*# Global Crime Data Scraper
 
 An advanced AI-powered web scraper that extracts crime-related news articles from **40 verified international news sources**, processes them using Natural Language Processing (NLP), and stores structured data with intelligent duplicate detection. Features comprehensive global coverage across 6 continents with hash-based deduplication system.
 
@@ -506,3 +506,4 @@ When using data from this scraper:
 **🤝 Contributions welcome - see Contributing section above**
 
 Built with ❤️ for the global journalism and research community.
+*

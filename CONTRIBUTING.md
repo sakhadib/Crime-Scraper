@@ -22,7 +22,7 @@ Thank you for your interest in contributing to this project! This guide will hel
 #### Setting Up Development Environment
 ```bash
 # Fork and clone the repository
-git clone https://github.com/yourusername/crime-data-scraper.git
+git clone hhttps://github.com/sakhadib/Crime-Scraper.git
 cd crime-data-scraper
 
 # Create virtual environment
