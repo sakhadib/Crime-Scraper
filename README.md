@@ -2,46 +2,46 @@
 
 An advanced AI-powered web scraper that extracts crime-related news articles from **40 verified international news sources**, processes them using Natural Language Processing (NLP), and stores structured data with intelligent duplicate detection. Features comprehensive global coverage across 6 continents with hash-based deduplication system.
 
-## 🤖 Automated Dataset Generation
+## Automated Dataset Generation
 
 ### GitHub Actions Integration
 This scraper includes **fully automated GitHub Actions workflows** that run daily to:
 
-- 🕛 **Scheduled Execution**: Automatically runs every day at midnight UTC
-- 📊 **Dataset Building**: Continuously builds and updates the crime dataset
-- 🔄 **Data Persistence**: Automatically commits new data back to the repository
-- 🚀 **Zero Maintenance**: Runs completely hands-free once configured
-- 🌐 **Cloud Processing**: Leverages GitHub's cloud infrastructure for scraping
-- 📈 **Growing Dataset**: Creates an ever-expanding database of global crime data
+- **Scheduled Execution**: Automatically runs every day at midnight UTC
+- **Dataset Building**: Continuously builds and updates the crime dataset
+- **Data Persistence**: Automatically commits new data back to the repository
+- **Zero Maintenance**: Runs completely hands-free once configured
+- **Cloud Processing**: Leverages GitHub's cloud infrastructure for scraping
+- **Growing Dataset**: Creates an ever-expanding database of global crime data
 
 **Perfect for researchers, journalists, and data scientists who need continuously updated crime datasets without manual intervention!**
 
-## 🚀 Key Features
+## Key Features
 
-### 🌐 Global News Coverage
+### Global News Coverage
 - **40 Verified Sources** across 6 continents (North America, Europe, Asia, Latin America, Africa, Australia)
 - **International Scope** with sources in multiple languages (English, Spanish, French, Italian, etc.)
 - **Real-time Verification** ensures all sources are accessible and working
 
-### 🔍 Advanced Duplicate Detection
+### Advanced Duplicate Detection
 - **SHA-256 Content Hashing** for exact duplicate prevention
 - **MD5 Similarity Hashing** for cross-source similar content detection
 - **Smart Logic**: Blocks same-source exact replicas, keeps cross-source similar content
 - **Persistent Storage** of hash information for long-term deduplication
 
-### 🧠 AI-Powered Data Extraction
+### AI-Powered Data Extraction
 - **spaCy NLP Processing** extracts key information (who, what, when, where, how, why)
 - **Named Entity Recognition** identifies people, locations, organizations
 - **Crime Classification** categorizes crime types automatically
 - **Economic Impact Detection** extracts financial loss information
 
-### 📊 Professional Data Output
+### Professional Data Output
 - **Structured CSV Format** with 18 standardized columns
 - **Complete Metadata** including source, dates, hashes
 - **Data Integrity** with validation and error handling
 - **Excel/Pandas Compatible** for professional analysis
 
-## 🌍 Global News Sources
+## Global News Sources
 
 ### Regional Coverage (40 Verified Sources)
 
@@ -61,7 +61,7 @@ This scraper includes **fully automated GitHub Actions workflows** that run dail
 4. **Fox News Crime** - 0.78s
 5. **Chicago Tribune Crime** - 0.78s
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 CrimeData/
@@ -82,7 +82,7 @@ CrimeData/
 └── README.md                  # This documentation
 ```
 
-## 🔧 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8+ 
@@ -112,7 +112,7 @@ CrimeData/
    python main.py --mode test
    ```
 
-## 🎯 Usage
+## Usage
 
 ### Quick Start
 
@@ -160,7 +160,7 @@ NEWS_WEBSITES = [
 ]
 ```
 
-## ⚙️ Automation
+## Automation
 
 ### Scheduling Options
 
@@ -208,7 +208,7 @@ docker build -t crime-scraper .
 docker run -v $(pwd)/data:/app/data crime-scraper
 ```
 
-## 📊 Data Output
+## Data Output
 
 ### CSV Structure
 
@@ -243,9 +243,9 @@ date_scraped,article_url,headline,publication_date,who,what,where...
 
 ### Duplicate Detection Logic
 
-1. **Exact Same Source Duplicates**: ❌ **BLOCKED** (same URL, same content hash)
-2. **Cross-Source Similar Content**: ✅ **ALLOWED** (different sources, similar content)
-3. **Unique Content**: ✅ **ALLOWED** (new content, new hash)
+1. **Exact Same Source Duplicates**: **BLOCKED** (same URL, same content hash)
+2. **Cross-Source Similar Content**: **ALLOWED** (different sources, similar content)
+3. **Unique Content**: **ALLOWED** (new content, new hash)
 
 ### Data Quality Features
 
@@ -254,18 +254,18 @@ date_scraped,article_url,headline,publication_date,who,what,where...
 - **Error Handling** with graceful fallbacks
 - **Validation Checks** for data integrity
 
-## 🔒 Ethical Guidelines & Legal Compliance
+## Ethical Guidelines & Legal Compliance
 
 ### Responsible Scraping Practices
 
-✅ **What We Do Right**:
+**What We Do Right**:
 - **Rate Limiting**: Built-in delays between requests (1-2 seconds)
 - **Robots.txt Compliance**: Respects website crawling guidelines  
 - **Fair Use**: Educational/research purpose data collection
 - **Error Handling**: Graceful failures without overwhelming servers
 - **Attribution**: Preserves source URLs and publication dates
 
-⚠️ **Important Considerations**:
+**Important Considerations**:
 - **Check Terms of Service** for each news source before commercial use
 - **Respect Copyright**: Articles remain property of original publishers
 - **Monitor Usage**: Avoid excessive requests that could impact website performance
@@ -289,7 +289,7 @@ date_scraped,article_url,headline,publication_date,who,what,where...
 - [ ] Establish data retention policies
 - [ ] Document usage for transparency
 
-## 🛠️ Technical Details
+## Technical Details
 
 ### System Requirements
 - **Python**: 3.8+ (tested on 3.9+)
@@ -337,7 +337,7 @@ python-dateutil>=2.8.0 # Date parsing
 - **CSV Write Errors**: Atomic operations with rollback
 - **Duplicate Detection**: Hash collision handling
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 ### Planned Features
 
@@ -374,13 +374,13 @@ distances, indices = index.search(query_embedding, k=10)
 
 ### Scalability Roadmap
 
-1. **Phase 1**: Current (40 sources, local CSV) ✅
+1. **Phase 1**: Current (40 sources, local CSV) **COMPLETE**
 2. **Phase 2**: 100+ sources, database integration
 3. **Phase 3**: Real-time processing, API development
 4. **Phase 4**: ML analytics, predictive modeling
 5. **Phase 5**: Enterprise deployment, commercial licensing
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues & Solutions
 
@@ -472,42 +472,42 @@ black *.py
 flake8 *.py
 ```
 
-## �‍💻 Developer
+## Developer
 
 **Developed by [Sakhawat Adib](https://portfolio.sakhawatadib.com)**
 
 I'm a passionate software developer specializing in AI, web scraping, and data analysis. This project combines my interests in:
-- 🤖 **Artificial Intelligence & NLP** for intelligent data extraction
-- 🌐 **Web Technologies** for robust scraping systems
-- 📊 **Data Science** for meaningful insights from unstructured data
-- 🔧 **Automation** for building self-sustaining data pipelines
+- **Artificial Intelligence & NLP** for intelligent data extraction
+- **Web Technologies** for robust scraping systems
+- **Data Science** for meaningful insights from unstructured data
+- **Automation** for building self-sustaining data pipelines
 
 *Visit my [portfolio](https://portfolio.sakhawatadib.com) to see more innovative projects and get in touch for collaborations!*
 
 ---
 
-## 📄 License & Contributing
+## License & Contributing
 
 ### MIT License
 This project is open-source and available under the [MIT License](LICENSE). You are free to:
-- ✅ Use commercially
-- ✅ Modify and distribute
-- ✅ Use privately
-- ✅ Use for any purpose
+- Use commercially
+- Modify and distribute
+- Use privately
+- Use for any purpose
 
 **Only requirement**: Include the original copyright notice and license in any copies.
 
-### 🤝 Contributing Guidelines
+### Contributing Guidelines
 
 We welcome contributions from the community! Here's how you can help:
 
 #### Ways to Contribute
-1. **🐛 Bug Reports**: Report issues via GitHub Issues with detailed descriptions
-2. **💡 Feature Requests**: Suggest new features or improvements
-3. **🌐 New Sources**: Add verified international news sources
-4. **🔧 Code Improvements**: Enhance existing functionality
-5. **📚 Documentation**: Improve README, add examples, write tutorials
-6. **🧪 Testing**: Add test cases and improve reliability
+1. **Bug Reports**: Report issues via GitHub Issues with detailed descriptions
+2. **Feature Requests**: Suggest new features or improvements
+3. **New Sources**: Add verified international news sources
+4. **Code Improvements**: Enhance existing functionality
+5. **Documentation**: Improve README, add examples, write tutorials
+6. **Testing**: Add test cases and improve reliability
 
 #### Contribution Process
 1. **Fork** the repository to your GitHub account
@@ -539,7 +539,7 @@ python main.py --mode test
 - **Testing**: Test new sources and features thoroughly
 - **Logging**: Use appropriate logging levels
 
-### 🌟 Recognition
+### Recognition
 Contributors will be recognized in:
 - **README.md Credits** section
 - **GitHub Contributors** page  
@@ -549,7 +549,7 @@ Contributors will be recognized in:
 
 ---
 
-## �📄 License & Legal
+## License & Legal
 
 ### License
 This project is released under the **MIT License** for educational and research purposes. 
@@ -567,34 +567,34 @@ When using data from this scraper:
 - **Preserve URLs**: Maintain source links for transparency
 - **Academic Citation**: Include this project in academic references if used for research
 
-## 📊 Project Status
+## Project Status
 
 ### Current Version: 2.0.0
-- ✅ **Global Coverage**: 40 verified international sources
-- ✅ **Duplicate Detection**: Advanced hash-based system
-- ✅ **Production Ready**: Comprehensive error handling and logging
-- ✅ **Data Quality**: Professional CSV output with headers
-- ✅ **Documentation**: Complete setup and usage guides
+- **Global Coverage**: 40 verified international sources
+- **Duplicate Detection**: Advanced hash-based system
+- **Production Ready**: Comprehensive error handling and logging
+- **Data Quality**: Professional CSV output with headers
+- **Documentation**: Complete setup and usage guides
 
 ### Statistics
-- **🌍 Global Sources**: 40 verified across 6 continents
-- **📈 Success Rate**: 62.5% source accessibility 
-- **🔍 Data Points**: 18 standardized CSV columns
-- **⚡ Performance**: 0.38s - 3.13s response times
-- **🛡️ Reliability**: Advanced duplicate detection with SHA-256/MD5 hashing
+- **Global Sources**: 40 verified across 6 continents
+- **Success Rate**: 62.5% source accessibility 
+- **Data Points**: 18 standardized CSV columns
+- **Performance**: 0.38s - 3.13s response times
+- **Reliability**: Advanced duplicate detection with SHA-256/MD5 hashing
 
 ### Repository Health
-- **📝 Documentation**: Comprehensive README and inline comments
-- **🧪 Testing**: Source verification and connectivity testing
-- **🔧 Maintenance**: Active development and updates
-- **🌐 Community**: Open source with contribution guidelines
-- **📦 Dependencies**: Well-maintained, regularly updated libraries
+- **Documentation**: Comprehensive README and inline comments
+- **Testing**: Source verification and connectivity testing
+- **Maintenance**: Active development and updates
+- **Community**: Open source with contribution guidelines
+- **Dependencies**: Well-maintained, regularly updated libraries
 
 ---
 
-**⭐ Star this repository if you find it useful!**  
-**🐛 Report issues or suggest enhancements via GitHub Issues**  
-**🤝 Contributions welcome - see Contributing section above**
+**Star this repository if you find it useful!**  
+**Report issues or suggest enhancements via GitHub Issues**  
+**Contributions welcome - see Contributing section above**
 
-Built with ❤️ for the global journalism and research community.
+Built with passion for the global journalism and research community.
 *
