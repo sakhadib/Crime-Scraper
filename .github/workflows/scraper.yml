@@ -38,7 +38,7 @@ jobs:
           
       - name: Run crime data scraper
         run: |
-          python scraper.py
+          python main.py --mode full
         env:
           DEBUG_MODE: ${{ github.event.inputs.debug || 'false' }}
           
