@@ -1107,3 +1107,269 @@
 2025-07-13 20:35:48,221 - crime_scraper - INFO - Successfully processed article: Trial set to start for Ballarat woman's accused murderer
 2025-07-13 20:35:48,221 - crime_scraper - INFO - Processed 43 out of 43 articles
 2025-07-13 20:35:48,335 - crime_scraper - INFO - Successfully processed and saved 43 articles
+2025-07-14 02:00:30,346 - crime_scraper - INFO - Successfully loaded spaCy model: en_core_web_sm
+2025-07-14 02:00:30,356 - crime_scraper - INFO - Crime Data Scraper initialized
+2025-07-14 02:00:30,356 - crime_scraper - INFO - Starting full scrape process
+2025-07-14 02:00:30,356 - crime_scraper - INFO - Scraping articles from all configured websites
+2025-07-14 02:00:30,356 - crime_scraper - INFO - Scraping website: AP News Crime
+2025-07-14 02:00:30,357 - crime_scraper - INFO - Fetching URL: https://apnews.com/hub/crime (Attempt 1)
+2025-07-14 02:00:30,446 - crime_scraper - WARNING - Request failed (attempt 1): 403 Client Error: Forbidden for url: https://apnews.com/hub/crime
+2025-07-14 02:00:31,446 - crime_scraper - INFO - Fetching URL: https://apnews.com/hub/crime (Attempt 2)
+2025-07-14 02:00:31,502 - crime_scraper - WARNING - Request failed (attempt 2): 403 Client Error: Forbidden for url: https://apnews.com/hub/crime
+2025-07-14 02:00:33,502 - crime_scraper - INFO - Fetching URL: https://apnews.com/hub/crime (Attempt 3)
+2025-07-14 02:00:33,558 - crime_scraper - WARNING - Request failed (attempt 3): 403 Client Error: Forbidden for url: https://apnews.com/hub/crime
+2025-07-14 02:00:33,558 - crime_scraper - ERROR - Failed to fetch https://apnews.com/hub/crime after 3 attempts
+2025-07-14 02:00:33,559 - crime_scraper - INFO - Scraping website: CBS News Crime
+2025-07-14 02:00:33,559 - crime_scraper - INFO - Fetching URL: https://www.cbsnews.com/crime/ (Attempt 1)
+2025-07-14 02:00:33,785 - crime_scraper - INFO - Scraping website: NBC News Crime
+2025-07-14 02:00:33,785 - crime_scraper - INFO - Fetching URL: https://www.nbcnews.com/news/crime-courts (Attempt 1)
+2025-07-14 02:00:34,757 - crime_scraper - INFO - Scraping website: Fox News Crime
+2025-07-14 02:00:34,757 - crime_scraper - INFO - Fetching URL: https://www.foxnews.com/category/us/crime (Attempt 1)
+2025-07-14 02:00:34,983 - crime_scraper - INFO - Scraping website: CNN Crime and Justice
+2025-07-14 02:00:34,983 - crime_scraper - INFO - Fetching URL: https://www.cnn.com/specials/us/crime-and-justice (Attempt 1)
+2025-07-14 02:00:35,433 - crime_scraper - INFO - Scraping website: New York Post Crime
+2025-07-14 02:00:35,433 - crime_scraper - INFO - Fetching URL: https://nypost.com/metro/ (Attempt 1)
+2025-07-14 02:00:36,570 - crime_scraper - INFO - Scraping website: Chicago Tribune Crime
+2025-07-14 02:00:36,570 - crime_scraper - INFO - Fetching URL: https://www.chicagotribune.com/news/breaking/ (Attempt 1)
+2025-07-14 02:00:37,458 - crime_scraper - INFO - Scraping website: Los Angeles Times Crime
+2025-07-14 02:00:37,459 - crime_scraper - INFO - Fetching URL: https://www.latimes.com/california/ (Attempt 1)
+2025-07-14 02:00:38,053 - crime_scraper - INFO - Scraping website: Washington Post Crime
+2025-07-14 02:00:38,053 - crime_scraper - INFO - Fetching URL: https://www.washingtonpost.com/dc-md-va/ (Attempt 1)
+2025-07-14 02:01:08,139 - crime_scraper - WARNING - Request failed (attempt 1): HTTPSConnectionPool(host='www.washingtonpost.com', port=443): Read timed out. (read timeout=30)
+2025-07-14 02:01:09,140 - crime_scraper - INFO - Fetching URL: https://www.washingtonpost.com/dc-md-va/ (Attempt 2)
+2025-07-14 02:01:09,665 - crime_scraper - INFO - Scraping website: Miami Herald Crime
+2025-07-14 02:01:09,665 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/ (Attempt 1)
+2025-07-14 02:01:10,062 - crime_scraper - INFO - Found crime-related article: Man who stole $800,000 from elderly person in Miami area pleads guilty to fraud
+2025-07-14 02:01:10,063 - crime_scraper - INFO - Found crime-related article: A month after Miami arrest warrant, Antonio Brown is still in Dubai. Police won’t talk
+2025-07-14 02:01:10,064 - crime_scraper - INFO - Found crime-related article: Man accused of killing a Miami jogger in hit-and-run crash is arrested: police
+2025-07-14 02:01:11,064 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article310370665.html#storylink=mainstage_card (Attempt 1)
+2025-07-14 02:01:11,225 - crime_scraper - INFO - Successfully scraped: Man who stole $800,000 from elderly person in Miami area pleads guilty to fraud
+2025-07-14 02:01:12,226 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article310297725.html#storylink=mainstage_card (Attempt 1)
+2025-07-14 02:01:42,289 - crime_scraper - WARNING - Request failed (attempt 1): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2025-07-14 02:01:43,289 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article310297725.html#storylink=mainstage_card (Attempt 2)
+2025-07-14 02:01:43,467 - crime_scraper - INFO - Successfully scraped: A month after Miami arrest warrant, Antonio Brown is still in Dubai. Police won’t talk
+2025-07-14 02:01:44,467 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article310287415.html#storylink=mainstage_card (Attempt 1)
+2025-07-14 02:01:44,650 - crime_scraper - INFO - Successfully scraped: Man accused of killing a Miami jogger in hit-and-run crash is arrested: police
+2025-07-14 02:01:44,650 - crime_scraper - INFO - Scraping website: Boston Globe Crime
+2025-07-14 02:01:44,650 - crime_scraper - INFO - Fetching URL: https://www.bostonglobe.com/metro/ (Attempt 1)
+2025-07-14 02:01:45,302 - crime_scraper - INFO - Scraping website: Atlanta Journal Constitution Crime
+2025-07-14 02:01:45,302 - crime_scraper - INFO - Fetching URL: https://www.ajc.com/news/crime/ (Attempt 1)
+2025-07-14 02:01:46,414 - crime_scraper - INFO - Scraping website: Toronto Sun Crime
+2025-07-14 02:01:46,415 - crime_scraper - INFO - Fetching URL: https://torontosun.com/category/news/crime/ (Attempt 1)
+2025-07-14 02:01:46,897 - crime_scraper - INFO - Scraping website: National Post Crime
+2025-07-14 02:01:46,897 - crime_scraper - INFO - Fetching URL: https://nationalpost.com/category/news/true-crime/ (Attempt 1)
+2025-07-14 02:01:47,245 - crime_scraper - INFO - Scraping website: Global News Crime
+2025-07-14 02:01:47,245 - crime_scraper - INFO - Fetching URL: https://globalnews.ca/crime/ (Attempt 1)
+2025-07-14 02:01:47,740 - crime_scraper - INFO - Scraping website: Sky News UK Crime
+2025-07-14 02:01:47,740 - crime_scraper - INFO - Fetching URL: https://news.sky.com/topic/crime-5782 (Attempt 1)
+2025-07-14 02:01:48,214 - crime_scraper - INFO - Scraping website: UK NewsNow Crime
+2025-07-14 02:01:48,214 - crime_scraper - INFO - Fetching URL: https://www.newsnow.co.uk/h/UK/Crime (Attempt 1)
+2025-07-14 02:01:49,313 - crime_scraper - INFO - Scraping website: Euronews Crime
+2025-07-14 02:01:49,313 - crime_scraper - INFO - Fetching URL: https://www.euronews.com/tag/crime (Attempt 1)
+2025-07-14 02:01:49,640 - crime_scraper - INFO - Scraping website: Deutsche Welle Crime
+2025-07-14 02:01:49,640 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/crime/t-45305936 (Attempt 1)
+2025-07-14 02:01:50,094 - crime_scraper - INFO - Found crime-related article: Qantas airline hit by cyberattack, affecting millions
+2025-07-14 02:01:50,096 - crime_scraper - INFO - Found crime-related article: Human trafficking on the rise as online scam hubs go global
+2025-07-14 02:01:50,097 - crime_scraper - INFO - Found crime-related article: Death cap: The mushroom behind deadly dinner in Australia
+2025-07-14 02:01:50,098 - crime_scraper - INFO - Found crime-related article: Death cap: The mushroom behind deadly dinner in Australia
+2025-07-14 02:01:50,099 - crime_scraper - INFO - Found crime-related article: Germany sees surge in shoplifting cases
+2025-07-14 02:01:50,100 - crime_scraper - INFO - Found crime-related article: Germany sees surge in shoplifting cases
+2025-07-14 02:01:50,101 - crime_scraper - INFO - Found crime-related article: Sean 'Diddy' Combs guilty of prostitution-related crimes
+2025-07-14 02:01:50,102 - crime_scraper - INFO - Found crime-related article: Sean 'Diddy' Combs guilty of prostitution-related crimes
+2025-07-14 02:01:50,103 - crime_scraper - INFO - Found crime-related article: Extortion in South Africa drives up construction costs
+2025-07-14 02:01:50,104 - crime_scraper - INFO - Found crime-related article: Extortion in South Africa drives up construction costs
+2025-07-14 02:01:50,105 - crime_scraper - INFO - Found crime-related article: What you need to know about Kenyan protester's shooting
+2025-07-14 02:01:50,105 - crime_scraper - INFO - Found crime-related article: What you need to know about Kenyan protester's shooting
+2025-07-14 02:01:50,106 - crime_scraper - INFO - Found crime-related article: Bulgaria's female 'Andrew Tate' incites anti-women violence
+2025-07-14 02:01:50,107 - crime_scraper - INFO - Found crime-related article: Violent drug crime on the rise in Brussels
+2025-07-14 02:01:50,108 - crime_scraper - INFO - Found crime-related article: Is Argentina's warrant against Aung San Suu Kyi a mistake?
+2025-07-14 02:01:51,109 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/qantas-airline-hit-by-cyberattack-affecting-millions/a-73113583 (Attempt 1)
+2025-07-14 02:01:51,593 - crime_scraper - INFO - Successfully scraped: Qantas airline hit by cyberattack, affecting millions
+2025-07-14 02:01:52,593 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/human-trafficking-on-the-rise-as-online-scam-hubs-go-global/a-73095664 (Attempt 1)
+2025-07-14 02:01:53,162 - crime_scraper - INFO - Successfully scraped: Human trafficking on the rise as online scam hubs go global
+2025-07-14 02:01:54,162 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/death-cap-the-mushroom-behind-deadly-dinner-in-australia/a-73199006 (Attempt 1)
+2025-07-14 02:01:54,588 - crime_scraper - INFO - Successfully scraped: Death cap: The mushroom behind deadly dinner in Australia
+2025-07-14 02:01:55,588 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/death-cap-the-mushroom-behind-deadly-dinner-in-australia/a-73199006 (Attempt 1)
+2025-07-14 02:01:55,652 - crime_scraper - INFO - Successfully scraped: Death cap: The mushroom behind deadly dinner in Australia
+2025-07-14 02:01:56,653 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/germany-crime-shoplifting-organized-crime-poverty/a-73145599 (Attempt 1)
+2025-07-14 02:01:57,230 - crime_scraper - INFO - Successfully scraped: Germany sees surge in shoplifting cases
+2025-07-14 02:01:58,231 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/germany-crime-shoplifting-organized-crime-poverty/a-73145599 (Attempt 1)
+2025-07-14 02:01:58,294 - crime_scraper - INFO - Successfully scraped: Germany sees surge in shoplifting cases
+2025-07-14 02:01:59,294 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/sean-diddy-combs-guilty-of-prostitution-related-crimes/video-73136371 (Attempt 1)
+2025-07-14 02:01:59,902 - crime_scraper - INFO - Successfully scraped: Sean 'Diddy' Combs guilty of prostitution-related crimes
+2025-07-14 02:02:00,902 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/sean-diddy-combs-guilty-of-prostitution-related-crimes/video-73136371 (Attempt 1)
+2025-07-14 02:02:00,970 - crime_scraper - INFO - Successfully scraped: Sean 'Diddy' Combs guilty of prostitution-related crimes
+2025-07-14 02:02:01,970 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/extortion-in-south-africa-drives-up-construction-costs/video-73055132 (Attempt 1)
+2025-07-14 02:02:02,660 - crime_scraper - INFO - Successfully scraped: Extortion in South Africa drives up construction costs
+2025-07-14 02:02:03,660 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/extortion-in-south-africa-drives-up-construction-costs/video-73055132 (Attempt 1)
+2025-07-14 02:02:03,729 - crime_scraper - INFO - Successfully scraped: Extortion in South Africa drives up construction costs
+2025-07-14 02:02:04,730 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/what-you-need-to-know-about-kenyan-protesters-shooting/a-72959858 (Attempt 1)
+2025-07-14 02:02:05,268 - crime_scraper - INFO - Successfully scraped: What you need to know about Kenyan protester's shooting
+2025-07-14 02:02:06,268 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/what-you-need-to-know-about-kenyan-protesters-shooting/a-72959858 (Attempt 1)
+2025-07-14 02:02:06,335 - crime_scraper - INFO - Successfully scraped: What you need to know about Kenyan protester's shooting
+2025-07-14 02:02:07,335 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/bulgarian-woman-influencer-incites-violence-against-women/a-72897326 (Attempt 1)
+2025-07-14 02:02:07,911 - crime_scraper - INFO - Successfully scraped: Bulgaria's female 'Andrew Tate' incites anti-women violence
+2025-07-14 02:02:08,911 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/violent-drug-crime-on-the-rise-in-brussels/video-72807295 (Attempt 1)
+2025-07-14 02:02:10,002 - crime_scraper - INFO - Successfully scraped: Violent drug crime on the rise in Brussels
+2025-07-14 02:02:11,003 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/is-argentinas-warrant-against-aung-san-suu-kyi-a-mistake/a-72526797 (Attempt 1)
+2025-07-14 02:02:11,392 - crime_scraper - INFO - Successfully scraped: Is Argentina's warrant against Aung San Suu Kyi a mistake?
+2025-07-14 02:02:11,392 - crime_scraper - INFO - Scraping website: Le Monde Justice France
+2025-07-14 02:02:11,392 - crime_scraper - INFO - Fetching URL: https://www.lemonde.fr/en/police-and-justice/ (Attempt 1)
+2025-07-14 02:02:11,836 - crime_scraper - INFO - Scraping website: Mediapart Crime France
+2025-07-14 02:02:11,836 - crime_scraper - INFO - Fetching URL: https://www.mediapart.fr/en/english (Attempt 1)
+2025-07-14 02:02:12,902 - crime_scraper - INFO - Found crime-related article: Defence lawyer for French surgeon who sexually abused 299 found dead
+2025-07-14 02:02:13,903 - crime_scraper - INFO - Fetching URL: https://www.mediapart.fr/en/journal/france/100725/defence-lawyer-french-surgeon-who-sexually-abused-299-found-dead (Attempt 1)
+2025-07-14 02:02:15,266 - crime_scraper - INFO - Successfully scraped: Defence lawyer for French surgeon who sexually abused 299 found dead
+2025-07-14 02:02:15,266 - crime_scraper - INFO - Scraping website: DutchNews Crime
+2025-07-14 02:02:15,266 - crime_scraper - INFO - Fetching URL: https://www.dutchnews.nl/category/crime/ (Attempt 1)
+2025-07-14 02:02:17,207 - crime_scraper - INFO - Scraping website: TASS Crime Russia
+2025-07-14 02:02:17,207 - crime_scraper - INFO - Fetching URL: https://tass.com/emergencies (Attempt 1)
+2025-07-14 02:02:18,552 - crime_scraper - INFO - Scraping website: Corriere della Sera Crime
+2025-07-14 02:02:18,553 - crime_scraper - INFO - Fetching URL: https://www.corriere.it/cronache/ (Attempt 1)
+2025-07-14 02:02:19,441 - crime_scraper - INFO - Scraping website: La Repubblica Crime
+2025-07-14 02:02:19,441 - crime_scraper - INFO - Fetching URL: https://www.repubblica.it/cronaca/ (Attempt 1)
+2025-07-14 02:02:20,066 - crime_scraper - INFO - Scraping website: El País Crime Spain
+2025-07-14 02:02:20,066 - crime_scraper - INFO - Fetching URL: https://elpais.com/espana/ (Attempt 1)
+2025-07-14 02:02:20,702 - crime_scraper - INFO - Scraping website: ABC Spain Crime
+2025-07-14 02:02:20,702 - crime_scraper - INFO - Fetching URL: https://www.abc.es/espana/sucesos/ (Attempt 1)
+2025-07-14 02:02:21,477 - crime_scraper - INFO - Scraping website: Japan Times Crime
+2025-07-14 02:02:21,477 - crime_scraper - INFO - Fetching URL: https://www.japantimes.co.jp/news/japan/crime-legal/ (Attempt 1)
+2025-07-14 02:02:22,295 - crime_scraper - INFO - Scraping website: Nikkei Asia Crime
+2025-07-14 02:02:22,295 - crime_scraper - INFO - Fetching URL: https://asia.nikkei.com/Spotlight/Society/Crime (Attempt 1)
+2025-07-14 02:02:24,530 - crime_scraper - INFO - Scraping website: NDTV India Crime
+2025-07-14 02:02:24,530 - crime_scraper - INFO - Fetching URL: https://www.ndtv.com/topic/india-crime (Attempt 1)
+2025-07-14 02:02:25,152 - crime_scraper - INFO - Scraping website: Times of India Crime
+2025-07-14 02:02:25,152 - crime_scraper - INFO - Fetching URL: https://timesofindia.indiatimes.com/topic/crime-news/news (Attempt 1)
+2025-07-14 02:02:25,531 - crime_scraper - INFO - Scraping website: Indian Express Crime
+2025-07-14 02:02:25,531 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/about/crime-2/ (Attempt 1)
+2025-07-14 02:02:26,519 - crime_scraper - INFO - Found crime-related article: Assault and robbery case in Mohali: Four accused arrested, stolen car recovered
+2025-07-14 02:02:26,520 - crime_scraper - INFO - Found crime-related article: Sanjay Verma murder case: Political blame game intensifies as shooters remain elusive
+2025-07-14 02:02:26,521 - crime_scraper - INFO - Found crime-related article: Pune Crime Files: How a probe into dating app scam led police to mule accounts, cybercriminals with China links
+2025-07-14 02:02:26,522 - crime_scraper - INFO - Found crime-related article: Teenager stabbed to death in Chandigarh’s Indira Colony; 2 minors apprehended
+2025-07-14 02:02:26,523 - crime_scraper - INFO - Found crime-related article: Top 10 celebrities convicted for crimes ranging from murder, rape to shoplifting: Diddy, Shiney Ahuja to Robert Downey Jr
+2025-07-14 02:02:26,525 - crime_scraper - INFO - Found crime-related article: 'Had received extortion calls from Canada - based terrorist Lakhbir Landa in past': Moga doctor shot at by 2 men posing as patients
+2025-07-14 02:02:26,526 - crime_scraper - INFO - Found crime-related article: Dhaba owner, 2 others hacked to death in Kalaburagi; family feud suspected
+2025-07-14 02:02:26,527 - crime_scraper - INFO - Found crime-related article: Two held in Ramdarbar firing case; illegal weapons recovered
+2025-07-14 02:02:26,528 - crime_scraper - INFO - Found crime-related article: Special court grants bail to 2 men booked by CBI for defrauding NEET UG 2025 aspirants
+2025-07-14 02:02:26,529 - crime_scraper - INFO - Found crime-related article: How AI in criminal justice could spark a human rights crisis for the marginalised
+2025-07-14 02:02:27,529 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/chandigarh/bike-borne-men-abduct-woman-assault-male-mohali-10124159/ (Attempt 1)
+2025-07-14 02:02:28,352 - crime_scraper - INFO - Successfully scraped: Assault and robbery case in Mohali: Four accused arrested, stolen car recovered
+2025-07-14 02:02:29,352 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/chandigarh/sanjay-verma-murder-case-political-blame-game-10118199/ (Attempt 1)
+2025-07-14 02:02:30,180 - crime_scraper - INFO - Successfully scraped: Sanjay Verma murder case: Political blame game intensifies as shooters remain elusive
+2025-07-14 02:02:31,181 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/pune/pune-crime-files-dating-app-scam-probe-cyber-criminals-china-links-10111355/ (Attempt 1)
+2025-07-14 02:02:32,005 - crime_scraper - INFO - Successfully scraped: Pune Crime Files: How a probe into dating app scam led police to mule accounts, cybercriminals with China links
+2025-07-14 02:02:33,006 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/chandigarh/teenager-stabbed-to-death-in-chandigarhs-indira-colony-2-minors-apprehended-10110029/ (Attempt 1)
+2025-07-14 02:02:33,787 - crime_scraper - INFO - Successfully scraped: Teenager stabbed to death in Chandigarh’s Indira Colony; 2 minors apprehended
+2025-07-14 02:02:34,787 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/trending/top-10-listing/top-10-celebrity-crime-convictions-murder-rape-diddy-robert-downey-jr-10106260/ (Attempt 1)
+2025-07-14 02:02:35,671 - crime_scraper - INFO - Successfully scraped: Top 10 celebrities convicted for crimes ranging from murder, rape to shoplifting: Diddy, Shiney Ahuja to Robert Downey Jr
+2025-07-14 02:02:36,671 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/chandigarh/moga-doctor-shot-at-by-2-men-posing-as-patients-critical-10106235/ (Attempt 1)
+2025-07-14 02:02:37,461 - crime_scraper - INFO - Successfully scraped: 'Had received extortion calls from Canada - based terrorist Lakhbir Landa in past': Moga doctor shot at by 2 men posing as patients
+2025-07-14 02:02:38,461 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/bangalore/family-fued-dhaba-3-killed-10090434/ (Attempt 1)
+2025-07-14 02:02:39,403 - crime_scraper - INFO - Successfully scraped: Dhaba owner, 2 others hacked to death in Kalaburagi; family feud suspected
+2025-07-14 02:02:40,403 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/chandigarh/two-held-ramdarbar-firing-case-illegal-weapons-recovered-10086146/ (Attempt 1)
+2025-07-14 02:02:41,124 - crime_scraper - INFO - Successfully scraped: Two held in Ramdarbar firing case; illegal weapons recovered
+2025-07-14 02:02:42,125 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/education/bail-cbi-men-neet-defrauding-applicants-10083814/ (Attempt 1)
+2025-07-14 02:02:43,102 - crime_scraper - INFO - Successfully scraped: Special court grants bail to 2 men booked by CBI for defrauding NEET UG 2025 aspirants
+2025-07-14 02:02:44,103 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/opinion/columns/how-ai-in-criminal-justice-could-spark-a-human-rights-crisis-for-the-marginalised-10070066/ (Attempt 1)
+2025-07-14 02:02:44,730 - crime_scraper - INFO - Successfully scraped: How AI in criminal justice could spark a human rights crisis for the marginalised
+2025-07-14 02:02:44,730 - crime_scraper - INFO - Scraping website: El Universal Mexico Crime
+2025-07-14 02:02:44,730 - crime_scraper - INFO - Fetching URL: https://www.eluniversal.com.mx/estados/ (Attempt 1)
+2025-07-14 02:02:45,188 - crime_scraper - INFO - Scraping website: La Jornada Mexico Crime
+2025-07-14 02:02:45,188 - crime_scraper - INFO - Fetching URL: https://www.jornada.com.mx/ultimas/ (Attempt 1)
+2025-07-14 02:02:45,586 - crime_scraper - INFO - Scraping website: Folha de S.Paulo Crime
+2025-07-14 02:02:45,586 - crime_scraper - INFO - Fetching URL: https://www1.folha.uol.com.br/cotidiano/ (Attempt 1)
+2025-07-14 02:02:47,457 - crime_scraper - INFO - Scraping website: Daily Maverick Crime
+2025-07-14 02:02:47,457 - crime_scraper - INFO - Fetching URL: https://www.dailymaverick.co.za/article/topic/crime (Attempt 1)
+2025-07-14 02:02:48,544 - crime_scraper - INFO - Scraping website: Sky News Australia Crime
+2025-07-14 02:02:48,544 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime (Attempt 1)
+2025-07-14 02:02:50,299 - crime_scraper - INFO - Scraping website: ABC Australia Crime
+2025-07-14 02:02:50,299 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/topic/crime (Attempt 1)
+2025-07-14 02:02:51,190 - crime_scraper - INFO - Found crime-related article: The 'uncharismatic, illiterate' criminal behind Gaza's aid-looting gangs
+2025-07-14 02:02:51,191 - crime_scraper - INFO - Found crime-related article: New FBI files reveal suspects, tips and hoaxes in DB Cooper cold case
+2025-07-14 02:02:51,192 - crime_scraper - INFO - Found crime-related article: One of Australia's most wanted had everything. Now he faces 262 years' jail
+2025-07-14 02:02:51,193 - crime_scraper - INFO - Found crime-related article: Drug dealer convicted of murdering innocent man in bedroom
+2025-07-14 02:02:51,194 - crime_scraper - INFO - Found crime-related article: Vision shows man leap from moving van during dramatic police chase
+2025-07-14 02:02:51,195 - crime_scraper - INFO - Found crime-related article: Man charged over stabbing in Adelaide suburb of Eastwood
+2025-07-14 02:02:51,196 - crime_scraper - INFO - Found crime-related article: Teen sentenced for role in 'vigilante' ambush attacks on men
+2025-07-14 02:02:51,197 - crime_scraper - INFO - Found crime-related article: Jury deliberating in trial of trio accused of murdering teenager
+2025-07-14 02:02:51,198 - crime_scraper - INFO - Found crime-related article: Man, 22, charged with murder over Alice Springs fatal stabbing
+2025-07-14 02:02:51,199 - crime_scraper - INFO - Found crime-related article: Jury visits house where Hannah McGuire was allegedly murdered
+2025-07-14 02:02:51,200 - crime_scraper - INFO - Found crime-related article: Trial hears alleged murderer would plead guilty to ex-partner's manslaughter
+2025-07-14 02:02:51,201 - crime_scraper - INFO - Found crime-related article: Police search for alleged home invaders after man shot in leg
+2025-07-14 02:02:51,202 - crime_scraper - INFO - Found crime-related article: Warrants issued for seven people over alleged $3m 'blessing scam'
+2025-07-14 02:02:52,202 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-07-14/gaza-aid-looting-gangs-yasser-abu-shabab-israel-netanyahu-hamas/105501926 (Attempt 1)
+2025-07-14 02:02:52,468 - crime_scraper - INFO - Successfully scraped: The 'uncharismatic, illiterate' criminal behind Gaza's aid-looting gangs
+2025-07-14 02:02:53,468 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-07-13/db-cooper-new-files-fbi-suspects-cold-casae/105513276 (Attempt 1)
+2025-07-14 02:02:53,740 - crime_scraper - INFO - Successfully scraped: New FBI files reveal suspects, tips and hoaxes in DB Cooper cold case
+2025-07-14 02:02:54,740 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-07-12/nsw-most-wanted-man-former-sydney-bikie-hakan-ayik/105518070 (Attempt 1)
+2025-07-14 02:02:55,079 - crime_scraper - INFO - Successfully scraped: One of Australia's most wanted had everything. Now he faces 262 years' jail
+2025-07-14 02:02:56,079 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-07-11/peter-nguyen-ha-landsdale-murder-ralph-matthews-cox/105516126 (Attempt 1)
+2025-07-14 02:02:56,390 - crime_scraper - INFO - Successfully scraped: Drug dealer convicted of murdering innocent man in bedroom
+2025-07-14 02:02:57,391 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-07-11/man-arrested-after-dramatic-police-chase-melbourne/105521842 (Attempt 1)
+2025-07-14 02:02:57,708 - crime_scraper - INFO - Successfully scraped: Vision shows man leap from moving van during dramatic police chase
+2025-07-14 02:02:58,708 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-07-11/man-arrested-over-eastwood-stabbing/105520320 (Attempt 1)
+2025-07-14 02:02:59,195 - crime_scraper - INFO - Successfully scraped: Man charged over stabbing in Adelaide suburb of Eastwood
+2025-07-14 02:03:00,195 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-07-11/teen-sentenced-for-vigilante-ambush-attacks/105511878 (Attempt 1)
+2025-07-14 02:03:00,516 - crime_scraper - INFO - Successfully scraped: Teen sentenced for role in 'vigilante' ambush attacks on men
+2025-07-14 02:03:01,516 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-07-10/charlie-gander-supreme-court-murder-trial-jury-deliberates/105517906 (Attempt 1)
+2025-07-14 02:03:01,765 - crime_scraper - INFO - Successfully scraped: Jury deliberating in trial of trio accused of murdering teenager
+2025-07-14 02:03:02,765 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-07-10/nt-police-charge-man-with-murder-alice-springs-fatal-stabbing/105518230 (Attempt 1)
+2025-07-14 02:03:03,296 - crime_scraper - INFO - Successfully scraped: Man, 22, charged with murder over Alice Springs fatal stabbing
+2025-07-14 02:03:04,296 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-07-10/hannah-mcguire-lachlan-young-murder-trial/105517382 (Attempt 1)
+2025-07-14 02:03:04,659 - crime_scraper - INFO - Successfully scraped: Jury visits house where Hannah McGuire was allegedly murdered
+2025-07-14 02:03:05,659 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-07-09/lachlan-young-murder-trial-begins-over-ex-partner-death/105510650 (Attempt 1)
+2025-07-14 02:03:06,102 - crime_scraper - INFO - Successfully scraped: Trial hears alleged murderer would plead guilty to ex-partner's manslaughter
+2025-07-14 02:03:07,102 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-07-09/police-search-for-mystery-men-after-banks-resident-shot/105512272 (Attempt 1)
+2025-07-14 02:03:07,409 - crime_scraper - INFO - Successfully scraped: Police search for alleged home invaders after man shot in leg
+2025-07-14 02:03:08,409 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-07-09/nsw-chinese-blessing-scam-second-person-charged/105510056 (Attempt 1)
+2025-07-14 02:03:08,735 - crime_scraper - INFO - Successfully scraped: Warrants issued for seven people over alleged $3m 'blessing scam'
+2025-07-14 02:03:08,736 - crime_scraper - INFO - Scraping website: Nine News Australia Crime
+2025-07-14 02:03:08,736 - crime_scraper - INFO - Fetching URL: https://www.9news.com.au/crime (Attempt 1)
+2025-07-14 02:03:09,047 - crime_scraper - INFO - Scraping website: Seven News Australia Crime
+2025-07-14 02:03:09,047 - crime_scraper - INFO - Fetching URL: https://7news.com.au/news/crime (Attempt 1)
+2025-07-14 02:03:09,796 - crime_scraper - INFO - Total articles scraped: 42
+2025-07-14 02:03:09,796 - crime_scraper - INFO - Processing 42 articles with NLP
+2025-07-14 02:03:10,250 - crime_scraper - INFO - Successfully processed article: Man who stole $800,000 from elderly person in Miami area pleads guilty to fraud
+2025-07-14 02:03:11,070 - crime_scraper - INFO - Successfully processed article: A month after Miami arrest warrant, Antonio Brown is still in Dubai. Police won’t talk
+2025-07-14 02:03:12,138 - crime_scraper - INFO - Successfully processed article: Man accused of killing a Miami jogger in hit-and-run crash is arrested: police
+2025-07-14 02:03:12,383 - crime_scraper - INFO - Successfully processed article: Qantas airline hit by cyberattack, affecting millions
+2025-07-14 02:03:12,810 - crime_scraper - INFO - Successfully processed article: Human trafficking on the rise as online scam hubs go global
+2025-07-14 02:03:13,395 - crime_scraper - INFO - Successfully processed article: Death cap: The mushroom behind deadly dinner in Australia
+2025-07-14 02:03:13,958 - crime_scraper - INFO - Successfully processed article: Death cap: The mushroom behind deadly dinner in Australia
+2025-07-14 02:03:14,680 - crime_scraper - INFO - Successfully processed article: Germany sees surge in shoplifting cases
+2025-07-14 02:03:15,376 - crime_scraper - INFO - Successfully processed article: Germany sees surge in shoplifting cases
+2025-07-14 02:03:15,450 - crime_scraper - INFO - Successfully processed article: Sean 'Diddy' Combs guilty of prostitution-related crimes
+2025-07-14 02:03:15,519 - crime_scraper - INFO - Successfully processed article: Sean 'Diddy' Combs guilty of prostitution-related crimes
+2025-07-14 02:03:15,584 - crime_scraper - INFO - Successfully processed article: Extortion in South Africa drives up construction costs
+2025-07-14 02:03:15,646 - crime_scraper - INFO - Successfully processed article: Extortion in South Africa drives up construction costs
+2025-07-14 02:03:16,099 - crime_scraper - INFO - Successfully processed article: What you need to know about Kenyan protester's shooting
+2025-07-14 02:03:16,536 - crime_scraper - INFO - Successfully processed article: What you need to know about Kenyan protester's shooting
+2025-07-14 02:03:17,468 - crime_scraper - INFO - Successfully processed article: Bulgaria's female 'Andrew Tate' incites anti-women violence
+2025-07-14 02:03:17,536 - crime_scraper - INFO - Successfully processed article: Violent drug crime on the rise in Brussels
+2025-07-14 02:03:18,344 - crime_scraper - INFO - Successfully processed article: Is Argentina's warrant against Aung San Suu Kyi a mistake?
+2025-07-14 02:03:19,113 - crime_scraper - INFO - Successfully processed article: Defence lawyer for French surgeon who sexually abused 299 found dead
+2025-07-14 02:03:19,364 - crime_scraper - INFO - Successfully processed article: Assault and robbery case in Mohali: Four accused arrested, stolen car recovered
+2025-07-14 02:03:20,057 - crime_scraper - INFO - Successfully processed article: Sanjay Verma murder case: Political blame game intensifies as shooters remain elusive
+2025-07-14 02:03:20,382 - crime_scraper - INFO - Successfully processed article: Pune Crime Files: How a probe into dating app scam led police to mule accounts, cybercriminals with China links
+2025-07-14 02:03:20,665 - crime_scraper - INFO - Successfully processed article: Teenager stabbed to death in Chandigarh’s Indira Colony; 2 minors apprehended
+2025-07-14 02:03:21,487 - crime_scraper - INFO - Successfully processed article: Top 10 celebrities convicted for crimes ranging from murder, rape to shoplifting: Diddy, Shiney Ahuja to Robert Downey Jr
+2025-07-14 02:03:21,940 - crime_scraper - INFO - Successfully processed article: 'Had received extortion calls from Canada - based terrorist Lakhbir Landa in past': Moga doctor shot at by 2 men posing as patients
+2025-07-14 02:03:22,133 - crime_scraper - INFO - Successfully processed article: Dhaba owner, 2 others hacked to death in Kalaburagi; family feud suspected
+2025-07-14 02:03:22,332 - crime_scraper - INFO - Successfully processed article: Two held in Ramdarbar firing case; illegal weapons recovered
+2025-07-14 02:03:22,599 - crime_scraper - INFO - Successfully processed article: Special court grants bail to 2 men booked by CBI for defrauding NEET UG 2025 aspirants
+2025-07-14 02:03:23,316 - crime_scraper - INFO - Successfully processed article: How AI in criminal justice could spark a human rights crisis for the marginalised
+2025-07-14 02:03:24,897 - crime_scraper - INFO - Successfully processed article: The 'uncharismatic, illiterate' criminal behind Gaza's aid-looting gangs
+2025-07-14 02:03:26,442 - crime_scraper - INFO - Successfully processed article: New FBI files reveal suspects, tips and hoaxes in DB Cooper cold case
+2025-07-14 02:03:27,697 - crime_scraper - INFO - Successfully processed article: One of Australia's most wanted had everything. Now he faces 262 years' jail
+2025-07-14 02:03:28,492 - crime_scraper - INFO - Successfully processed article: Drug dealer convicted of murdering innocent man in bedroom
+2025-07-14 02:03:29,458 - crime_scraper - INFO - Successfully processed article: Vision shows man leap from moving van during dramatic police chase
+2025-07-14 02:03:30,108 - crime_scraper - INFO - Successfully processed article: Man charged over stabbing in Adelaide suburb of Eastwood
+2025-07-14 02:03:31,234 - crime_scraper - INFO - Successfully processed article: Teen sentenced for role in 'vigilante' ambush attacks on men
+2025-07-14 02:03:32,381 - crime_scraper - INFO - Successfully processed article: Jury deliberating in trial of trio accused of murdering teenager
+2025-07-14 02:03:33,099 - crime_scraper - INFO - Successfully processed article: Man, 22, charged with murder over Alice Springs fatal stabbing
+2025-07-14 02:03:33,838 - crime_scraper - INFO - Successfully processed article: Jury visits house where Hannah McGuire was allegedly murdered
+2025-07-14 02:03:34,835 - crime_scraper - INFO - Successfully processed article: Trial hears alleged murderer would plead guilty to ex-partner's manslaughter
+2025-07-14 02:03:35,621 - crime_scraper - INFO - Successfully processed article: Police search for alleged home invaders after man shot in leg
+2025-07-14 02:03:36,558 - crime_scraper - INFO - Successfully processed article: Warrants issued for seven people over alleged $3m 'blessing scam'
+2025-07-14 02:03:36,558 - crime_scraper - INFO - Processed 42 out of 42 articles
+2025-07-14 02:03:36,663 - crime_scraper - INFO - Successfully processed and saved 42 articles
