@@ -12931,3 +12931,205 @@
 2025-08-20 01:53:20,100 - crime_scraper - INFO - Successfully processed article: Victim of 'cowardly' alleged attack granted fresh Australian visa
 2025-08-20 01:53:20,100 - crime_scraper - INFO - Processed 42 out of 42 articles
 2025-08-20 01:53:20,214 - crime_scraper - INFO - Successfully processed and saved 42 articles
+2025-08-21 01:44:00,859 - crime_scraper - INFO - Successfully loaded spaCy model: en_core_web_sm
+2025-08-21 01:44:00,868 - crime_scraper - INFO - Crime Data Scraper initialized
+2025-08-21 01:44:00,869 - crime_scraper - INFO - Starting full scrape process
+2025-08-21 01:44:00,869 - crime_scraper - INFO - Scraping articles from all configured websites
+2025-08-21 01:44:00,869 - crime_scraper - INFO - Scraping website: AP News Crime
+2025-08-21 01:44:00,869 - crime_scraper - INFO - Fetching URL: https://apnews.com/hub/crime (Attempt 1)
+2025-08-21 01:44:01,091 - crime_scraper - WARNING - Request failed (attempt 1): 403 Client Error: Forbidden for url: https://apnews.com/hub/crime
+2025-08-21 01:44:02,091 - crime_scraper - INFO - Fetching URL: https://apnews.com/hub/crime (Attempt 2)
+2025-08-21 01:44:02,216 - crime_scraper - WARNING - Request failed (attempt 2): 403 Client Error: Forbidden for url: https://apnews.com/hub/crime
+2025-08-21 01:44:04,217 - crime_scraper - INFO - Fetching URL: https://apnews.com/hub/crime (Attempt 3)
+2025-08-21 01:44:04,404 - crime_scraper - WARNING - Request failed (attempt 3): 403 Client Error: Forbidden for url: https://apnews.com/hub/crime
+2025-08-21 01:44:04,404 - crime_scraper - ERROR - Failed to fetch https://apnews.com/hub/crime after 3 attempts
+2025-08-21 01:44:04,405 - crime_scraper - INFO - Scraping website: CBS News Crime
+2025-08-21 01:44:04,406 - crime_scraper - INFO - Fetching URL: https://www.cbsnews.com/crime/ (Attempt 1)
+2025-08-21 01:44:04,709 - crime_scraper - INFO - Scraping website: NBC News Crime
+2025-08-21 01:44:04,709 - crime_scraper - INFO - Fetching URL: https://www.nbcnews.com/news/crime-courts (Attempt 1)
+2025-08-21 01:44:05,325 - crime_scraper - INFO - Found crime-related article: Menendez brothers timeline: A look at the murders, the trials and the efforts to free them
+2025-08-21 01:44:06,325 - crime_scraper - INFO - Fetching URL: https://www.nbcnews.com/news/us-news/menendez-brothers-timeline-trials-murders-free-prison-effort-rcna179362 (Attempt 1)
+2025-08-21 01:44:06,807 - crime_scraper - INFO - Successfully scraped: Menendez brothers timeline: A look at the murders, the trials and the efforts to free them
+2025-08-21 01:44:06,807 - crime_scraper - INFO - Scraping website: Fox News Crime
+2025-08-21 01:44:06,807 - crime_scraper - INFO - Fetching URL: https://www.foxnews.com/category/us/crime (Attempt 1)
+2025-08-21 01:44:07,140 - crime_scraper - INFO - Scraping website: CNN Crime and Justice
+2025-08-21 01:44:07,141 - crime_scraper - INFO - Fetching URL: https://www.cnn.com/specials/us/crime-and-justice (Attempt 1)
+2025-08-21 01:44:07,553 - crime_scraper - INFO - Scraping website: New York Post Crime
+2025-08-21 01:44:07,553 - crime_scraper - INFO - Fetching URL: https://nypost.com/metro/ (Attempt 1)
+2025-08-21 01:44:08,509 - crime_scraper - INFO - Scraping website: Chicago Tribune Crime
+2025-08-21 01:44:08,510 - crime_scraper - INFO - Fetching URL: https://www.chicagotribune.com/news/breaking/ (Attempt 1)
+2025-08-21 01:44:09,956 - crime_scraper - INFO - Scraping website: Los Angeles Times Crime
+2025-08-21 01:44:09,956 - crime_scraper - INFO - Fetching URL: https://www.latimes.com/california/ (Attempt 1)
+2025-08-21 01:44:10,394 - crime_scraper - INFO - Scraping website: Washington Post Crime
+2025-08-21 01:44:10,394 - crime_scraper - INFO - Fetching URL: https://www.washingtonpost.com/dc-md-va/ (Attempt 1)
+2025-08-21 01:44:11,252 - crime_scraper - INFO - Scraping website: Miami Herald Crime
+2025-08-21 01:44:11,252 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/ (Attempt 1)
+2025-08-21 01:44:11,808 - crime_scraper - INFO - Found crime-related article: Truck driver in deadly Florida turnpike crash booked in California jail
+2025-08-21 01:44:11,810 - crime_scraper - INFO - Found crime-related article: ‘Direct insult’: Victim in Key Biscayne gymnastics coach case demands trial
+2025-08-21 01:44:11,812 - crime_scraper - INFO - Found crime-related article: Key Biscayne gymnastics coach Olea reaches plea deal on child sex charges
+2025-08-21 01:44:11,814 - crime_scraper - INFO - Found crime-related article: Two people wanted for shooting up house in Broward, deputies say
+2025-08-21 01:44:11,815 - crime_scraper - INFO - Found crime-related article: Miami man who swindled millions from Venezuelan-American investors sentenced to 7 years
+2025-08-21 01:44:12,815 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311758720.html#storylink=mainstage_card (Attempt 1)
+2025-08-21 01:44:13,004 - crime_scraper - INFO - Successfully scraped: Truck driver in deadly Florida turnpike crash booked in California jail
+2025-08-21 01:44:14,004 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311743940.html#storylink=mainstage_card (Attempt 1)
+2025-08-21 01:44:44,053 - crime_scraper - WARNING - Request failed (attempt 1): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2025-08-21 01:44:45,053 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311743940.html#storylink=mainstage_card (Attempt 2)
+2025-08-21 01:44:45,430 - crime_scraper - INFO - Successfully scraped: ‘Direct insult’: Victim in Key Biscayne gymnastics coach case demands trial
+2025-08-21 01:44:46,430 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311701912.html#storylink=mainstage_card (Attempt 1)
+2025-08-21 01:45:16,477 - crime_scraper - WARNING - Request failed (attempt 1): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2025-08-21 01:45:17,477 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311701912.html#storylink=mainstage_card (Attempt 2)
+2025-08-21 01:45:17,717 - crime_scraper - INFO - Successfully scraped: Key Biscayne gymnastics coach Olea reaches plea deal on child sex charges
+2025-08-21 01:45:18,718 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311716057.html#storylink=mainstage_card (Attempt 1)
+2025-08-21 01:45:48,782 - crime_scraper - WARNING - Request failed (attempt 1): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2025-08-21 01:45:49,783 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311716057.html#storylink=mainstage_card (Attempt 2)
+2025-08-21 01:46:20,029 - crime_scraper - WARNING - Request failed (attempt 2): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2025-08-21 01:46:22,029 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311716057.html#storylink=mainstage_card (Attempt 3)
+2025-08-21 01:46:22,285 - crime_scraper - INFO - Successfully scraped: Two people wanted for shooting up house in Broward, deputies say
+2025-08-21 01:46:23,285 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311704112.html#storylink=mainstage_card (Attempt 1)
+2025-08-21 01:46:53,349 - crime_scraper - WARNING - Request failed (attempt 1): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2025-08-21 01:46:54,349 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311704112.html#storylink=mainstage_card (Attempt 2)
+2025-08-21 01:46:54,577 - crime_scraper - INFO - Successfully scraped: Miami man who swindled millions from Venezuelan-American investors sentenced to 7 years
+2025-08-21 01:46:54,577 - crime_scraper - INFO - Scraping website: Boston Globe Crime
+2025-08-21 01:46:54,577 - crime_scraper - INFO - Fetching URL: https://www.bostonglobe.com/metro/ (Attempt 1)
+2025-08-21 01:46:55,261 - crime_scraper - INFO - Scraping website: Atlanta Journal Constitution Crime
+2025-08-21 01:46:55,261 - crime_scraper - INFO - Fetching URL: https://www.ajc.com/news/crime/ (Attempt 1)
+2025-08-21 01:46:56,044 - crime_scraper - INFO - Scraping website: Toronto Sun Crime
+2025-08-21 01:46:56,044 - crime_scraper - INFO - Fetching URL: https://torontosun.com/category/news/crime/ (Attempt 1)
+2025-08-21 01:46:56,438 - crime_scraper - INFO - Scraping website: National Post Crime
+2025-08-21 01:46:56,438 - crime_scraper - INFO - Fetching URL: https://nationalpost.com/category/news/true-crime/ (Attempt 1)
+2025-08-21 01:46:56,885 - crime_scraper - INFO - Scraping website: Global News Crime
+2025-08-21 01:46:56,886 - crime_scraper - INFO - Fetching URL: https://globalnews.ca/crime/ (Attempt 1)
+2025-08-21 01:46:57,544 - crime_scraper - INFO - Scraping website: Sky News UK Crime
+2025-08-21 01:46:57,545 - crime_scraper - INFO - Fetching URL: https://news.sky.com/topic/crime-5782 (Attempt 1)
+2025-08-21 01:46:58,376 - crime_scraper - INFO - Scraping website: UK NewsNow Crime
+2025-08-21 01:46:58,376 - crime_scraper - INFO - Fetching URL: https://www.newsnow.co.uk/h/UK/Crime (Attempt 1)
+2025-08-21 01:46:59,042 - crime_scraper - INFO - Scraping website: Euronews Crime
+2025-08-21 01:46:59,042 - crime_scraper - INFO - Fetching URL: https://www.euronews.com/tag/crime (Attempt 1)
+2025-08-21 01:46:59,822 - crime_scraper - INFO - Scraping website: Deutsche Welle Crime
+2025-08-21 01:46:59,822 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/crime/t-45305936 (Attempt 1)
+2025-08-21 01:47:01,170 - crime_scraper - INFO - Found crime-related article: Ecuador: 8 people killed in shooting outside nightclub
+2025-08-21 01:47:01,171 - crime_scraper - INFO - Found crime-related article: Germany: Suspected Westerwald triple murderer found dead
+2025-08-21 01:47:01,173 - crime_scraper - INFO - Found crime-related article: Starvation is a war crime, but will justice ever be done?
+2025-08-21 01:47:01,174 - crime_scraper - INFO - Found crime-related article: Starvation is a war crime, but will justice ever be done?
+2025-08-21 01:47:01,175 - crime_scraper - INFO - Found crime-related article: Meet the Ukrainian volunteers shooting down Russian drones
+2025-08-21 01:47:01,176 - crime_scraper - INFO - Found crime-related article: What you need to know about Kenyan protester's shooting
+2025-08-21 01:47:01,177 - crime_scraper - INFO - Found crime-related article: Bulgaria's female 'Andrew Tate' incites anti-women violence
+2025-08-21 01:47:01,178 - crime_scraper - INFO - Found crime-related article: Violent drug crime on the rise in Brussels
+2025-08-21 01:47:02,178 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/ecuador-8-people-killed-in-shooting-outside-nightclub/a-73593905 (Attempt 1)
+2025-08-21 01:47:02,767 - crime_scraper - INFO - Successfully scraped: Ecuador: 8 people killed in shooting outside nightclub
+2025-08-21 01:47:03,767 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/germany-suspected-triple-murderer-found-dead/a-73558409 (Attempt 1)
+2025-08-21 01:47:04,602 - crime_scraper - INFO - Successfully scraped: Germany: Suspected Westerwald triple murderer found dead
+2025-08-21 01:47:05,602 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/starvation-is-a-war-crime-but-will-justice-ever-be-done/a-73656993 (Attempt 1)
+2025-08-21 01:47:06,276 - crime_scraper - INFO - Successfully scraped: Starvation is a war crime, but will justice ever be done?
+2025-08-21 01:47:07,276 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/starvation-is-a-war-crime-but-will-justice-ever-be-done/a-73656993 (Attempt 1)
+2025-08-21 01:47:07,422 - crime_scraper - INFO - Successfully scraped: Starvation is a war crime, but will justice ever be done?
+2025-08-21 01:47:08,423 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/meet-the-ukrainian-volunteers-shooting-down-russian-drones/video-73443784 (Attempt 1)
+2025-08-21 01:47:08,874 - crime_scraper - INFO - Successfully scraped: Meet the Ukrainian volunteers shooting down Russian drones
+2025-08-21 01:47:09,874 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/what-you-need-to-know-about-kenyan-protesters-shooting/a-72959858 (Attempt 1)
+2025-08-21 01:47:10,286 - crime_scraper - INFO - Successfully scraped: What you need to know about Kenyan protester's shooting
+2025-08-21 01:47:11,287 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/bulgarian-woman-influencer-incites-violence-against-women/a-72897326 (Attempt 1)
+2025-08-21 01:47:11,638 - crime_scraper - INFO - Successfully scraped: Bulgaria's female 'Andrew Tate' incites anti-women violence
+2025-08-21 01:47:12,639 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/violent-drug-crime-on-the-rise-in-brussels/video-72807295 (Attempt 1)
+2025-08-21 01:47:13,379 - crime_scraper - INFO - Successfully scraped: Violent drug crime on the rise in Brussels
+2025-08-21 01:47:13,379 - crime_scraper - INFO - Scraping website: Le Monde Justice France
+2025-08-21 01:47:13,379 - crime_scraper - INFO - Fetching URL: https://www.lemonde.fr/en/police-and-justice/ (Attempt 1)
+2025-08-21 01:47:13,850 - crime_scraper - INFO - Scraping website: Mediapart Crime France
+2025-08-21 01:47:13,850 - crime_scraper - INFO - Fetching URL: https://www.mediapart.fr/en/english (Attempt 1)
+2025-08-21 01:47:14,913 - crime_scraper - INFO - Found crime-related article: Israel's slaughter of journalists in Gaza is an admission of its crimes
+2025-08-21 01:47:14,915 - crime_scraper - INFO - Found crime-related article: What the US-EU trade deal says about France's diminishing voice in Europe
+2025-08-21 01:47:15,915 - crime_scraper - INFO - Fetching URL: https://www.mediapart.fr/en/journal/international/130825/israels-slaughter-journalists-gaza-admission-its-crimes (Attempt 1)
+2025-08-21 01:47:19,341 - crime_scraper - INFO - Successfully scraped: Israel's slaughter of journalists in Gaza is an admission of its crimes
+2025-08-21 01:47:20,341 - crime_scraper - INFO - Fetching URL: https://www.mediapart.fr/en/journal/france/310725/what-us-eu-trade-deal-says-about-frances-diminishing-voice-europe (Attempt 1)
+2025-08-21 01:47:23,082 - crime_scraper - INFO - Successfully scraped: What the US-EU trade deal says about France's diminishing voice in Europe
+2025-08-21 01:47:23,082 - crime_scraper - INFO - Scraping website: DutchNews Crime
+2025-08-21 01:47:23,083 - crime_scraper - INFO - Fetching URL: https://www.dutchnews.nl/category/crime/ (Attempt 1)
+2025-08-21 01:47:23,884 - crime_scraper - INFO - Scraping website: TASS Crime Russia
+2025-08-21 01:47:23,884 - crime_scraper - INFO - Fetching URL: https://tass.com/emergencies (Attempt 1)
+2025-08-21 01:47:24,888 - crime_scraper - INFO - Scraping website: Corriere della Sera Crime
+2025-08-21 01:47:24,888 - crime_scraper - INFO - Fetching URL: https://www.corriere.it/cronache/ (Attempt 1)
+2025-08-21 01:47:25,620 - crime_scraper - INFO - Scraping website: La Repubblica Crime
+2025-08-21 01:47:25,620 - crime_scraper - INFO - Fetching URL: https://www.repubblica.it/cronaca/ (Attempt 1)
+2025-08-21 01:47:26,133 - crime_scraper - INFO - Scraping website: El País Crime Spain
+2025-08-21 01:47:26,133 - crime_scraper - INFO - Fetching URL: https://elpais.com/espana/ (Attempt 1)
+2025-08-21 01:47:26,788 - crime_scraper - INFO - Scraping website: ABC Spain Crime
+2025-08-21 01:47:26,788 - crime_scraper - INFO - Fetching URL: https://www.abc.es/espana/sucesos/ (Attempt 1)
+2025-08-21 01:47:27,482 - crime_scraper - INFO - Scraping website: Japan Times Crime
+2025-08-21 01:47:27,483 - crime_scraper - INFO - Fetching URL: https://www.japantimes.co.jp/news/japan/crime-legal/ (Attempt 1)
+2025-08-21 01:47:28,430 - crime_scraper - INFO - Scraping website: Nikkei Asia Crime
+2025-08-21 01:47:28,430 - crime_scraper - INFO - Fetching URL: https://asia.nikkei.com/Spotlight/Society/Crime (Attempt 1)
+2025-08-21 01:47:31,180 - crime_scraper - INFO - Scraping website: NDTV India Crime
+2025-08-21 01:47:31,180 - crime_scraper - INFO - Fetching URL: https://www.ndtv.com/topic/india-crime (Attempt 1)
+2025-08-21 01:47:32,997 - crime_scraper - INFO - Scraping website: Times of India Crime
+2025-08-21 01:47:32,997 - crime_scraper - INFO - Fetching URL: https://timesofindia.indiatimes.com/topic/crime-news/news (Attempt 1)
+2025-08-21 01:47:33,735 - crime_scraper - INFO - Scraping website: Indian Express Crime
+2025-08-21 01:47:33,735 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/about/crime-2/ (Attempt 1)
+2025-08-21 01:47:34,929 - crime_scraper - INFO - Found crime-related article: Pune Crime Files: How cops traced engineering student Bhagyashree Sude’s killers from a ransom message
+2025-08-21 01:47:34,931 - crime_scraper - INFO - Found crime-related article: UK to use AI to predict theft, knife attacks and violent crimes by 2030
+2025-08-21 01:47:34,932 - crime_scraper - INFO - Found crime-related article: Three knifed to death for trying to stop drunk men from ransacking dhaba
+2025-08-21 01:47:34,933 - crime_scraper - INFO - Found crime-related article: Karnataka woman chopped into 19 pieces; son-in-law among 3 held for murder
+2025-08-21 01:47:34,934 - crime_scraper - INFO - Found crime-related article: Ex-TMC leader Bibhas Adhikari, arrested in Noida for a ‘fake police station’, allegedly ran similar set-up in Kolkata
+2025-08-21 01:47:34,935 - crime_scraper - INFO - Found crime-related article: Pune Crime Files: How offering a ride to 4 strangers turned fatal for Nashik cab driver
+2025-08-21 01:47:34,936 - crime_scraper - INFO - Found crime-related article: Gurgaon man masturbates in front of woman waiting for cab, police file FIR
+2025-08-21 01:47:35,936 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/pune/bhagyashree-sude-murder-police-pune-10196448/ (Attempt 1)
+2025-08-21 01:47:36,837 - crime_scraper - INFO - Successfully scraped: Pune Crime Files: How cops traced engineering student Bhagyashree Sude’s killers from a ransom message
+2025-08-21 01:47:37,837 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/technology/artificial-intelligence/uk-government-ai-real-time-interactive-map-2030-10192548/ (Attempt 1)
+2025-08-21 01:47:38,764 - crime_scraper - INFO - Successfully scraped: UK to use AI to predict theft, knife attacks and violent crimes by 2030
+2025-08-21 01:47:39,765 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/india/three-knifed-death-drunk-men-ransacking-dhaba-murder-10186627/ (Attempt 1)
+2025-08-21 01:47:40,953 - crime_scraper - INFO - Successfully scraped: Three knifed to death for trying to stop drunk men from ransacking dhaba
+2025-08-21 01:47:41,953 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/bangalore/karnataka-woman-chopped-murder-arrest-karnataka-police-10183998/ (Attempt 1)
+2025-08-21 01:47:42,301 - crime_scraper - INFO - Successfully scraped: Karnataka woman chopped into 19 pieces; son-in-law among 3 held for murder
+2025-08-21 01:47:43,301 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/kolkata/ex-tmc-leader-bibhas-adhikari-arrested-noida-fake-police-station-kolkata-10183013/ (Attempt 1)
+2025-08-21 01:47:43,667 - crime_scraper - INFO - Successfully scraped: Ex-TMC leader Bibhas Adhikari, arrested in Noida for a ‘fake police station’, allegedly ran similar set-up in Kolkata
+2025-08-21 01:47:44,667 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/pune/pune-crime-files-offering-ride-strangers-fatal-nashik-cab-driver-10182453/ (Attempt 1)
+2025-08-21 01:47:44,997 - crime_scraper - INFO - Successfully scraped: Pune Crime Files: How offering a ride to 4 strangers turned fatal for Nashik cab driver
+2025-08-21 01:47:45,998 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/delhi/gurgaon-man-masturbates-in-front-of-woman-waiting-for-cab-police-file-fir-10175125/ (Attempt 1)
+2025-08-21 01:47:46,459 - crime_scraper - INFO - Successfully scraped: Gurgaon man masturbates in front of woman waiting for cab, police file FIR
+2025-08-21 01:47:46,459 - crime_scraper - INFO - Scraping website: El Universal Mexico Crime
+2025-08-21 01:47:46,459 - crime_scraper - INFO - Fetching URL: https://www.eluniversal.com.mx/estados/ (Attempt 1)
+2025-08-21 01:47:47,031 - crime_scraper - INFO - Scraping website: La Jornada Mexico Crime
+2025-08-21 01:47:47,031 - crime_scraper - INFO - Fetching URL: https://www.jornada.com.mx/ultimas/ (Attempt 1)
+2025-08-21 01:47:47,390 - crime_scraper - INFO - Scraping website: Folha de S.Paulo Crime
+2025-08-21 01:47:47,390 - crime_scraper - INFO - Fetching URL: https://www1.folha.uol.com.br/cotidiano/ (Attempt 1)
+2025-08-21 01:47:48,513 - crime_scraper - INFO - Scraping website: Daily Maverick Crime
+2025-08-21 01:47:48,513 - crime_scraper - INFO - Fetching URL: https://www.dailymaverick.co.za/article/topic/crime (Attempt 1)
+2025-08-21 01:47:49,336 - crime_scraper - INFO - Scraping website: Sky News Australia Crime
+2025-08-21 01:47:49,337 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime (Attempt 1)
+2025-08-21 01:47:53,374 - crime_scraper - INFO - Scraping website: ABC Australia Crime
+2025-08-21 01:47:53,374 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/topic/crime (Attempt 1)
+2025-08-21 01:47:53,888 - crime_scraper - WARNING - Request failed (attempt 1): 403 Client Error: Forbidden for url: https://www.abc.net.au/news/topic/crime
+2025-08-21 01:47:54,888 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/topic/crime (Attempt 2)
+2025-08-21 01:47:55,075 - crime_scraper - WARNING - Request failed (attempt 2): 403 Client Error: Forbidden for url: https://www.abc.net.au/news/topic/crime
+2025-08-21 01:47:57,075 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/topic/crime (Attempt 3)
+2025-08-21 01:47:57,154 - crime_scraper - WARNING - Request failed (attempt 3): 403 Client Error: Forbidden for url: https://www.abc.net.au/news/topic/crime
+2025-08-21 01:47:57,155 - crime_scraper - ERROR - Failed to fetch https://www.abc.net.au/news/topic/crime after 3 attempts
+2025-08-21 01:47:57,155 - crime_scraper - INFO - Scraping website: Nine News Australia Crime
+2025-08-21 01:47:57,155 - crime_scraper - INFO - Fetching URL: https://www.9news.com.au/crime (Attempt 1)
+2025-08-21 01:47:57,552 - crime_scraper - INFO - Scraping website: Seven News Australia Crime
+2025-08-21 01:47:57,552 - crime_scraper - INFO - Fetching URL: https://7news.com.au/news/crime (Attempt 1)
+2025-08-21 01:47:59,604 - crime_scraper - INFO - Total articles scraped: 23
+2025-08-21 01:47:59,604 - crime_scraper - INFO - Processing 23 articles with NLP
+2025-08-21 01:48:00,387 - crime_scraper - INFO - Successfully processed article: Menendez brothers timeline: A look at the murders, the trials and the efforts to free them
+2025-08-21 01:48:01,069 - crime_scraper - INFO - Successfully processed article: Truck driver in deadly Florida turnpike crash booked in California jail
+2025-08-21 01:48:02,019 - crime_scraper - INFO - Successfully processed article: ‘Direct insult’: Victim in Key Biscayne gymnastics coach case demands trial
+2025-08-21 01:48:02,794 - crime_scraper - INFO - Successfully processed article: Key Biscayne gymnastics coach Olea reaches plea deal on child sex charges
+2025-08-21 01:48:03,030 - crime_scraper - INFO - Successfully processed article: Two people wanted for shooting up house in Broward, deputies say
+2025-08-21 01:48:03,843 - crime_scraper - INFO - Successfully processed article: Miami man who swindled millions from Venezuelan-American investors sentenced to 7 years
+2025-08-21 01:48:04,082 - crime_scraper - INFO - Successfully processed article: Ecuador: 8 people killed in shooting outside nightclub
+2025-08-21 01:48:04,366 - crime_scraper - INFO - Successfully processed article: Germany: Suspected Westerwald triple murderer found dead
+2025-08-21 01:48:05,341 - crime_scraper - INFO - Successfully processed article: Starvation is a war crime, but will justice ever be done?
+2025-08-21 01:48:06,290 - crime_scraper - INFO - Successfully processed article: Starvation is a war crime, but will justice ever be done?
+2025-08-21 01:48:06,432 - crime_scraper - INFO - Successfully processed article: Meet the Ukrainian volunteers shooting down Russian drones
+2025-08-21 01:48:06,900 - crime_scraper - INFO - Successfully processed article: What you need to know about Kenyan protester's shooting
+2025-08-21 01:48:07,855 - crime_scraper - INFO - Successfully processed article: Bulgaria's female 'Andrew Tate' incites anti-women violence
+2025-08-21 01:48:07,927 - crime_scraper - INFO - Successfully processed article: Violent drug crime on the rise in Brussels
+2025-08-21 01:48:08,685 - crime_scraper - INFO - Successfully processed article: Israel's slaughter of journalists in Gaza is an admission of its crimes
+2025-08-21 01:48:09,455 - crime_scraper - INFO - Successfully processed article: What the US-EU trade deal says about France's diminishing voice in Europe
+2025-08-21 01:48:10,072 - crime_scraper - INFO - Successfully processed article: Pune Crime Files: How cops traced engineering student Bhagyashree Sude’s killers from a ransom message
+2025-08-21 01:48:10,365 - crime_scraper - INFO - Successfully processed article: UK to use AI to predict theft, knife attacks and violent crimes by 2030
+2025-08-21 01:48:10,543 - crime_scraper - INFO - Successfully processed article: Three knifed to death for trying to stop drunk men from ransacking dhaba
+2025-08-21 01:48:10,856 - crime_scraper - INFO - Successfully processed article: Karnataka woman chopped into 19 pieces; son-in-law among 3 held for murder
+2025-08-21 01:48:11,059 - crime_scraper - INFO - Successfully processed article: Ex-TMC leader Bibhas Adhikari, arrested in Noida for a ‘fake police station’, allegedly ran similar set-up in Kolkata
+2025-08-21 01:48:11,537 - crime_scraper - INFO - Successfully processed article: Pune Crime Files: How offering a ride to 4 strangers turned fatal for Nashik cab driver
+2025-08-21 01:48:11,892 - crime_scraper - INFO - Successfully processed article: Gurgaon man masturbates in front of woman waiting for cab, police file FIR
+2025-08-21 01:48:11,892 - crime_scraper - INFO - Processed 23 out of 23 articles
+2025-08-21 01:48:11,951 - crime_scraper - INFO - Successfully processed and saved 23 articles
