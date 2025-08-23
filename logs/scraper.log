@@ -13411,3 +13411,297 @@
 2025-08-22 01:47:59,659 - crime_scraper - INFO - Successfully processed article: Mother of baby burned in 'savage' coffee attack makes plea for justice
 2025-08-22 01:47:59,660 - crime_scraper - INFO - Processed 43 out of 43 articles
 2025-08-22 01:47:59,767 - crime_scraper - INFO - Successfully processed and saved 43 articles
+2025-08-23 01:41:05,873 - crime_scraper - INFO - Successfully loaded spaCy model: en_core_web_sm
+2025-08-23 01:41:05,883 - crime_scraper - INFO - Crime Data Scraper initialized
+2025-08-23 01:41:05,883 - crime_scraper - INFO - Starting full scrape process
+2025-08-23 01:41:05,883 - crime_scraper - INFO - Scraping articles from all configured websites
+2025-08-23 01:41:05,883 - crime_scraper - INFO - Scraping website: AP News Crime
+2025-08-23 01:41:05,883 - crime_scraper - INFO - Fetching URL: https://apnews.com/hub/crime (Attempt 1)
+2025-08-23 01:41:06,044 - crime_scraper - WARNING - Request failed (attempt 1): 403 Client Error: Forbidden for url: https://apnews.com/hub/crime
+2025-08-23 01:41:07,045 - crime_scraper - INFO - Fetching URL: https://apnews.com/hub/crime (Attempt 2)
+2025-08-23 01:41:07,128 - crime_scraper - WARNING - Request failed (attempt 2): 403 Client Error: Forbidden for url: https://apnews.com/hub/crime
+2025-08-23 01:41:09,129 - crime_scraper - INFO - Fetching URL: https://apnews.com/hub/crime (Attempt 3)
+2025-08-23 01:41:09,219 - crime_scraper - WARNING - Request failed (attempt 3): 403 Client Error: Forbidden for url: https://apnews.com/hub/crime
+2025-08-23 01:41:09,220 - crime_scraper - ERROR - Failed to fetch https://apnews.com/hub/crime after 3 attempts
+2025-08-23 01:41:09,220 - crime_scraper - INFO - Scraping website: CBS News Crime
+2025-08-23 01:41:09,221 - crime_scraper - INFO - Fetching URL: https://www.cbsnews.com/crime/ (Attempt 1)
+2025-08-23 01:41:09,480 - crime_scraper - INFO - Scraping website: NBC News Crime
+2025-08-23 01:41:09,481 - crime_scraper - INFO - Fetching URL: https://www.nbcnews.com/news/crime-courts (Attempt 1)
+2025-08-23 01:41:10,554 - crime_scraper - INFO - Found crime-related article: California parents of missing 7-month-old arrested and accused of murder
+2025-08-23 01:41:10,556 - crime_scraper - INFO - Found crime-related article: Crime & Courts
+2025-08-23 01:41:10,557 - crime_scraper - INFO - Found crime-related article: Crime & Courts
+2025-08-23 01:41:11,557 - crime_scraper - INFO - Fetching URL: https://www.nbcnews.com/news/us-news/california-parents-missing-newborn-arrested-rcna226632 (Attempt 1)
+2025-08-23 01:41:13,419 - crime_scraper - INFO - Successfully scraped: California parents of missing 7-month-old arrested and accused of murder
+2025-08-23 01:41:14,419 - crime_scraper - INFO - Fetching URL: https://www.nbcnews.com/news/crime-courts (Attempt 1)
+2025-08-23 01:41:14,716 - crime_scraper - INFO - Successfully scraped: Crime & Courts
+2025-08-23 01:41:15,717 - crime_scraper - INFO - Fetching URL: https://www.nbcnews.com/news/crime-courts (Attempt 1)
+2025-08-23 01:41:15,959 - crime_scraper - INFO - Successfully scraped: Crime & Courts
+2025-08-23 01:41:15,959 - crime_scraper - INFO - Scraping website: Fox News Crime
+2025-08-23 01:41:15,959 - crime_scraper - INFO - Fetching URL: https://www.foxnews.com/category/us/crime (Attempt 1)
+2025-08-23 01:41:16,224 - crime_scraper - INFO - Scraping website: CNN Crime and Justice
+2025-08-23 01:41:16,225 - crime_scraper - INFO - Fetching URL: https://www.cnn.com/specials/us/crime-and-justice (Attempt 1)
+2025-08-23 01:41:16,657 - crime_scraper - INFO - Scraping website: New York Post Crime
+2025-08-23 01:41:16,657 - crime_scraper - INFO - Fetching URL: https://nypost.com/metro/ (Attempt 1)
+2025-08-23 01:41:17,580 - crime_scraper - INFO - Scraping website: Chicago Tribune Crime
+2025-08-23 01:41:17,580 - crime_scraper - INFO - Fetching URL: https://www.chicagotribune.com/news/breaking/ (Attempt 1)
+2025-08-23 01:41:19,389 - crime_scraper - INFO - Scraping website: Los Angeles Times Crime
+2025-08-23 01:41:19,389 - crime_scraper - INFO - Fetching URL: https://www.latimes.com/california/ (Attempt 1)
+2025-08-23 01:41:19,929 - crime_scraper - INFO - Scraping website: Washington Post Crime
+2025-08-23 01:41:19,929 - crime_scraper - INFO - Fetching URL: https://www.washingtonpost.com/dc-md-va/ (Attempt 1)
+2025-08-23 01:41:50,161 - crime_scraper - WARNING - Request failed (attempt 1): HTTPSConnectionPool(host='www.washingtonpost.com', port=443): Read timed out. (read timeout=30)
+2025-08-23 01:41:51,161 - crime_scraper - INFO - Fetching URL: https://www.washingtonpost.com/dc-md-va/ (Attempt 2)
+2025-08-23 01:41:52,113 - crime_scraper - INFO - Scraping website: Miami Herald Crime
+2025-08-23 01:41:52,113 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/ (Attempt 1)
+2025-08-23 01:41:52,560 - crime_scraper - INFO - Found crime-related article: Miami man faces charge for fatal hit-and-run involving pedestrian, police say
+2025-08-23 01:41:52,561 - crime_scraper - INFO - Found crime-related article: Judge says state can’t stop plea deal. Key Biscayne coach gets 12 years for sex crimes
+2025-08-23 01:41:52,562 - crime_scraper - INFO - Found crime-related article: Judge to decide whether to accept or toss plea deal of Key Biscayne gymnastics coach
+2025-08-23 01:41:52,563 - crime_scraper - INFO - Found crime-related article: Truck driver in deadly Florida turnpike crash booked in California jail
+2025-08-23 01:41:52,564 - crime_scraper - INFO - Found crime-related article: ‘Direct insult’: Victim in Key Biscayne gymnastics coach case demands trial
+2025-08-23 01:41:53,565 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311813760.html#storylink=mainstage_card (Attempt 1)
+2025-08-23 01:42:23,626 - crime_scraper - WARNING - Request failed (attempt 1): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2025-08-23 01:42:24,627 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311813760.html#storylink=mainstage_card (Attempt 2)
+2025-08-23 01:42:54,799 - crime_scraper - WARNING - Request failed (attempt 2): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2025-08-23 01:42:56,799 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311813760.html#storylink=mainstage_card (Attempt 3)
+2025-08-23 01:42:56,958 - crime_scraper - INFO - Successfully scraped: Miami man faces charge for fatal hit-and-run involving pedestrian, police say
+2025-08-23 01:42:57,958 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311768319.html#storylink=mainstage_card (Attempt 1)
+2025-08-23 01:43:28,019 - crime_scraper - WARNING - Request failed (attempt 1): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2025-08-23 01:43:29,019 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311768319.html#storylink=mainstage_card (Attempt 2)
+2025-08-23 01:43:29,221 - crime_scraper - INFO - Successfully scraped: Judge says state can’t stop plea deal. Key Biscayne coach gets 12 years for sex crimes
+2025-08-23 01:43:30,222 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311793246.html#storylink=mainstage_card (Attempt 1)
+2025-08-23 01:43:30,349 - crime_scraper - INFO - Successfully scraped: Judge to decide whether to accept or toss plea deal of Key Biscayne gymnastics coach
+2025-08-23 01:43:31,349 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311758720.html#storylink=mainstage_card (Attempt 1)
+2025-08-23 01:43:31,518 - crime_scraper - INFO - Successfully scraped: Truck driver in deadly Florida turnpike crash booked in California jail
+2025-08-23 01:43:32,518 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311743940.html#storylink=mainstage_card (Attempt 1)
+2025-08-23 01:43:32,630 - crime_scraper - INFO - Successfully scraped: ‘Direct insult’: Victim in Key Biscayne gymnastics coach case demands trial
+2025-08-23 01:43:32,630 - crime_scraper - INFO - Scraping website: Boston Globe Crime
+2025-08-23 01:43:32,630 - crime_scraper - INFO - Fetching URL: https://www.bostonglobe.com/metro/ (Attempt 1)
+2025-08-23 01:43:33,179 - crime_scraper - INFO - Scraping website: Atlanta Journal Constitution Crime
+2025-08-23 01:43:33,179 - crime_scraper - INFO - Fetching URL: https://www.ajc.com/news/crime/ (Attempt 1)
+2025-08-23 01:43:33,819 - crime_scraper - INFO - Scraping website: Toronto Sun Crime
+2025-08-23 01:43:33,819 - crime_scraper - INFO - Fetching URL: https://torontosun.com/category/news/crime/ (Attempt 1)
+2025-08-23 01:43:34,123 - crime_scraper - INFO - Scraping website: National Post Crime
+2025-08-23 01:43:34,123 - crime_scraper - INFO - Fetching URL: https://nationalpost.com/category/news/true-crime/ (Attempt 1)
+2025-08-23 01:43:34,497 - crime_scraper - INFO - Scraping website: Global News Crime
+2025-08-23 01:43:34,497 - crime_scraper - INFO - Fetching URL: https://globalnews.ca/crime/ (Attempt 1)
+2025-08-23 01:43:35,077 - crime_scraper - INFO - Scraping website: Sky News UK Crime
+2025-08-23 01:43:35,078 - crime_scraper - INFO - Fetching URL: https://news.sky.com/topic/crime-5782 (Attempt 1)
+2025-08-23 01:43:36,094 - crime_scraper - INFO - Scraping website: UK NewsNow Crime
+2025-08-23 01:43:36,094 - crime_scraper - INFO - Fetching URL: https://www.newsnow.co.uk/h/UK/Crime (Attempt 1)
+2025-08-23 01:43:36,742 - crime_scraper - INFO - Scraping website: Euronews Crime
+2025-08-23 01:43:36,742 - crime_scraper - INFO - Fetching URL: https://www.euronews.com/tag/crime (Attempt 1)
+2025-08-23 01:43:37,053 - crime_scraper - INFO - Scraping website: Deutsche Welle Crime
+2025-08-23 01:43:37,053 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/crime/t-45305936 (Attempt 1)
+2025-08-23 01:43:38,452 - crime_scraper - INFO - Found crime-related article: US court throws out massive fraud penalty against Trump
+2025-08-23 01:43:38,453 - crime_scraper - INFO - Found crime-related article: Ecuador: 8 people killed in shooting outside nightclub
+2025-08-23 01:43:38,454 - crime_scraper - INFO - Found crime-related article: Starvation is a war crime, but will justice ever be done?
+2025-08-23 01:43:38,455 - crime_scraper - INFO - Found crime-related article: Starvation is a war crime, but will justice ever be done?
+2025-08-23 01:43:38,456 - crime_scraper - INFO - Found crime-related article: Meet the Ukrainian volunteers shooting down Russian drones
+2025-08-23 01:43:38,457 - crime_scraper - INFO - Found crime-related article: What you need to know about Kenyan protester's shooting
+2025-08-23 01:43:38,458 - crime_scraper - INFO - Found crime-related article: Bulgaria's female 'Andrew Tate' incites anti-women violence
+2025-08-23 01:43:38,459 - crime_scraper - INFO - Found crime-related article: Violent drug crime on the rise in Brussels
+2025-08-23 01:43:39,459 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/us-court-throws-out-massive-fraud-penalty-against-trump/a-73723549 (Attempt 1)
+2025-08-23 01:43:39,644 - crime_scraper - INFO - Successfully scraped: US court throws out massive fraud penalty against Trump
+2025-08-23 01:43:40,644 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/ecuador-8-people-killed-in-shooting-outside-nightclub/a-73593905 (Attempt 1)
+2025-08-23 01:43:41,067 - crime_scraper - INFO - Successfully scraped: Ecuador: 8 people killed in shooting outside nightclub
+2025-08-23 01:43:42,067 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/starvation-is-a-war-crime-but-will-justice-ever-be-done/a-73656993 (Attempt 1)
+2025-08-23 01:43:42,356 - crime_scraper - INFO - Successfully scraped: Starvation is a war crime, but will justice ever be done?
+2025-08-23 01:43:43,356 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/starvation-is-a-war-crime-but-will-justice-ever-be-done/a-73656993 (Attempt 1)
+2025-08-23 01:43:43,425 - crime_scraper - INFO - Successfully scraped: Starvation is a war crime, but will justice ever be done?
+2025-08-23 01:43:44,425 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/meet-the-ukrainian-volunteers-shooting-down-russian-drones/video-73443784 (Attempt 1)
+2025-08-23 01:43:45,020 - crime_scraper - INFO - Successfully scraped: Meet the Ukrainian volunteers shooting down Russian drones
+2025-08-23 01:43:46,020 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/what-you-need-to-know-about-kenyan-protesters-shooting/a-72959858 (Attempt 1)
+2025-08-23 01:43:46,333 - crime_scraper - INFO - Successfully scraped: What you need to know about Kenyan protester's shooting
+2025-08-23 01:43:47,333 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/bulgarian-woman-influencer-incites-violence-against-women/a-72897326 (Attempt 1)
+2025-08-23 01:43:47,695 - crime_scraper - INFO - Successfully scraped: Bulgaria's female 'Andrew Tate' incites anti-women violence
+2025-08-23 01:43:48,695 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/violent-drug-crime-on-the-rise-in-brussels/video-72807295 (Attempt 1)
+2025-08-23 01:43:49,241 - crime_scraper - INFO - Successfully scraped: Violent drug crime on the rise in Brussels
+2025-08-23 01:43:49,241 - crime_scraper - INFO - Scraping website: Le Monde Justice France
+2025-08-23 01:43:49,241 - crime_scraper - INFO - Fetching URL: https://www.lemonde.fr/en/police-and-justice/ (Attempt 1)
+2025-08-23 01:43:49,550 - crime_scraper - INFO - Scraping website: Mediapart Crime France
+2025-08-23 01:43:49,550 - crime_scraper - INFO - Fetching URL: https://www.mediapart.fr/en/english (Attempt 1)
+2025-08-23 01:43:49,901 - crime_scraper - INFO - Found crime-related article: The questions surrounding the online death of French live-streamer
+2025-08-23 01:43:49,902 - crime_scraper - INFO - Found crime-related article: Israel's slaughter of journalists in Gaza is an admission of its crimes
+2025-08-23 01:43:49,904 - crime_scraper - INFO - Found crime-related article: What the US-EU trade deal says about France's diminishing voice in Europe
+2025-08-23 01:43:50,904 - crime_scraper - INFO - Fetching URL: https://www.mediapart.fr/en/journal/france/220825/questions-surrounding-online-death-french-live-streamer (Attempt 1)
+2025-08-23 01:43:51,635 - crime_scraper - INFO - Successfully scraped: The questions surrounding the online death of French live-streamer
+2025-08-23 01:43:52,635 - crime_scraper - INFO - Fetching URL: https://www.mediapart.fr/en/journal/international/130825/israels-slaughter-journalists-gaza-admission-its-crimes (Attempt 1)
+2025-08-23 01:43:53,170 - crime_scraper - INFO - Successfully scraped: Israel's slaughter of journalists in Gaza is an admission of its crimes
+2025-08-23 01:43:54,171 - crime_scraper - INFO - Fetching URL: https://www.mediapart.fr/en/journal/france/310725/what-us-eu-trade-deal-says-about-frances-diminishing-voice-europe (Attempt 1)
+2025-08-23 01:43:55,092 - crime_scraper - INFO - Successfully scraped: What the US-EU trade deal says about France's diminishing voice in Europe
+2025-08-23 01:43:55,092 - crime_scraper - INFO - Scraping website: DutchNews Crime
+2025-08-23 01:43:55,092 - crime_scraper - INFO - Fetching URL: https://www.dutchnews.nl/category/crime/ (Attempt 1)
+2025-08-23 01:43:55,786 - crime_scraper - INFO - Scraping website: TASS Crime Russia
+2025-08-23 01:43:55,786 - crime_scraper - INFO - Fetching URL: https://tass.com/emergencies (Attempt 1)
+2025-08-23 01:43:56,807 - crime_scraper - INFO - Scraping website: Corriere della Sera Crime
+2025-08-23 01:43:56,808 - crime_scraper - INFO - Fetching URL: https://www.corriere.it/cronache/ (Attempt 1)
+2025-08-23 01:43:57,462 - crime_scraper - INFO - Scraping website: La Repubblica Crime
+2025-08-23 01:43:57,463 - crime_scraper - INFO - Fetching URL: https://www.repubblica.it/cronaca/ (Attempt 1)
+2025-08-23 01:43:58,003 - crime_scraper - INFO - Scraping website: El País Crime Spain
+2025-08-23 01:43:58,003 - crime_scraper - INFO - Fetching URL: https://elpais.com/espana/ (Attempt 1)
+2025-08-23 01:43:58,670 - crime_scraper - INFO - Scraping website: ABC Spain Crime
+2025-08-23 01:43:58,670 - crime_scraper - INFO - Fetching URL: https://www.abc.es/espana/sucesos/ (Attempt 1)
+2025-08-23 01:43:59,199 - crime_scraper - INFO - Scraping website: Japan Times Crime
+2025-08-23 01:43:59,199 - crime_scraper - INFO - Fetching URL: https://www.japantimes.co.jp/news/japan/crime-legal/ (Attempt 1)
+2025-08-23 01:44:00,865 - crime_scraper - INFO - Scraping website: Nikkei Asia Crime
+2025-08-23 01:44:00,865 - crime_scraper - INFO - Fetching URL: https://asia.nikkei.com/Spotlight/Society/Crime (Attempt 1)
+2025-08-23 01:44:03,173 - crime_scraper - INFO - Scraping website: NDTV India Crime
+2025-08-23 01:44:03,173 - crime_scraper - INFO - Fetching URL: https://www.ndtv.com/topic/india-crime (Attempt 1)
+2025-08-23 01:44:03,825 - crime_scraper - INFO - Scraping website: Times of India Crime
+2025-08-23 01:44:03,826 - crime_scraper - INFO - Fetching URL: https://timesofindia.indiatimes.com/topic/crime-news/news (Attempt 1)
+2025-08-23 01:44:04,331 - crime_scraper - INFO - Scraping website: Indian Express Crime
+2025-08-23 01:44:04,331 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/about/crime-2/ (Attempt 1)
+2025-08-23 01:44:05,370 - crime_scraper - INFO - Found crime-related article: Pune Crime Files: How cops traced engineering student Bhagyashree Sude’s killers from a ransom message
+2025-08-23 01:44:05,371 - crime_scraper - INFO - Found crime-related article: UK to use AI to predict theft, knife attacks and violent crimes by 2030
+2025-08-23 01:44:05,372 - crime_scraper - INFO - Found crime-related article: Three knifed to death for trying to stop drunk men from ransacking dhaba
+2025-08-23 01:44:05,373 - crime_scraper - INFO - Found crime-related article: Karnataka woman chopped into 19 pieces; son-in-law among 3 held for murder
+2025-08-23 01:44:05,374 - crime_scraper - INFO - Found crime-related article: Ex-TMC leader Bibhas Adhikari, arrested in Noida for a ‘fake police station’, allegedly ran similar set-up in Kolkata
+2025-08-23 01:44:05,375 - crime_scraper - INFO - Found crime-related article: Pune Crime Files: How offering a ride to 4 strangers turned fatal for Nashik cab driver
+2025-08-23 01:44:05,376 - crime_scraper - INFO - Found crime-related article: Gurgaon man masturbates in front of woman waiting for cab, police file FIR
+2025-08-23 01:44:06,376 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/pune/bhagyashree-sude-murder-police-pune-10196448/ (Attempt 1)
+2025-08-23 01:44:06,801 - crime_scraper - INFO - Successfully scraped: Pune Crime Files: How cops traced engineering student Bhagyashree Sude’s killers from a ransom message
+2025-08-23 01:44:07,802 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/technology/artificial-intelligence/uk-government-ai-real-time-interactive-map-2030-10192548/ (Attempt 1)
+2025-08-23 01:44:08,639 - crime_scraper - INFO - Successfully scraped: UK to use AI to predict theft, knife attacks and violent crimes by 2030
+2025-08-23 01:44:09,639 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/india/three-knifed-death-drunk-men-ransacking-dhaba-murder-10186627/ (Attempt 1)
+2025-08-23 01:44:10,458 - crime_scraper - INFO - Successfully scraped: Three knifed to death for trying to stop drunk men from ransacking dhaba
+2025-08-23 01:44:11,459 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/bangalore/karnataka-woman-chopped-murder-arrest-karnataka-police-10183998/ (Attempt 1)
+2025-08-23 01:44:11,769 - crime_scraper - INFO - Successfully scraped: Karnataka woman chopped into 19 pieces; son-in-law among 3 held for murder
+2025-08-23 01:44:12,769 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/kolkata/ex-tmc-leader-bibhas-adhikari-arrested-noida-fake-police-station-kolkata-10183013/ (Attempt 1)
+2025-08-23 01:44:12,880 - crime_scraper - INFO - Successfully scraped: Ex-TMC leader Bibhas Adhikari, arrested in Noida for a ‘fake police station’, allegedly ran similar set-up in Kolkata
+2025-08-23 01:44:13,880 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/pune/pune-crime-files-offering-ride-strangers-fatal-nashik-cab-driver-10182453/ (Attempt 1)
+2025-08-23 01:44:14,236 - crime_scraper - INFO - Successfully scraped: Pune Crime Files: How offering a ride to 4 strangers turned fatal for Nashik cab driver
+2025-08-23 01:44:15,236 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/delhi/gurgaon-man-masturbates-in-front-of-woman-waiting-for-cab-police-file-fir-10175125/ (Attempt 1)
+2025-08-23 01:44:15,595 - crime_scraper - INFO - Successfully scraped: Gurgaon man masturbates in front of woman waiting for cab, police file FIR
+2025-08-23 01:44:15,595 - crime_scraper - INFO - Scraping website: El Universal Mexico Crime
+2025-08-23 01:44:15,595 - crime_scraper - INFO - Fetching URL: https://www.eluniversal.com.mx/estados/ (Attempt 1)
+2025-08-23 01:44:15,999 - crime_scraper - INFO - Scraping website: La Jornada Mexico Crime
+2025-08-23 01:44:15,999 - crime_scraper - INFO - Fetching URL: https://www.jornada.com.mx/ultimas/ (Attempt 1)
+2025-08-23 01:44:16,297 - crime_scraper - INFO - Scraping website: Folha de S.Paulo Crime
+2025-08-23 01:44:16,297 - crime_scraper - INFO - Fetching URL: https://www1.folha.uol.com.br/cotidiano/ (Attempt 1)
+2025-08-23 01:44:17,779 - crime_scraper - INFO - Scraping website: Daily Maverick Crime
+2025-08-23 01:44:17,779 - crime_scraper - INFO - Fetching URL: https://www.dailymaverick.co.za/article/topic/crime (Attempt 1)
+2025-08-23 01:44:18,915 - crime_scraper - INFO - Scraping website: Sky News Australia Crime
+2025-08-23 01:44:18,915 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime (Attempt 1)
+2025-08-23 01:44:21,316 - crime_scraper - INFO - Scraping website: ABC Australia Crime
+2025-08-23 01:44:21,316 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/topic/crime (Attempt 1)
+2025-08-23 01:44:22,126 - crime_scraper - INFO - Found crime-related article: 'Sophisticated fraudster' behind cancelled Victorian bushfire charity event
+2025-08-23 01:44:22,127 - crime_scraper - INFO - Found crime-related article: Convicted bucks party gang rapists argue guilty verdicts 'unsafe'
+2025-08-23 01:44:22,128 - crime_scraper - INFO - Found crime-related article: Magistrate convicts police officer who punched teen during arrest
+2025-08-23 01:44:22,129 - crime_scraper - INFO - Found crime-related article: A Perth man has been charged with allegedly importing 185kg of methamphetamine and a conspiracy to steal $300,000 cash in a foiled roadside armed robb
+2025-08-23 01:44:22,130 - crime_scraper - INFO - Found crime-related article: Men charged over alleged plot to import 185 kg of methamphetamine into WA
+2025-08-23 01:44:22,131 - crime_scraper - INFO - Found crime-related article: 'Sorry and sordid tale': WA GP jailed for child sex offences
+2025-08-23 01:44:22,132 - crime_scraper - INFO - Found crime-related article: Podcaster faces murder charge over death of 30yo Perth woman
+2025-08-23 01:44:22,134 - crime_scraper - INFO - Found crime-related article: Illicit tobacco, money laundering funding Victorian burglaries, arsons
+2025-08-23 01:44:22,135 - crime_scraper - INFO - Found crime-related article: 'Blind drunk' driver jailed for 14 years over hit and run death of 43yo mum
+2025-08-23 01:44:22,136 - crime_scraper - INFO - Found crime-related article: Postal worker charged over alleged $1.4m fraud from stolen bank cards
+2025-08-23 01:44:22,137 - crime_scraper - INFO - Found crime-related article: Tasmania Police pursue a man in a truck driving on its rims.
+2025-08-23 01:44:22,138 - crime_scraper - INFO - Found crime-related article: Leader of 'cult-like' UK Christian group guilty of sexually abusing women
+2025-08-23 01:44:22,139 - crime_scraper - INFO - Found crime-related article: Man dead after stabbing on central Queensland coast
+2025-08-23 01:44:22,140 - crime_scraper - INFO - Found crime-related article: Police chase 'a bit Fred Flintstone, a bit Blues Brothers', witness says
+2025-08-23 01:44:22,141 - crime_scraper - INFO - Found crime-related article: Officer, elderly woman seriously injured in separate crashes involving police cars
+2025-08-23 01:44:22,142 - crime_scraper - INFO - Found crime-related article: 'Depraved and offensive': WA teacher jailed over multiple child sex offences
+2025-08-23 01:44:22,143 - crime_scraper - INFO - Found crime-related article: Mental health condition considered in sentencing of teen girl shot by police
+2025-08-23 01:44:22,144 - crime_scraper - INFO - Found crime-related article: Police charge second man over Melbourne synagogue firebombing
+2025-08-23 01:44:22,145 - crime_scraper - INFO - Found crime-related article: ATM supplier pulls machines amid money laundering concerns
+2025-08-23 01:44:22,146 - crime_scraper - INFO - Found crime-related article: Sunshine Coast childcare centre intruder on parole at time of death
+2025-08-23 01:44:22,147 - crime_scraper - INFO - Found crime-related article: Man charged with assaulting police officer after arrest turns violent
+2025-08-23 01:44:22,148 - crime_scraper - INFO - Found crime-related article: Woman assisting police after baby's body found in Perth drain
+2025-08-23 01:44:23,148 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-23/jay-brady-jason-palankay-deception-charges-bushfire-recovery/105610002 (Attempt 1)
+2025-08-23 01:44:23,724 - crime_scraper - INFO - Successfully scraped: 'Sophisticated fraudster' behind cancelled Victorian bushfire charity event
+2025-08-23 01:44:24,724 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-22/convicted-gang-rapists-argue-guilty-verdicts-unsafe-on-appeal/105687344 (Attempt 1)
+2025-08-23 01:44:25,231 - crime_scraper - INFO - Successfully scraped: Convicted bucks party gang rapists argue guilty verdicts 'unsafe'
+2025-08-23 01:44:26,231 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-22/police-officer-assaulted-teen-batemans-bay-arrest-court-finds/105684886 (Attempt 1)
+2025-08-23 01:44:26,749 - crime_scraper - INFO - Successfully scraped: Magistrate convicts police officer who punched teen during arrest
+2025-08-23 01:44:27,749 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-22/a-perth-man-has-been-charged-with-allegedly/105687662 (Attempt 1)
+2025-08-23 01:44:28,224 - crime_scraper - INFO - Successfully scraped: A Perth man has been charged with allegedly importing 185kg of methamphetamine and a conspiracy to steal $300,000 cash in a foiled roadside armed robb
+2025-08-23 01:44:29,225 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-22/wa-perth-drug-cash-haul-/105686958 (Attempt 1)
+2025-08-23 01:44:30,014 - crime_scraper - INFO - Successfully scraped: Men charged over alleged plot to import 185 kg of methamphetamine into WA
+2025-08-23 01:44:31,015 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-22/wa-gp-douglas-william-mccarthy-sentenced-for-child-sex-/105686986 (Attempt 1)
+2025-08-23 01:44:31,687 - crime_scraper - INFO - Successfully scraped: 'Sorry and sordid tale': WA GP jailed for child sex offences
+2025-08-23 01:44:32,687 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-22/tobias-marcus-nuttall-faces-court-charged-with-bassendean-murder/105684606 (Attempt 1)
+2025-08-23 01:44:33,345 - crime_scraper - INFO - Successfully scraped: Podcaster faces murder charge over death of 30yo Perth woman
+2025-08-23 01:44:34,345 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-22/two-men-arrested-seven-million-dollars-illicit-tobacco/105686114 (Attempt 1)
+2025-08-23 01:44:34,845 - crime_scraper - INFO - Successfully scraped: Illicit tobacco, money laundering funding Victorian burglaries, arsons
+2025-08-23 01:44:35,845 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-22/brett-eddy-imprisoned-for-manslaughter-drink-driver/105686842 (Attempt 1)
+2025-08-23 01:44:36,348 - crime_scraper - INFO - Successfully scraped: 'Blind drunk' driver jailed for 14 years over hit and run death of 43yo mum
+2025-08-23 01:44:37,348 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-22/nsw-sydney-postal-worker-charged-over-alleged-bank-fraud/105685680 (Attempt 1)
+2025-08-23 01:44:37,852 - crime_scraper - INFO - Successfully scraped: Postal worker charged over alleged $1.4m fraud from stolen bank cards
+2025-08-23 01:44:38,853 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-22/tasmania-police-pursue-a-truck-driving-on-its-rims/105686014 (Attempt 1)
+2025-08-23 01:44:39,591 - crime_scraper - INFO - Successfully scraped: Tasmania Police pursue a man in a truck driving on its rims.
+2025-08-23 01:44:40,591 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-22/cult-like-christian-group-leader-found-guilty-of-sexual-abuse/105684554 (Attempt 1)
+2025-08-23 01:44:41,140 - crime_scraper - INFO - Successfully scraped: Leader of 'cult-like' UK Christian group guilty of sexually abusing women
+2025-08-23 01:44:42,140 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-22/stabbing-death-central-queensland-coast-yeppoon/105684354 (Attempt 1)
+2025-08-23 01:44:42,700 - crime_scraper - INFO - Successfully scraped: Man dead after stabbing on central Queensland coast
+2025-08-23 01:44:43,700 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-22/launceston-man-pleads-guilty-after-stolen-truck-evade/105681218 (Attempt 1)
+2025-08-23 01:44:44,231 - crime_scraper - INFO - Successfully scraped: Police chase 'a bit Fred Flintstone, a bit Blues Brothers', witness says
+2025-08-23 01:44:45,231 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-21/several-injured-after-several-crashes-involving-police-vehicles/105682658 (Attempt 1)
+2025-08-23 01:44:45,734 - crime_scraper - INFO - Successfully scraped: Officer, elderly woman seriously injured in separate crashes involving police cars
+2025-08-23 01:44:46,734 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-21/wa-teacher-jailed-for-child-sex-offences/105681636 (Attempt 1)
+2025-08-23 01:44:47,696 - crime_scraper - INFO - Successfully scraped: 'Depraved and offensive': WA teacher jailed over multiple child sex offences
+2025-08-23 01:44:48,697 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-21/teen-girl-shot-by-police-released-for-mental-health-treatment/105680402 (Attempt 1)
+2025-08-23 01:44:50,732 - crime_scraper - INFO - Successfully scraped: Mental health condition considered in sentencing of teen girl shot by police
+2025-08-23 01:44:51,732 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-21/second-man-charged-adass-israel-synagogue-arson-ripponlea/105682132 (Attempt 1)
+2025-08-23 01:44:52,274 - crime_scraper - INFO - Successfully scraped: Police charge second man over Melbourne synagogue firebombing
+2025-08-23 01:44:53,274 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-21/ncr-atleos-removing-machines-suspected-illegal-tobacco-stores/105680294 (Attempt 1)
+2025-08-23 01:44:54,267 - crime_scraper - INFO - Successfully scraped: ATM supplier pulls machines amid money laundering concerns
+2025-08-23 01:44:55,268 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-20/sunshine-coast-childcare-intruder-lengthy-criminal-history/105677456 (Attempt 1)
+2025-08-23 01:44:55,801 - crime_scraper - INFO - Successfully scraped: Sunshine Coast childcare centre intruder on parole at time of death
+2025-08-23 01:44:56,802 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-20/police-officers-assaulted-mullewa-wa-arrest/105676826 (Attempt 1)
+2025-08-23 01:44:57,455 - crime_scraper - INFO - Successfully scraped: Man charged with assaulting police officer after arrest turns violent
+2025-08-23 01:44:58,455 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-20/new-leads-in-baby-body-n-stormwater-drain-case/105677546 (Attempt 1)
+2025-08-23 01:44:58,977 - crime_scraper - INFO - Successfully scraped: Woman assisting police after baby's body found in Perth drain
+2025-08-23 01:44:58,977 - crime_scraper - INFO - Scraping website: Nine News Australia Crime
+2025-08-23 01:44:58,977 - crime_scraper - INFO - Fetching URL: https://www.9news.com.au/crime (Attempt 1)
+2025-08-23 01:44:59,203 - crime_scraper - INFO - Scraping website: Seven News Australia Crime
+2025-08-23 01:44:59,203 - crime_scraper - INFO - Fetching URL: https://7news.com.au/news/crime (Attempt 1)
+2025-08-23 01:45:00,710 - crime_scraper - INFO - Total articles scraped: 48
+2025-08-23 01:45:00,710 - crime_scraper - INFO - Processing 48 articles with NLP
+2025-08-23 01:45:01,007 - crime_scraper - INFO - Successfully processed article: California parents of missing 7-month-old arrested and accused of murder
+2025-08-23 01:45:01,038 - crime_scraper - INFO - Successfully processed article: Crime & Courts
+2025-08-23 01:45:01,068 - crime_scraper - INFO - Successfully processed article: Crime & Courts
+2025-08-23 01:45:01,380 - crime_scraper - INFO - Successfully processed article: Miami man faces charge for fatal hit-and-run involving pedestrian, police say
+2025-08-23 01:45:02,634 - crime_scraper - INFO - Successfully processed article: Judge says state can’t stop plea deal. Key Biscayne coach gets 12 years for sex crimes
+2025-08-23 01:45:03,067 - crime_scraper - INFO - Successfully processed article: Judge to decide whether to accept or toss plea deal of Key Biscayne gymnastics coach
+2025-08-23 01:45:03,736 - crime_scraper - INFO - Successfully processed article: Truck driver in deadly Florida turnpike crash booked in California jail
+2025-08-23 01:45:04,661 - crime_scraper - INFO - Successfully processed article: ‘Direct insult’: Victim in Key Biscayne gymnastics coach case demands trial
+2025-08-23 01:45:05,071 - crime_scraper - INFO - Successfully processed article: US court throws out massive fraud penalty against Trump
+2025-08-23 01:45:05,303 - crime_scraper - INFO - Successfully processed article: Ecuador: 8 people killed in shooting outside nightclub
+2025-08-23 01:45:06,262 - crime_scraper - INFO - Successfully processed article: Starvation is a war crime, but will justice ever be done?
+2025-08-23 01:45:07,191 - crime_scraper - INFO - Successfully processed article: Starvation is a war crime, but will justice ever be done?
+2025-08-23 01:45:07,326 - crime_scraper - INFO - Successfully processed article: Meet the Ukrainian volunteers shooting down Russian drones
+2025-08-23 01:45:07,781 - crime_scraper - INFO - Successfully processed article: What you need to know about Kenyan protester's shooting
+2025-08-23 01:45:08,712 - crime_scraper - INFO - Successfully processed article: Bulgaria's female 'Andrew Tate' incites anti-women violence
+2025-08-23 01:45:08,781 - crime_scraper - INFO - Successfully processed article: Violent drug crime on the rise in Brussels
+2025-08-23 01:45:09,556 - crime_scraper - INFO - Successfully processed article: The questions surrounding the online death of French live-streamer
+2025-08-23 01:45:10,297 - crime_scraper - INFO - Successfully processed article: Israel's slaughter of journalists in Gaza is an admission of its crimes
+2025-08-23 01:45:11,058 - crime_scraper - INFO - Successfully processed article: What the US-EU trade deal says about France's diminishing voice in Europe
+2025-08-23 01:45:11,662 - crime_scraper - INFO - Successfully processed article: Pune Crime Files: How cops traced engineering student Bhagyashree Sude’s killers from a ransom message
+2025-08-23 01:45:11,945 - crime_scraper - INFO - Successfully processed article: UK to use AI to predict theft, knife attacks and violent crimes by 2030
+2025-08-23 01:45:12,117 - crime_scraper - INFO - Successfully processed article: Three knifed to death for trying to stop drunk men from ransacking dhaba
+2025-08-23 01:45:12,421 - crime_scraper - INFO - Successfully processed article: Karnataka woman chopped into 19 pieces; son-in-law among 3 held for murder
+2025-08-23 01:45:12,716 - crime_scraper - INFO - Successfully processed article: Ex-TMC leader Bibhas Adhikari, arrested in Noida for a ‘fake police station’, allegedly ran similar set-up in Kolkata
+2025-08-23 01:45:13,183 - crime_scraper - INFO - Successfully processed article: Pune Crime Files: How offering a ride to 4 strangers turned fatal for Nashik cab driver
+2025-08-23 01:45:13,527 - crime_scraper - INFO - Successfully processed article: Gurgaon man masturbates in front of woman waiting for cab, police file FIR
+2025-08-23 01:45:15,334 - crime_scraper - INFO - Successfully processed article: 'Sophisticated fraudster' behind cancelled Victorian bushfire charity event
+2025-08-23 01:45:16,287 - crime_scraper - INFO - Successfully processed article: Convicted bucks party gang rapists argue guilty verdicts 'unsafe'
+2025-08-23 01:45:17,266 - crime_scraper - INFO - Successfully processed article: Magistrate convicts police officer who punched teen during arrest
+2025-08-23 01:45:17,508 - crime_scraper - INFO - Successfully processed article: A Perth man has been charged with allegedly importing 185kg of methamphetamine and a conspiracy to steal $300,000 cash in a foiled roadside armed robb
+2025-08-23 01:45:18,685 - crime_scraper - INFO - Successfully processed article: Men charged over alleged plot to import 185 kg of methamphetamine into WA
+2025-08-23 01:45:19,710 - crime_scraper - INFO - Successfully processed article: 'Sorry and sordid tale': WA GP jailed for child sex offences
+2025-08-23 01:45:20,584 - crime_scraper - INFO - Successfully processed article: Podcaster faces murder charge over death of 30yo Perth woman
+2025-08-23 01:45:21,495 - crime_scraper - INFO - Successfully processed article: Illicit tobacco, money laundering funding Victorian burglaries, arsons
+2025-08-23 01:45:22,485 - crime_scraper - INFO - Successfully processed article: 'Blind drunk' driver jailed for 14 years over hit and run death of 43yo mum
+2025-08-23 01:45:23,399 - crime_scraper - INFO - Successfully processed article: Postal worker charged over alleged $1.4m fraud from stolen bank cards
+2025-08-23 01:45:23,630 - crime_scraper - INFO - Successfully processed article: Tasmania Police pursue a man in a truck driving on its rims.
+2025-08-23 01:45:24,430 - crime_scraper - INFO - Successfully processed article: Leader of 'cult-like' UK Christian group guilty of sexually abusing women
+2025-08-23 01:45:25,315 - crime_scraper - INFO - Successfully processed article: Man dead after stabbing on central Queensland coast
+2025-08-23 01:45:26,141 - crime_scraper - INFO - Successfully processed article: Police chase 'a bit Fred Flintstone, a bit Blues Brothers', witness says
+2025-08-23 01:45:26,873 - crime_scraper - INFO - Successfully processed article: Officer, elderly woman seriously injured in separate crashes involving police cars
+2025-08-23 01:45:27,786 - crime_scraper - INFO - Successfully processed article: 'Depraved and offensive': WA teacher jailed over multiple child sex offences
+2025-08-23 01:45:28,682 - crime_scraper - INFO - Successfully processed article: Mental health condition considered in sentencing of teen girl shot by police
+2025-08-23 01:45:29,498 - crime_scraper - INFO - Successfully processed article: Police charge second man over Melbourne synagogue firebombing
+2025-08-23 01:45:30,728 - crime_scraper - INFO - Successfully processed article: ATM supplier pulls machines amid money laundering concerns
+2025-08-23 01:45:31,616 - crime_scraper - INFO - Successfully processed article: Sunshine Coast childcare centre intruder on parole at time of death
+2025-08-23 01:45:32,509 - crime_scraper - INFO - Successfully processed article: Man charged with assaulting police officer after arrest turns violent
+2025-08-23 01:45:33,311 - crime_scraper - INFO - Successfully processed article: Woman assisting police after baby's body found in Perth drain
+2025-08-23 01:45:33,311 - crime_scraper - INFO - Processed 48 out of 48 articles
+2025-08-23 01:45:33,434 - crime_scraper - INFO - Successfully processed and saved 48 articles
