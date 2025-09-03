@@ -16731,3 +16731,361 @@
 2025-09-02 01:50:14,065 - crime_scraper - INFO - Successfully processed article: 'How could you possibly do this to our family?' Impact statements read to landlord who murdered man
 2025-09-02 01:50:14,065 - crime_scraper - INFO - Processed 56 out of 56 articles
 2025-09-02 01:50:14,216 - crime_scraper - INFO - Successfully processed and saved 56 articles
+2025-09-03 01:36:37,214 - crime_scraper - INFO - Successfully loaded spaCy model: en_core_web_sm
+2025-09-03 01:36:37,251 - crime_scraper - INFO - Crime Data Scraper initialized
+2025-09-03 01:36:37,252 - crime_scraper - INFO - Starting full scrape process
+2025-09-03 01:36:37,252 - crime_scraper - INFO - Scraping articles from all configured websites
+2025-09-03 01:36:37,252 - crime_scraper - INFO - Scraping website: AP News Crime
+2025-09-03 01:36:37,252 - crime_scraper - INFO - Fetching URL: https://apnews.com/hub/crime (Attempt 1)
+2025-09-03 01:36:37,416 - crime_scraper - WARNING - Request failed (attempt 1): 403 Client Error: Forbidden for url: https://apnews.com/hub/crime
+2025-09-03 01:36:38,416 - crime_scraper - INFO - Fetching URL: https://apnews.com/hub/crime (Attempt 2)
+2025-09-03 01:36:38,540 - crime_scraper - WARNING - Request failed (attempt 2): 403 Client Error: Forbidden for url: https://apnews.com/hub/crime
+2025-09-03 01:36:40,540 - crime_scraper - INFO - Fetching URL: https://apnews.com/hub/crime (Attempt 3)
+2025-09-03 01:36:40,671 - crime_scraper - WARNING - Request failed (attempt 3): 403 Client Error: Forbidden for url: https://apnews.com/hub/crime
+2025-09-03 01:36:40,671 - crime_scraper - ERROR - Failed to fetch https://apnews.com/hub/crime after 3 attempts
+2025-09-03 01:36:40,672 - crime_scraper - INFO - Scraping website: CBS News Crime
+2025-09-03 01:36:40,672 - crime_scraper - INFO - Fetching URL: https://www.cbsnews.com/crime/ (Attempt 1)
+2025-09-03 01:36:41,067 - crime_scraper - INFO - Scraping website: NBC News Crime
+2025-09-03 01:36:41,067 - crime_scraper - INFO - Fetching URL: https://www.nbcnews.com/news/crime-courts (Attempt 1)
+2025-09-03 01:36:42,253 - crime_scraper - INFO - Found crime-related article: Houston man charged with murder after child is killed during 'ding-dong ditch' game
+2025-09-03 01:36:42,255 - crime_scraper - INFO - Found crime-related article: Crime & Courts
+2025-09-03 01:36:42,257 - crime_scraper - INFO - Found crime-related article: Crime & Courts
+2025-09-03 01:36:42,258 - crime_scraper - INFO - Found crime-related article: Crime & Courts
+2025-09-03 01:36:42,260 - crime_scraper - INFO - Found crime-related article: Crime & Courts
+2025-09-03 01:36:43,260 - crime_scraper - INFO - Fetching URL: https://www.nbcnews.com/news/us-news/houston-man-charged-murder-child-killed-ding-dong-ditch-game-rcna228514 (Attempt 1)
+2025-09-03 01:36:43,447 - crime_scraper - INFO - Successfully scraped: Houston man charged with murder after child is killed during 'ding-dong ditch' game
+2025-09-03 01:36:44,448 - crime_scraper - INFO - Fetching URL: https://www.nbcnews.com/news/crime-courts (Attempt 1)
+2025-09-03 01:36:44,595 - crime_scraper - INFO - Successfully scraped: Crime & Courts
+2025-09-03 01:36:45,595 - crime_scraper - INFO - Fetching URL: https://www.nbcnews.com/news/crime-courts (Attempt 1)
+2025-09-03 01:36:45,781 - crime_scraper - INFO - Successfully scraped: Crime & Courts
+2025-09-03 01:36:46,782 - crime_scraper - INFO - Fetching URL: https://www.nbcnews.com/news/crime-courts (Attempt 1)
+2025-09-03 01:36:46,929 - crime_scraper - INFO - Successfully scraped: Crime & Courts
+2025-09-03 01:36:47,929 - crime_scraper - INFO - Fetching URL: https://www.nbcnews.com/news/crime-courts (Attempt 1)
+2025-09-03 01:36:48,075 - crime_scraper - INFO - Successfully scraped: Crime & Courts
+2025-09-03 01:36:48,075 - crime_scraper - INFO - Scraping website: Fox News Crime
+2025-09-03 01:36:48,075 - crime_scraper - INFO - Fetching URL: https://www.foxnews.com/category/us/crime (Attempt 1)
+2025-09-03 01:36:48,447 - crime_scraper - INFO - Scraping website: CNN Crime and Justice
+2025-09-03 01:36:48,448 - crime_scraper - INFO - Fetching URL: https://www.cnn.com/specials/us/crime-and-justice (Attempt 1)
+2025-09-03 01:36:48,904 - crime_scraper - INFO - Scraping website: New York Post Crime
+2025-09-03 01:36:48,904 - crime_scraper - INFO - Fetching URL: https://nypost.com/metro/ (Attempt 1)
+2025-09-03 01:36:49,931 - crime_scraper - INFO - Scraping website: Chicago Tribune Crime
+2025-09-03 01:36:49,931 - crime_scraper - INFO - Fetching URL: https://www.chicagotribune.com/news/breaking/ (Attempt 1)
+2025-09-03 01:36:50,445 - crime_scraper - INFO - Scraping website: Los Angeles Times Crime
+2025-09-03 01:36:50,445 - crime_scraper - INFO - Fetching URL: https://www.latimes.com/california/ (Attempt 1)
+2025-09-03 01:36:50,944 - crime_scraper - INFO - Scraping website: Washington Post Crime
+2025-09-03 01:36:50,944 - crime_scraper - INFO - Fetching URL: https://www.washingtonpost.com/dc-md-va/ (Attempt 1)
+2025-09-03 01:36:51,351 - crime_scraper - INFO - Scraping website: Miami Herald Crime
+2025-09-03 01:36:51,351 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/ (Attempt 1)
+2025-09-03 01:37:21,600 - crime_scraper - WARNING - Request failed (attempt 1): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2025-09-03 01:37:22,600 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/ (Attempt 2)
+2025-09-03 01:37:22,937 - crime_scraper - INFO - Found crime-related article: Dolphins coach choked, slammed woman at Lauderdale luxury high-rise, police say
+2025-09-03 01:37:22,939 - crime_scraper - INFO - Found crime-related article: Dolphins coach choked, slammed woman at Lauderdale luxury high-rise, police say
+2025-09-03 01:37:22,940 - crime_scraper - INFO - Found crime-related article: Man arrested after woman killed in Brownsville hit-and-run, deputies say
+2025-09-03 01:37:22,941 - crime_scraper - INFO - Found crime-related article: Miami cop fired gun during argument with boyfriend, deputies say. She was arrested
+2025-09-03 01:37:22,942 - crime_scraper - INFO - Found crime-related article: Bond granted for Miami Dolphins coach Ryan Crow, who is charged with domestic battery
+2025-09-03 01:37:22,944 - crime_scraper - INFO - Found crime-related article: A man was shot and killed in Broward. Police have clues, but no one in custody
+2025-09-03 01:37:22,945 - crime_scraper - INFO - Found crime-related article: South Florida TV reporter accused of pawning neighbor’s Rolex watch, police say
+2025-09-03 01:37:22,946 - crime_scraper - INFO - Found crime-related article: Man arrested on battery charge after wife found dead in Broward canal: cops
+2025-09-03 01:37:22,947 - crime_scraper - INFO - Found crime-related article: DeSantis orders Miami-Dade double-murderer’s death as Florida marks record year for executions
+2025-09-03 01:37:23,948 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311942201.html#storylink=sectionheadlines (Attempt 1)
+2025-09-03 01:37:54,013 - crime_scraper - WARNING - Request failed (attempt 1): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2025-09-03 01:37:55,013 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311942201.html#storylink=sectionheadlines (Attempt 2)
+2025-09-03 01:37:55,234 - crime_scraper - INFO - Successfully scraped: Dolphins coach choked, slammed woman at Lauderdale luxury high-rise, police say
+2025-09-03 01:37:56,234 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311942201.html#storylink=mainstage_card (Attempt 1)
+2025-09-03 01:37:56,340 - crime_scraper - INFO - Successfully scraped: Dolphins coach choked, slammed woman at Lauderdale luxury high-rise, police say
+2025-09-03 01:37:57,341 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311940978.html#storylink=mainstage_card (Attempt 1)
+2025-09-03 01:37:57,487 - crime_scraper - INFO - Successfully scraped: Man arrested after woman killed in Brownsville hit-and-run, deputies say
+2025-09-03 01:37:58,487 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311940064.html#storylink=mainstage_card (Attempt 1)
+2025-09-03 01:38:28,551 - crime_scraper - WARNING - Request failed (attempt 1): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2025-09-03 01:38:29,552 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311940064.html#storylink=mainstage_card (Attempt 2)
+2025-09-03 01:38:29,800 - crime_scraper - INFO - Successfully scraped: Miami cop fired gun during argument with boyfriend, deputies say. She was arrested
+2025-09-03 01:38:30,800 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311923150.html#storylink=mainstage_card (Attempt 1)
+2025-09-03 01:38:31,118 - crime_scraper - INFO - Successfully scraped: Bond granted for Miami Dolphins coach Ryan Crow, who is charged with domestic battery
+2025-09-03 01:38:32,118 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311901528.html#storylink=mainstage_card (Attempt 1)
+2025-09-03 01:38:32,258 - crime_scraper - INFO - Successfully scraped: A man was shot and killed in Broward. Police have clues, but no one in custody
+2025-09-03 01:38:33,258 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311892153.html#storylink=mainstage_card (Attempt 1)
+2025-09-03 01:38:33,392 - crime_scraper - INFO - Successfully scraped: South Florida TV reporter accused of pawning neighbor’s Rolex watch, police say
+2025-09-03 01:38:34,392 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311885577.html#storylink=mainstage_card (Attempt 1)
+2025-09-03 01:39:04,457 - crime_scraper - WARNING - Request failed (attempt 1): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2025-09-03 01:39:05,457 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311885577.html#storylink=mainstage_card (Attempt 2)
+2025-09-03 01:39:05,711 - crime_scraper - INFO - Successfully scraped: Man arrested on battery charge after wife found dead in Broward canal: cops
+2025-09-03 01:39:06,712 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311907661.html#storylink=mainstage_card (Attempt 1)
+2025-09-03 01:39:36,775 - crime_scraper - WARNING - Request failed (attempt 1): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2025-09-03 01:39:37,776 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311907661.html#storylink=mainstage_card (Attempt 2)
+2025-09-03 01:40:07,943 - crime_scraper - WARNING - Request failed (attempt 2): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2025-09-03 01:40:09,943 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article311907661.html#storylink=mainstage_card (Attempt 3)
+2025-09-03 01:40:10,174 - crime_scraper - INFO - Successfully scraped: DeSantis orders Miami-Dade double-murderer’s death as Florida marks record year for executions
+2025-09-03 01:40:10,174 - crime_scraper - INFO - Scraping website: Boston Globe Crime
+2025-09-03 01:40:10,174 - crime_scraper - INFO - Fetching URL: https://www.bostonglobe.com/metro/ (Attempt 1)
+2025-09-03 01:40:11,100 - crime_scraper - INFO - Scraping website: Atlanta Journal Constitution Crime
+2025-09-03 01:40:11,100 - crime_scraper - INFO - Fetching URL: https://www.ajc.com/news/crime/ (Attempt 1)
+2025-09-03 01:40:11,718 - crime_scraper - INFO - Scraping website: Toronto Sun Crime
+2025-09-03 01:40:11,718 - crime_scraper - INFO - Fetching URL: https://torontosun.com/category/news/crime/ (Attempt 1)
+2025-09-03 01:40:12,136 - crime_scraper - INFO - Scraping website: National Post Crime
+2025-09-03 01:40:12,136 - crime_scraper - INFO - Fetching URL: https://nationalpost.com/category/news/true-crime/ (Attempt 1)
+2025-09-03 01:40:12,464 - crime_scraper - INFO - Scraping website: Global News Crime
+2025-09-03 01:40:12,465 - crime_scraper - INFO - Fetching URL: https://globalnews.ca/crime/ (Attempt 1)
+2025-09-03 01:40:13,103 - crime_scraper - INFO - Scraping website: Sky News UK Crime
+2025-09-03 01:40:13,103 - crime_scraper - INFO - Fetching URL: https://news.sky.com/topic/crime-5782 (Attempt 1)
+2025-09-03 01:40:14,536 - crime_scraper - INFO - Scraping website: UK NewsNow Crime
+2025-09-03 01:40:14,537 - crime_scraper - INFO - Fetching URL: https://www.newsnow.co.uk/h/UK/Crime (Attempt 1)
+2025-09-03 01:40:15,216 - crime_scraper - INFO - Scraping website: Euronews Crime
+2025-09-03 01:40:15,216 - crime_scraper - INFO - Fetching URL: https://www.euronews.com/tag/crime (Attempt 1)
+2025-09-03 01:40:15,662 - crime_scraper - INFO - Scraping website: Deutsche Welle Crime
+2025-09-03 01:40:15,662 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/crime/t-45305936 (Attempt 1)
+2025-09-03 01:40:16,875 - crime_scraper - INFO - Found crime-related article: Marseille: Police shoot knife attacker in city center
+2025-09-03 01:40:16,876 - crime_scraper - INFO - Found crime-related article: US: Police probing death at Burning Man festival as homicide
+2025-09-03 01:40:16,877 - crime_scraper - INFO - Found crime-related article: Germany: Police raise alarm over spike in child trafficking
+2025-09-03 01:40:16,878 - crime_scraper - INFO - Found crime-related article: Minneapolis shooting: FBI probes possible act of terror
+2025-09-03 01:40:16,879 - crime_scraper - INFO - Found crime-related article: Dresden: Man arrested after tram knife attack on US citizen
+2025-09-03 01:40:16,880 - crime_scraper - INFO - Found crime-related article: Dresden tram stabbing: Police appeal for witnesses
+2025-09-03 01:40:16,881 - crime_scraper - INFO - Found crime-related article: Intolerable  extortion suffocates Cape Town's economy
+2025-09-03 01:40:16,882 - crime_scraper - INFO - Found crime-related article: Intolerable  extortion suffocates Cape Town's economy
+2025-09-03 01:40:16,883 - crime_scraper - INFO - Found crime-related article: Gaza: UN demands accountability as reporter death toll soars
+2025-09-03 01:40:16,884 - crime_scraper - INFO - Found crime-related article: Gaza: UN demands accountability as reporter death toll soars
+2025-09-03 01:40:16,885 - crime_scraper - INFO - Found crime-related article: Targeting journalists in Gaza 'is a war crime': CPJ
+2025-09-03 01:40:16,886 - crime_scraper - INFO - Found crime-related article: Targeting journalists in Gaza 'is a war crime': CPJ
+2025-09-03 01:40:16,887 - crime_scraper - INFO - Found crime-related article: Meet the Ukrainian volunteers shooting down Russian drones
+2025-09-03 01:40:16,888 - crime_scraper - INFO - Found crime-related article: What you need to know about Kenyan protester's shooting
+2025-09-03 01:40:16,889 - crime_scraper - INFO - Found crime-related article: Bulgaria's female 'Andrew Tate' incites anti-women violence
+2025-09-03 01:40:16,890 - crime_scraper - INFO - Found crime-related article: Violent drug crime on the rise in Brussels
+2025-09-03 01:40:17,890 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/marseille-police-shoot-knife-attacker-in-city-center/a-73855196 (Attempt 1)
+2025-09-03 01:40:18,493 - crime_scraper - INFO - Successfully scraped: Marseille: Police shoot knife attacker in city center
+2025-09-03 01:40:19,493 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/us-police-probing-death-at-burning-man-festival-as-homicide/a-73840499 (Attempt 1)
+2025-09-03 01:40:19,897 - crime_scraper - INFO - Successfully scraped: US: Police probing death at Burning Man festival as homicide
+2025-09-03 01:40:20,898 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/germany-police-raise-alarm-over-spike-in-child-trafficking/a-73800323 (Attempt 1)
+2025-09-03 01:40:21,352 - crime_scraper - INFO - Successfully scraped: Germany: Police raise alarm over spike in child trafficking
+2025-09-03 01:40:22,352 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/minneapolis-school-shooting-fbi-probes-possible-act-of-terror/a-73786077 (Attempt 1)
+2025-09-03 01:40:22,897 - crime_scraper - INFO - Successfully scraped: Minneapolis shooting: FBI probes possible act of terror
+2025-09-03 01:40:23,898 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/dresden-man-arrested-after-tram-knife-attack-on-us-citizen/a-73772806 (Attempt 1)
+2025-09-03 01:40:24,278 - crime_scraper - INFO - Successfully scraped: Dresden: Man arrested after tram knife attack on US citizen
+2025-09-03 01:40:25,279 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/dresden-tram-stabbing-police-appeal-for-witnesses/a-73752985 (Attempt 1)
+2025-09-03 01:40:25,729 - crime_scraper - INFO - Successfully scraped: Dresden tram stabbing: Police appeal for witnesses
+2025-09-03 01:40:26,729 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/intolerable-extortion-suffocates-cape-towns-economy/a-73796428 (Attempt 1)
+2025-09-03 01:40:27,315 - crime_scraper - INFO - Successfully scraped: Intolerable  extortion suffocates Cape Town's economy
+2025-09-03 01:40:28,316 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/intolerable-extortion-suffocates-cape-towns-economy/a-73796428 (Attempt 1)
+2025-09-03 01:40:28,406 - crime_scraper - INFO - Successfully scraped: Intolerable  extortion suffocates Cape Town's economy
+2025-09-03 01:40:29,406 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/gaza-un-demands-accountability-as-reporter-death-toll-soars/video-73786312 (Attempt 1)
+2025-09-03 01:40:30,039 - crime_scraper - INFO - Successfully scraped: Gaza: UN demands accountability as reporter death toll soars
+2025-09-03 01:40:31,039 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/gaza-un-demands-accountability-as-reporter-death-toll-soars/video-73786312 (Attempt 1)
+2025-09-03 01:40:31,133 - crime_scraper - INFO - Successfully scraped: Gaza: UN demands accountability as reporter death toll soars
+2025-09-03 01:40:32,133 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/targeting-journalists-in-gaza-is-a-war-crime-cpj/video-73764275 (Attempt 1)
+2025-09-03 01:40:32,746 - crime_scraper - INFO - Successfully scraped: Targeting journalists in Gaza 'is a war crime': CPJ
+2025-09-03 01:40:33,746 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/targeting-journalists-in-gaza-is-a-war-crime-cpj/video-73764275 (Attempt 1)
+2025-09-03 01:40:33,832 - crime_scraper - INFO - Successfully scraped: Targeting journalists in Gaza 'is a war crime': CPJ
+2025-09-03 01:40:34,832 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/meet-the-ukrainian-volunteers-shooting-down-russian-drones/video-73443784 (Attempt 1)
+2025-09-03 01:40:35,049 - crime_scraper - INFO - Successfully scraped: Meet the Ukrainian volunteers shooting down Russian drones
+2025-09-03 01:40:36,049 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/what-you-need-to-know-about-kenyan-protesters-shooting/a-72959858 (Attempt 1)
+2025-09-03 01:40:36,254 - crime_scraper - INFO - Successfully scraped: What you need to know about Kenyan protester's shooting
+2025-09-03 01:40:37,255 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/bulgarian-woman-influencer-incites-violence-against-women/a-72897326 (Attempt 1)
+2025-09-03 01:40:37,858 - crime_scraper - INFO - Successfully scraped: Bulgaria's female 'Andrew Tate' incites anti-women violence
+2025-09-03 01:40:38,858 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/violent-drug-crime-on-the-rise-in-brussels/video-72807295 (Attempt 1)
+2025-09-03 01:40:39,210 - crime_scraper - INFO - Successfully scraped: Violent drug crime on the rise in Brussels
+2025-09-03 01:40:39,210 - crime_scraper - INFO - Scraping website: Le Monde Justice France
+2025-09-03 01:40:39,210 - crime_scraper - INFO - Fetching URL: https://www.lemonde.fr/en/police-and-justice/ (Attempt 1)
+2025-09-03 01:40:39,758 - crime_scraper - INFO - Scraping website: Mediapart Crime France
+2025-09-03 01:40:39,758 - crime_scraper - INFO - Fetching URL: https://www.mediapart.fr/en/english (Attempt 1)
+2025-09-03 01:40:40,189 - crime_scraper - INFO - Found crime-related article: Cancelling of 'Barbie' film screening is latest in series of assaults on cultural freedom in France
+2025-09-03 01:40:40,190 - crime_scraper - INFO - Found crime-related article: The questions surrounding the online death of French live-streamer
+2025-09-03 01:40:40,192 - crime_scraper - INFO - Found crime-related article: Israel's slaughter of journalists in Gaza is an admission of its crimes
+2025-09-03 01:40:40,193 - crime_scraper - INFO - Found crime-related article: What the US-EU trade deal says about France's diminishing voice in Europe
+2025-09-03 01:40:41,193 - crime_scraper - INFO - Fetching URL: https://www.mediapart.fr/en/journal/culture-et-idees/300825/cancelling-barbie-film-screening-latest-series-assaults-cultural-freedom-france (Attempt 1)
+2025-09-03 01:40:42,130 - crime_scraper - INFO - Successfully scraped: Cancelling of 'Barbie' film screening is latest in series of assaults on cultural freedom in France
+2025-09-03 01:40:43,131 - crime_scraper - INFO - Fetching URL: https://www.mediapart.fr/en/journal/france/220825/questions-surrounding-online-death-french-live-streamer (Attempt 1)
+2025-09-03 01:40:44,022 - crime_scraper - INFO - Successfully scraped: The questions surrounding the online death of French live-streamer
+2025-09-03 01:40:45,022 - crime_scraper - INFO - Fetching URL: https://www.mediapart.fr/en/journal/international/130825/israels-slaughter-journalists-gaza-admission-its-crimes (Attempt 1)
+2025-09-03 01:40:45,583 - crime_scraper - INFO - Successfully scraped: Israel's slaughter of journalists in Gaza is an admission of its crimes
+2025-09-03 01:40:46,583 - crime_scraper - INFO - Fetching URL: https://www.mediapart.fr/en/journal/france/310725/what-us-eu-trade-deal-says-about-frances-diminishing-voice-europe (Attempt 1)
+2025-09-03 01:40:47,455 - crime_scraper - INFO - Successfully scraped: What the US-EU trade deal says about France's diminishing voice in Europe
+2025-09-03 01:40:47,456 - crime_scraper - INFO - Scraping website: DutchNews Crime
+2025-09-03 01:40:47,456 - crime_scraper - INFO - Fetching URL: https://www.dutchnews.nl/category/crime/ (Attempt 1)
+2025-09-03 01:40:48,307 - crime_scraper - INFO - Scraping website: TASS Crime Russia
+2025-09-03 01:40:48,307 - crime_scraper - INFO - Fetching URL: https://tass.com/emergencies (Attempt 1)
+2025-09-03 01:40:49,412 - crime_scraper - INFO - Scraping website: Corriere della Sera Crime
+2025-09-03 01:40:49,412 - crime_scraper - INFO - Fetching URL: https://www.corriere.it/cronache/ (Attempt 1)
+2025-09-03 01:40:50,499 - crime_scraper - INFO - Scraping website: La Repubblica Crime
+2025-09-03 01:40:50,499 - crime_scraper - INFO - Fetching URL: https://www.repubblica.it/cronaca/ (Attempt 1)
+2025-09-03 01:40:51,087 - crime_scraper - INFO - Scraping website: El País Crime Spain
+2025-09-03 01:40:51,087 - crime_scraper - INFO - Fetching URL: https://elpais.com/espana/ (Attempt 1)
+2025-09-03 01:40:51,520 - crime_scraper - INFO - Found crime-related article: El correo interno del Gobierno canario: “La fiscal nos permite mantener los centros a pesar de las condiciones de algunos”
+2025-09-03 01:40:52,520 - crime_scraper - INFO - Fetching URL: https://elpais.com/espana/2025-09-01/el-correo-interno-del-gobierno-canario-la-fiscal-nos-permite-mantener-los-centros-a-pesar-de-las-condiciones-de-algunos.html (Attempt 1)
+2025-09-03 01:40:53,087 - crime_scraper - INFO - Successfully scraped: El correo interno del Gobierno canario: “La fiscal nos permite mantener los centros a pesar de las condiciones de algunos”
+2025-09-03 01:40:53,087 - crime_scraper - INFO - Scraping website: ABC Spain Crime
+2025-09-03 01:40:53,087 - crime_scraper - INFO - Fetching URL: https://www.abc.es/espana/sucesos/ (Attempt 1)
+2025-09-03 01:40:54,008 - crime_scraper - INFO - Scraping website: Japan Times Crime
+2025-09-03 01:40:54,008 - crime_scraper - INFO - Fetching URL: https://www.japantimes.co.jp/news/japan/crime-legal/ (Attempt 1)
+2025-09-03 01:40:54,624 - crime_scraper - INFO - Scraping website: Nikkei Asia Crime
+2025-09-03 01:40:54,625 - crime_scraper - INFO - Fetching URL: https://asia.nikkei.com/Spotlight/Society/Crime (Attempt 1)
+2025-09-03 01:40:57,293 - crime_scraper - INFO - Scraping website: NDTV India Crime
+2025-09-03 01:40:57,293 - crime_scraper - INFO - Fetching URL: https://www.ndtv.com/topic/india-crime (Attempt 1)
+2025-09-03 01:40:58,266 - crime_scraper - INFO - Scraping website: Times of India Crime
+2025-09-03 01:40:58,266 - crime_scraper - INFO - Fetching URL: https://timesofindia.indiatimes.com/topic/crime-news/news (Attempt 1)
+2025-09-03 01:40:58,894 - crime_scraper - INFO - Scraping website: Indian Express Crime
+2025-09-03 01:40:58,894 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/about/crime-2/ (Attempt 1)
+2025-09-03 01:40:59,787 - crime_scraper - INFO - Found crime-related article: Solving Crime: How a GPay payment and an Expressway camera cracked a Mumbai cabbie’s murder
+2025-09-03 01:40:59,788 - crime_scraper - INFO - Found crime-related article: Man abducted, killed 3-yr-old cousin after aunt told him to vacate her house, find a job: Surat police
+2025-09-03 01:40:59,789 - crime_scraper - INFO - Found crime-related article: Delhi Police arrest sisters-in-law for peddling drugs, seize narcotics worth over ₹5 crore
+2025-09-03 01:40:59,790 - crime_scraper - INFO - Found crime-related article: Pune Crime Files: How cops traced engineering student Bhagyashree Sude’s killers from a ransom message
+2025-09-03 01:40:59,791 - crime_scraper - INFO - Found crime-related article: UK to use AI to predict theft, knife attacks and violent crimes by 2030
+2025-09-03 01:40:59,792 - crime_scraper - INFO - Found crime-related article: Three knifed to death for trying to stop drunk men from ransacking dhaba
+2025-09-03 01:40:59,793 - crime_scraper - INFO - Found crime-related article: Karnataka woman chopped into 19 pieces; son-in-law among 3 held for murder
+2025-09-03 01:40:59,794 - crime_scraper - INFO - Found crime-related article: Ex-TMC leader Bibhas Adhikari, arrested in Noida for a ‘fake police station’, allegedly ran similar set-up in Kolkata
+2025-09-03 01:41:00,794 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/mumbai/solving-crime-how-a-gpay-payment-and-an-expressway-camera-cracked-a-mumbai-cabbies-murder-10215876/ (Attempt 1)
+2025-09-03 01:41:01,502 - crime_scraper - INFO - Successfully scraped: Solving Crime: How a GPay payment and an Expressway camera cracked a Mumbai cabbie’s murder
+2025-09-03 01:41:02,502 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/ahmedabad/man-abducted-killed-3-yr-old-cousin-after-aunt-told-him-to-vacate-her-house-job-surat-police-10214967/ (Attempt 1)
+2025-09-03 01:41:02,930 - crime_scraper - INFO - Successfully scraped: Man abducted, killed 3-yr-old cousin after aunt told him to vacate her house, find a job: Surat police
+2025-09-03 01:41:03,930 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/delhi/delhi-police-arrest-sisters-peddling-drugs-seize-narcotics-10209627/ (Attempt 1)
+2025-09-03 01:41:04,749 - crime_scraper - INFO - Successfully scraped: Delhi Police arrest sisters-in-law for peddling drugs, seize narcotics worth over ₹5 crore
+2025-09-03 01:41:05,749 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/pune/bhagyashree-sude-murder-police-pune-10196448/ (Attempt 1)
+2025-09-03 01:41:06,236 - crime_scraper - INFO - Successfully scraped: Pune Crime Files: How cops traced engineering student Bhagyashree Sude’s killers from a ransom message
+2025-09-03 01:41:07,236 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/technology/artificial-intelligence/uk-government-ai-real-time-interactive-map-2030-10192548/ (Attempt 1)
+2025-09-03 01:41:08,528 - crime_scraper - INFO - Successfully scraped: UK to use AI to predict theft, knife attacks and violent crimes by 2030
+2025-09-03 01:41:09,528 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/india/three-knifed-death-drunk-men-ransacking-dhaba-murder-10186627/ (Attempt 1)
+2025-09-03 01:41:10,430 - crime_scraper - INFO - Successfully scraped: Three knifed to death for trying to stop drunk men from ransacking dhaba
+2025-09-03 01:41:11,430 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/bangalore/karnataka-woman-chopped-murder-arrest-karnataka-police-10183998/ (Attempt 1)
+2025-09-03 01:41:12,072 - crime_scraper - INFO - Successfully scraped: Karnataka woman chopped into 19 pieces; son-in-law among 3 held for murder
+2025-09-03 01:41:13,072 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/kolkata/ex-tmc-leader-bibhas-adhikari-arrested-noida-fake-police-station-kolkata-10183013/ (Attempt 1)
+2025-09-03 01:41:13,814 - crime_scraper - INFO - Successfully scraped: Ex-TMC leader Bibhas Adhikari, arrested in Noida for a ‘fake police station’, allegedly ran similar set-up in Kolkata
+2025-09-03 01:41:13,814 - crime_scraper - INFO - Scraping website: El Universal Mexico Crime
+2025-09-03 01:41:13,814 - crime_scraper - INFO - Fetching URL: https://www.eluniversal.com.mx/estados/ (Attempt 1)
+2025-09-03 01:41:14,253 - crime_scraper - INFO - Scraping website: La Jornada Mexico Crime
+2025-09-03 01:41:14,253 - crime_scraper - INFO - Fetching URL: https://www.jornada.com.mx/ultimas/ (Attempt 1)
+2025-09-03 01:41:14,837 - crime_scraper - INFO - Scraping website: Folha de S.Paulo Crime
+2025-09-03 01:41:14,837 - crime_scraper - INFO - Fetching URL: https://www1.folha.uol.com.br/cotidiano/ (Attempt 1)
+2025-09-03 01:41:16,214 - crime_scraper - INFO - Scraping website: Daily Maverick Crime
+2025-09-03 01:41:16,215 - crime_scraper - INFO - Fetching URL: https://www.dailymaverick.co.za/article/topic/crime (Attempt 1)
+2025-09-03 01:41:17,361 - crime_scraper - INFO - Scraping website: Sky News Australia Crime
+2025-09-03 01:41:17,361 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime (Attempt 1)
+2025-09-03 01:41:20,842 - crime_scraper - INFO - Scraping website: ABC Australia Crime
+2025-09-03 01:41:20,842 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/topic/crime (Attempt 1)
+2025-09-03 01:41:21,658 - crime_scraper - INFO - Found crime-related article: Son of Norwegian crown princess faces trial over rape and assault allegations
+2025-09-03 01:41:21,659 - crime_scraper - INFO - Found crime-related article: Neighbours heard screaming on night of alleged murder, court told
+2025-09-03 01:41:21,660 - crime_scraper - INFO - Found crime-related article: Man on trial for setting wife alight claims she did it to herself, court hears
+2025-09-03 01:41:21,661 - crime_scraper - INFO - Found crime-related article: The crew roaming Washington to 'bear witness' to a crime crackdown
+2025-09-03 01:41:21,663 - crime_scraper - INFO - Found crime-related article: Neo-Nazi leader Thomas Sewell charged over Camp Sovereignty attack
+2025-09-03 01:41:21,664 - crime_scraper - INFO - Found crime-related article: Killer stabbed woman and dumped body in ocean, court told
+2025-09-03 01:41:21,665 - crime_scraper - INFO - Found crime-related article: SA MP Troy Bell resigns from parliament after failed appeal for fraud and theft offences
+2025-09-03 01:41:21,666 - crime_scraper - INFO - Found crime-related article: Woman charged with attempted murder after double stabbing in Blue Mountains
+2025-09-03 01:41:21,667 - crime_scraper - INFO - Found crime-related article: Trio charged after attempting to bring 500kg of cocaine into Sydney
+2025-09-03 01:41:21,668 - crime_scraper - INFO - Found crime-related article: Police investigate shooting and crash in Melbourne's north
+2025-09-03 01:41:21,669 - crime_scraper - INFO - Found crime-related article: Alleged murderer 'callously' shot girlfriend's ex-partner, jury told
+2025-09-03 01:41:21,670 - crime_scraper - INFO - Found crime-related article: Police released vision of the three cars on Monday.
+2025-09-03 01:41:21,671 - crime_scraper - INFO - Found crime-related article: Behaviour of constable who laughed at man's death in custody 'unacceptable': Premier
+2025-09-03 01:41:21,672 - crime_scraper - INFO - Found crime-related article: Two men charged with assaulting police officer at Sydney hotel after rally
+2025-09-03 01:41:21,673 - crime_scraper - INFO - Found crime-related article: Dezi Freeman's wife issues plea for alleged gunman to surrender to police
+2025-09-03 01:41:21,674 - crime_scraper - INFO - Found crime-related article: Domestic violence survivor warns pepper spray would have armed her abuser
+2025-09-03 01:41:21,675 - crime_scraper - INFO - Found crime-related article: Egyptian police arrest teenage TikTokkers in social media crackdown
+2025-09-03 01:41:21,676 - crime_scraper - INFO - Found crime-related article: Dezi Freeman: the church-going, gun-owning bushman on the loose
+2025-09-03 01:41:21,677 - crime_scraper - INFO - Found crime-related article: Police make another arrest as Dezi Freeman manhunt continues for fifth day — as it happened
+2025-09-03 01:41:21,679 - crime_scraper - INFO - Found crime-related article: Vengeful killer who shot dead innocent man in his own bedroom jailed
+2025-09-03 01:41:22,679 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-09-03/date-set-for-rape-trial-of-marius-borg-hoiby/105727508 (Attempt 1)
+2025-09-03 01:41:22,997 - crime_scraper - INFO - Successfully scraped: Son of Norwegian crown princess faces trial over rape and assault allegations
+2025-09-03 01:41:23,997 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-09-02/witnesses-heard-screams-before-alleged-glenn-holton-murder/105725516 (Attempt 1)
+2025-09-03 01:41:24,599 - crime_scraper - INFO - Successfully scraped: Neighbours heard screaming on night of alleged murder, court told
+2025-09-03 01:41:25,599 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-09-02/peter-moiler-trial-accused-of-setting-wife-on-fire/105723704 (Attempt 1)
+2025-09-03 01:41:26,790 - crime_scraper - INFO - Successfully scraped: Man on trial for setting wife alight claims she did it to herself, court hears
+2025-09-03 01:41:27,790 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-09-02/federal-police-national-guard-in-washington-dc-united-states/105723814 (Attempt 1)
+2025-09-03 01:41:28,125 - crime_scraper - INFO - Successfully scraped: The crew roaming Washington to 'bear witness' to a crime crackdown
+2025-09-03 01:41:29,125 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-09-02/thomas-sewell-charged-court-camp-sovereignty-jacinta-allan/105726392 (Attempt 1)
+2025-09-03 01:41:29,681 - crime_scraper - INFO - Successfully scraped: Neo-Nazi leader Thomas Sewell charged over Camp Sovereignty attack
+2025-09-03 01:41:30,681 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-09-02/muhammad-mirza-murder-trial-helen-marsuk/105725254 (Attempt 1)
+2025-09-03 01:41:31,286 - crime_scraper - INFO - Successfully scraped: Killer stabbed woman and dumped body in ocean, court told
+2025-09-03 01:41:32,286 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-09-02/mount-gambier-mp-troy-bell-resigns-from-parliament/105723822 (Attempt 1)
+2025-09-03 01:41:32,671 - crime_scraper - INFO - Successfully scraped: SA MP Troy Bell resigns from parliament after failed appeal for fraud and theft offences
+2025-09-03 01:41:33,671 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-09-02/leura-woman-charged-with-attempted-murder-over-stabbing/105723440 (Attempt 1)
+2025-09-03 01:41:34,198 - crime_scraper - INFO - Successfully scraped: Woman charged with attempted murder after double stabbing in Blue Mountains
+2025-09-03 01:41:35,198 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-09-02/nsw-police-afp-arrest-trio-over-500kg-cocaine-import/105722808 (Attempt 1)
+2025-09-03 01:41:35,773 - crime_scraper - INFO - Successfully scraped: Trio charged after attempting to bring 500kg of cocaine into Sydney
+2025-09-03 01:41:36,773 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-09-02/vic-epping-shooting-and-crash/105723344 (Attempt 1)
+2025-09-03 01:41:37,432 - crime_scraper - INFO - Successfully scraped: Police investigate shooting and crash in Melbourne's north
+2025-09-03 01:41:38,433 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-09-01/michael-stanley-trial-told-of-glenn-holton-shooting-murder/105721188 (Attempt 1)
+2025-09-03 01:41:38,995 - crime_scraper - INFO - Successfully scraped: Alleged murderer 'callously' shot girlfriend's ex-partner, jury told
+2025-09-03 01:41:39,996 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-09-01/police-released-vision-of-the-three-cars-on-monday./105721746 (Attempt 1)
+2025-09-03 01:41:40,491 - crime_scraper - INFO - Successfully scraped: Police released vision of the three cars on Monday.
+2025-09-03 01:41:41,492 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-09-01/premier-slams-police-officer-who-laughed-at-death-in-custody/105721028 (Attempt 1)
+2025-09-03 01:41:42,218 - crime_scraper - INFO - Successfully scraped: Behaviour of constable who laughed at man's death in custody 'unacceptable': Premier
+2025-09-03 01:41:43,219 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-09-01/sydney-broadway-brawl-police-officer-allegedly-assaulted/105718994 (Attempt 1)
+2025-09-03 01:41:43,962 - crime_scraper - INFO - Successfully scraped: Two men charged with assaulting police officer at Sydney hotel after rally
+2025-09-03 01:41:44,962 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-31/police-search-for-dezi-freeman-enters-sixth-day-porepunkah/105716332 (Attempt 1)
+2025-09-03 01:41:45,626 - crime_scraper - INFO - Successfully scraped: Dezi Freeman's wife issues plea for alleged gunman to surrender to police
+2025-09-03 01:41:46,626 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-30/pepper-spray-trial-nt-domestic-violence-fears/105712062 (Attempt 1)
+2025-09-03 01:41:47,213 - crime_scraper - INFO - Successfully scraped: Domestic violence survivor warns pepper spray would have armed her abuser
+2025-09-03 01:41:48,213 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-30/egypt-police-arrest-dozens-of-teen-tiktokkers/105715200 (Attempt 1)
+2025-09-03 01:41:48,807 - crime_scraper - INFO - Successfully scraped: Egyptian police arrest teenage TikTokkers in social media crackdown
+2025-09-03 01:41:49,807 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-30/dezi-freeman-sovereign-citizen-porepunkah/105711310 (Attempt 1)
+2025-09-03 01:41:50,352 - crime_scraper - INFO - Successfully scraped: Dezi Freeman: the church-going, gun-owning bushman on the loose
+2025-09-03 01:41:51,352 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-30/dezi-freeman-search-enters-fifth-day-porepunkah/105713972 (Attempt 1)
+2025-09-03 01:41:52,148 - crime_scraper - INFO - Successfully scraped: Police make another arrest as Dezi Freeman manhunt continues for fifth day — as it happened
+2025-09-03 01:41:53,149 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2025-08-29/peter-nguyen-ha-gets-22-years-for-murdering-ralph-matthews-cox/105686824 (Attempt 1)
+2025-09-03 01:41:54,196 - crime_scraper - INFO - Successfully scraped: Vengeful killer who shot dead innocent man in his own bedroom jailed
+2025-09-03 01:41:54,196 - crime_scraper - INFO - Scraping website: Nine News Australia Crime
+2025-09-03 01:41:54,196 - crime_scraper - INFO - Fetching URL: https://www.9news.com.au/crime (Attempt 1)
+2025-09-03 01:41:54,734 - crime_scraper - INFO - Scraping website: Seven News Australia Crime
+2025-09-03 01:41:54,734 - crime_scraper - INFO - Fetching URL: https://7news.com.au/news/crime (Attempt 1)
+2025-09-03 01:41:55,673 - crime_scraper - INFO - Total articles scraped: 63
+2025-09-03 01:41:55,673 - crime_scraper - INFO - Processing 63 articles with NLP
+2025-09-03 01:41:55,975 - crime_scraper - INFO - Successfully processed article: Houston man charged with murder after child is killed during 'ding-dong ditch' game
+2025-09-03 01:41:56,006 - crime_scraper - INFO - Successfully processed article: Crime & Courts
+2025-09-03 01:41:56,036 - crime_scraper - INFO - Successfully processed article: Crime & Courts
+2025-09-03 01:41:56,066 - crime_scraper - INFO - Successfully processed article: Crime & Courts
+2025-09-03 01:41:56,096 - crime_scraper - INFO - Successfully processed article: Crime & Courts
+2025-09-03 01:41:56,517 - crime_scraper - INFO - Successfully processed article: Dolphins coach choked, slammed woman at Lauderdale luxury high-rise, police say
+2025-09-03 01:41:56,923 - crime_scraper - INFO - Successfully processed article: Dolphins coach choked, slammed woman at Lauderdale luxury high-rise, police say
+2025-09-03 01:41:57,201 - crime_scraper - INFO - Successfully processed article: Man arrested after woman killed in Brownsville hit-and-run, deputies say
+2025-09-03 01:41:57,582 - crime_scraper - INFO - Successfully processed article: Miami cop fired gun during argument with boyfriend, deputies say. She was arrested
+2025-09-03 01:41:57,952 - crime_scraper - INFO - Successfully processed article: Bond granted for Miami Dolphins coach Ryan Crow, who is charged with domestic battery
+2025-09-03 01:41:58,209 - crime_scraper - INFO - Successfully processed article: A man was shot and killed in Broward. Police have clues, but no one in custody
+2025-09-03 01:41:58,588 - crime_scraper - INFO - Successfully processed article: South Florida TV reporter accused of pawning neighbor’s Rolex watch, police say
+2025-09-03 01:41:59,132 - crime_scraper - INFO - Successfully processed article: Man arrested on battery charge after wife found dead in Broward canal: cops
+2025-09-03 01:41:59,608 - crime_scraper - INFO - Successfully processed article: DeSantis orders Miami-Dade double-murderer’s death as Florida marks record year for executions
+2025-09-03 01:41:59,840 - crime_scraper - INFO - Successfully processed article: Marseille: Police shoot knife attacker in city center
+2025-09-03 01:42:00,116 - crime_scraper - INFO - Successfully processed article: US: Police probing death at Burning Man festival as homicide
+2025-09-03 01:42:00,442 - crime_scraper - INFO - Successfully processed article: Germany: Police raise alarm over spike in child trafficking
+2025-09-03 01:42:00,852 - crime_scraper - INFO - Successfully processed article: Minneapolis shooting: FBI probes possible act of terror
+2025-09-03 01:42:01,130 - crime_scraper - INFO - Successfully processed article: Dresden: Man arrested after tram knife attack on US citizen
+2025-09-03 01:42:01,314 - crime_scraper - INFO - Successfully processed article: Dresden tram stabbing: Police appeal for witnesses
+2025-09-03 01:42:02,186 - crime_scraper - INFO - Successfully processed article: Intolerable  extortion suffocates Cape Town's economy
+2025-09-03 01:42:03,034 - crime_scraper - INFO - Successfully processed article: Intolerable  extortion suffocates Cape Town's economy
+2025-09-03 01:42:03,147 - crime_scraper - INFO - Successfully processed article: Gaza: UN demands accountability as reporter death toll soars
+2025-09-03 01:42:03,252 - crime_scraper - INFO - Successfully processed article: Gaza: UN demands accountability as reporter death toll soars
+2025-09-03 01:42:03,316 - crime_scraper - INFO - Successfully processed article: Targeting journalists in Gaza 'is a war crime': CPJ
+2025-09-03 01:42:03,379 - crime_scraper - INFO - Successfully processed article: Targeting journalists in Gaza 'is a war crime': CPJ
+2025-09-03 01:42:03,515 - crime_scraper - INFO - Successfully processed article: Meet the Ukrainian volunteers shooting down Russian drones
+2025-09-03 01:42:03,969 - crime_scraper - INFO - Successfully processed article: What you need to know about Kenyan protester's shooting
+2025-09-03 01:42:04,932 - crime_scraper - INFO - Successfully processed article: Bulgaria's female 'Andrew Tate' incites anti-women violence
+2025-09-03 01:42:05,001 - crime_scraper - INFO - Successfully processed article: Violent drug crime on the rise in Brussels
+2025-09-03 01:42:05,816 - crime_scraper - INFO - Successfully processed article: Cancelling of 'Barbie' film screening is latest in series of assaults on cultural freedom in France
+2025-09-03 01:42:06,593 - crime_scraper - INFO - Successfully processed article: The questions surrounding the online death of French live-streamer
+2025-09-03 01:42:07,352 - crime_scraper - INFO - Successfully processed article: Israel's slaughter of journalists in Gaza is an admission of its crimes
+2025-09-03 01:42:08,131 - crime_scraper - INFO - Successfully processed article: What the US-EU trade deal says about France's diminishing voice in Europe
+2025-09-03 01:42:08,822 - crime_scraper - INFO - Successfully processed article: El correo interno del Gobierno canario: “La fiscal nos permite mantener los centros a pesar de las condiciones de algunos”
+2025-09-03 01:42:09,384 - crime_scraper - INFO - Successfully processed article: Solving Crime: How a GPay payment and an Expressway camera cracked a Mumbai cabbie’s murder
+2025-09-03 01:42:09,721 - crime_scraper - INFO - Successfully processed article: Man abducted, killed 3-yr-old cousin after aunt told him to vacate her house, find a job: Surat police
+2025-09-03 01:42:10,000 - crime_scraper - INFO - Successfully processed article: Delhi Police arrest sisters-in-law for peddling drugs, seize narcotics worth over ₹5 crore
+2025-09-03 01:42:10,596 - crime_scraper - INFO - Successfully processed article: Pune Crime Files: How cops traced engineering student Bhagyashree Sude’s killers from a ransom message
+2025-09-03 01:42:10,879 - crime_scraper - INFO - Successfully processed article: UK to use AI to predict theft, knife attacks and violent crimes by 2030
+2025-09-03 01:42:11,050 - crime_scraper - INFO - Successfully processed article: Three knifed to death for trying to stop drunk men from ransacking dhaba
+2025-09-03 01:42:11,350 - crime_scraper - INFO - Successfully processed article: Karnataka woman chopped into 19 pieces; son-in-law among 3 held for murder
+2025-09-03 01:42:11,546 - crime_scraper - INFO - Successfully processed article: Ex-TMC leader Bibhas Adhikari, arrested in Noida for a ‘fake police station’, allegedly ran similar set-up in Kolkata
+2025-09-03 01:42:12,382 - crime_scraper - INFO - Successfully processed article: Son of Norwegian crown princess faces trial over rape and assault allegations
+2025-09-03 01:42:13,430 - crime_scraper - INFO - Successfully processed article: Neighbours heard screaming on night of alleged murder, court told
+2025-09-03 01:42:14,400 - crime_scraper - INFO - Successfully processed article: Man on trial for setting wife alight claims she did it to herself, court hears
+2025-09-03 01:42:16,281 - crime_scraper - INFO - Successfully processed article: The crew roaming Washington to 'bear witness' to a crime crackdown
+2025-09-03 01:42:17,412 - crime_scraper - INFO - Successfully processed article: Neo-Nazi leader Thomas Sewell charged over Camp Sovereignty attack
+2025-09-03 01:42:18,358 - crime_scraper - INFO - Successfully processed article: Killer stabbed woman and dumped body in ocean, court told
+2025-09-03 01:42:19,621 - crime_scraper - INFO - Successfully processed article: SA MP Troy Bell resigns from parliament after failed appeal for fraud and theft offences
+2025-09-03 01:42:20,258 - crime_scraper - INFO - Successfully processed article: Woman charged with attempted murder after double stabbing in Blue Mountains
+2025-09-03 01:42:21,329 - crime_scraper - INFO - Successfully processed article: Trio charged after attempting to bring 500kg of cocaine into Sydney
+2025-09-03 01:42:22,086 - crime_scraper - INFO - Successfully processed article: Police investigate shooting and crash in Melbourne's north
+2025-09-03 01:42:23,072 - crime_scraper - INFO - Successfully processed article: Alleged murderer 'callously' shot girlfriend's ex-partner, jury told
+2025-09-03 01:42:23,258 - crime_scraper - INFO - Successfully processed article: Police released vision of the three cars on Monday.
+2025-09-03 01:42:24,309 - crime_scraper - INFO - Successfully processed article: Behaviour of constable who laughed at man's death in custody 'unacceptable': Premier
+2025-09-03 01:42:25,426 - crime_scraper - INFO - Successfully processed article: Two men charged with assaulting police officer at Sydney hotel after rally
+2025-09-03 01:42:26,705 - crime_scraper - INFO - Successfully processed article: Dezi Freeman's wife issues plea for alleged gunman to surrender to police
+2025-09-03 01:42:27,964 - crime_scraper - INFO - Successfully processed article: Domestic violence survivor warns pepper spray would have armed her abuser
+2025-09-03 01:42:29,133 - crime_scraper - INFO - Successfully processed article: Egyptian police arrest teenage TikTokkers in social media crackdown
+2025-09-03 01:42:31,280 - crime_scraper - INFO - Successfully processed article: Dezi Freeman: the church-going, gun-owning bushman on the loose
+2025-09-03 01:42:35,554 - crime_scraper - INFO - Successfully processed article: Police make another arrest as Dezi Freeman manhunt continues for fifth day — as it happened
+2025-09-03 01:42:36,440 - crime_scraper - INFO - Successfully processed article: Vengeful killer who shot dead innocent man in his own bedroom jailed
+2025-09-03 01:42:36,440 - crime_scraper - INFO - Processed 63 out of 63 articles
+2025-09-03 01:42:36,603 - crime_scraper - INFO - Successfully processed and saved 63 articles
