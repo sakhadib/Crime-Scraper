@@ -76334,3 +76334,503 @@
 2026-01-11 02:20:18,841 - crime_scraper - INFO - Successfully processed article: Police investigate burglary at offices of comedy troupe Sooshi Mango
 2026-01-11 02:20:18,841 - crime_scraper - INFO - Processed 109 out of 109 articles
 2026-01-11 02:20:19,152 - crime_scraper - INFO - Successfully processed and saved 109 articles
+2026-01-12 02:03:26,255 - crime_scraper - INFO - Successfully loaded spaCy model: en_core_web_sm
+2026-01-12 02:03:26,265 - crime_scraper - INFO - Crime Data Scraper initialized
+2026-01-12 02:03:26,265 - crime_scraper - INFO - Starting full scrape process
+2026-01-12 02:03:26,265 - crime_scraper - INFO - Scraping articles from all configured websites
+2026-01-12 02:03:26,265 - crime_scraper - INFO - Scraping website: AP News Crime
+2026-01-12 02:03:26,265 - crime_scraper - INFO - Fetching URL: https://apnews.com/hub/crime (Attempt 1)
+2026-01-12 02:03:28,025 - crime_scraper - INFO - Found crime-related article: Husband charged in double homicide after having affair with au pair is going on trial in Virginia
+2026-01-12 02:03:28,026 - crime_scraper - INFO - Found crime-related article: 6 people killed in Mississippi rampage, including 7-year-old girl. Suspect charged with murder
+2026-01-12 02:03:28,028 - crime_scraper - INFO - Found crime-related article: Florida sets execution date for man convicted of killing a traveling salesman during a robbery
+2026-01-12 02:03:28,029 - crime_scraper - INFO - Found crime-related article: Rapper Fetty Wap released from prison early in drug trafficking case
+2026-01-12 02:03:28,030 - crime_scraper - INFO - Found crime-related article: New video of fatal Minnesota ICE shooting, from officer’s perspective, brings fresh scrutiny
+2026-01-12 02:03:28,031 - crime_scraper - INFO - Found crime-related article: Former Catholic priest sentenced to 24 years in prison for underage rape case in Brazil
+2026-01-12 02:03:28,032 - crime_scraper - INFO - Found crime-related article: Suspects in burglary of Shedeur Sanders’ home are from Atlanta area and used stolen rental car
+2026-01-12 02:03:28,033 - crime_scraper - INFO - Found crime-related article: Mexico boasts sharp decline in homicides, but analysts urge caution
+2026-01-12 02:03:28,034 - crime_scraper - INFO - Found crime-related article: Anger and outrage spills onto Minneapolis streets after ICE officer’s fatal shooting of Renee Good
+2026-01-12 02:03:28,036 - crime_scraper - INFO - Found crime-related article: Australia’s leader announces a royal commission into antisemitism after Bondi mass shooting
+2026-01-12 02:03:28,037 - crime_scraper - INFO - Found crime-related article: Chiefs aware of domestic violence allegations that appear to be directed toward Rashee Rice
+2026-01-12 02:03:28,038 - crime_scraper - INFO - Found crime-related article: Wisconsin man accused of killing parents to fund Trump assassination plot pleads guilty to homicide
+2026-01-12 02:03:28,039 - crime_scraper - INFO - Found crime-related article: Harvey Weinstein weighs plea on rape charge but insists he ‘never assaulted anyone’
+2026-01-12 02:03:28,040 - crime_scraper - INFO - Found crime-related article: What to know about the fatal shooting of a woman by an ICE officer in Minneapolis
+2026-01-12 02:03:28,041 - crime_scraper - INFO - Found crime-related article: Mental health evaluation ordered for woman accused of stabbing tourist in Manhattan Macy’s
+2026-01-12 02:03:28,043 - crime_scraper - INFO - Found crime-related article: Minneapolis shooting by ICE agent brings debate over police force and moving vehicles back in focus
+2026-01-12 02:03:28,044 - crime_scraper - INFO - Found crime-related article: Homicides continue to fall in Detroit as city mirrors national trend on violent crime
+2026-01-12 02:03:28,045 - crime_scraper - INFO - Found crime-related article: ICE officer kills a Minneapolis driver in a deadly start to Trump’s latest immigration operation
+2026-01-12 02:03:28,046 - crime_scraper - INFO - Found crime-related article: Pamela Smart seeks to overturn conviction for having teenager murder her husband
+2026-01-12 02:03:29,046 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/banfield-husband-wife-killing-au-pair-599b3cda90ebcd2e4e2868abfba74dd5 (Attempt 1)
+2026-01-12 02:03:29,491 - crime_scraper - INFO - Successfully scraped: Husband charged in double homicide after having affair with au pair is going on trial in Virginia
+2026-01-12 02:03:30,491 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/mississippi-shooting-deaths-west-point-e7fcceb607e0e830c0215c4ae560e1c1 (Attempt 1)
+2026-01-12 02:03:30,967 - crime_scraper - INFO - Successfully scraped: 6 people killed in Mississippi rampage, including 7-year-old girl. Suspect charged with murder
+2026-01-12 02:03:31,967 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/florida-execution-ronald-palmer-heath-7921624fbb9d9e66ec061bc8385bfa3f (Attempt 1)
+2026-01-12 02:03:32,838 - crime_scraper - INFO - Successfully scraped: Florida sets execution date for man convicted of killing a traveling salesman during a robbery
+2026-01-12 02:03:33,838 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/fetty-wap-released-prison-drug-trafficking-c36c06a4a890ed40671c432aa7570ac0 (Attempt 1)
+2026-01-12 02:03:34,690 - crime_scraper - INFO - Successfully scraped: Rapper Fetty Wap released from prison early in drug trafficking case
+2026-01-12 02:03:35,690 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/minnesota-immigration-enforcement-crackdown-woman-shot-1aeabfaf747eff0162c15216bf41c9e7 (Attempt 1)
+2026-01-12 02:03:36,279 - crime_scraper - INFO - Successfully scraped: New video of fatal Minnesota ICE shooting, from officer’s perspective, brings fresh scrutiny
+2026-01-12 02:03:37,279 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/brazil-former-priest-convicted-rape-case-6a200b00d08334cc9870bdc2632245b3 (Attempt 1)
+2026-01-12 02:03:38,160 - crime_scraper - INFO - Successfully scraped: Former Catholic priest sentenced to 24 years in prison for underage rape case in Brazil
+2026-01-12 02:03:39,160 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/browns-shedeur-sanders-burglary-cc91daab6d88de519ebfd06cf8d4a325 (Attempt 1)
+2026-01-12 02:03:40,139 - crime_scraper - INFO - Successfully scraped: Suspects in burglary of Shedeur Sanders’ home are from Atlanta area and used stolen rental car
+2026-01-12 02:03:41,140 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/mexico-homicides-cartels-violence-sheinbaum-bafeb371339789bea1f533e2410acfc3 (Attempt 1)
+2026-01-12 02:03:42,198 - crime_scraper - INFO - Successfully scraped: Mexico boasts sharp decline in homicides, but analysts urge caution
+2026-01-12 02:03:43,198 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/minnesota-immigration-enforcement-crackdown-woman-shot-5158ce0838305b491c95db97b970cd03 (Attempt 1)
+2026-01-12 02:03:44,193 - crime_scraper - INFO - Successfully scraped: Anger and outrage spills onto Minneapolis streets after ICE officer’s fatal shooting of Renee Good
+2026-01-12 02:03:45,193 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/bondi-royal-commission-shooters-antisemitism-australia-4ea9dc7ab8db5d4b1edc869413e3111c (Attempt 1)
+2026-01-12 02:03:45,715 - crime_scraper - INFO - Successfully scraped: Australia’s leader announces a royal commission into antisemitism after Bondi mass shooting
+2026-01-12 02:03:46,715 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/chiefs-rashee-rice-allegations-0ee3ecbd6dbf764cba9b6c47fc623e96 (Attempt 1)
+2026-01-12 02:03:47,608 - crime_scraper - INFO - Successfully scraped: Chiefs aware of domestic violence allegations that appear to be directed toward Rashee Rice
+2026-01-12 02:03:48,608 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/wisconsin-deaths-casap-assassination-plot-06d90305e443449b2516530ab3842bbc (Attempt 1)
+2026-01-12 02:03:49,472 - crime_scraper - INFO - Successfully scraped: Wisconsin man accused of killing parents to fund Trump assassination plot pleads guilty to homicide
+2026-01-12 02:03:50,473 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/harvey-weinstein-sexual-assault-retrial-metoo-47205d9c8743c6adb2b8a11fac6fb126 (Attempt 1)
+2026-01-12 02:03:51,586 - crime_scraper - INFO - Successfully scraped: Harvey Weinstein weighs plea on rape charge but insists he ‘never assaulted anyone’
+2026-01-12 02:03:52,587 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/minnesota-ice-shooting-immigration-842b1d92cb93f2326171f139686e8b0f (Attempt 1)
+2026-01-12 02:03:53,588 - crime_scraper - INFO - Successfully scraped: What to know about the fatal shooting of a woman by an ICE officer in Minneapolis
+2026-01-12 02:03:54,589 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/nyc-macys-woman-stabbed-bathroom-e42c8823daf2abef7cede6877972462a (Attempt 1)
+2026-01-12 02:03:55,549 - crime_scraper - INFO - Successfully scraped: Mental health evaluation ordered for woman accused of stabbing tourist in Manhattan Macy’s
+2026-01-12 02:03:56,549 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/minneapolis-shooting-lethal-force-ice-vehicle-924518502d8dd9ad3cb03a476a278818 (Attempt 1)
+2026-01-12 02:03:57,353 - crime_scraper - INFO - Successfully scraped: Minneapolis shooting by ICE agent brings debate over police force and moving vehicles back in focus
+2026-01-12 02:03:58,353 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/detroit-homicides-crime-9e066d33b6f06ea610dfbccd5d2bfed4 (Attempt 1)
+2026-01-12 02:03:59,185 - crime_scraper - INFO - Successfully scraped: Homicides continue to fall in Detroit as city mirrors national trend on violent crime
+2026-01-12 02:04:00,185 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/minnesota-immigration-enforcement-shooting-crackdown-surge-173e00fa7388054e98c3b5b9417c1e5a (Attempt 1)
+2026-01-12 02:04:00,878 - crime_scraper - INFO - Successfully scraped: ICE officer kills a Minneapolis driver in a deadly start to Trump’s latest immigration operation
+2026-01-12 02:04:01,878 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/pam-smart-husband-murdered-habeas-petition-57a7891b006073475850cb6d1d39f3f9 (Attempt 1)
+2026-01-12 02:04:02,385 - crime_scraper - INFO - Successfully scraped: Pamela Smart seeks to overturn conviction for having teenager murder her husband
+2026-01-12 02:04:02,385 - crime_scraper - INFO - Scraping website: CBS News Crime
+2026-01-12 02:04:02,385 - crime_scraper - INFO - Fetching URL: https://www.cbsnews.com/crime/ (Attempt 1)
+2026-01-12 02:04:02,790 - crime_scraper - INFO - Scraping website: NBC News Crime
+2026-01-12 02:04:02,790 - crime_scraper - INFO - Fetching URL: https://www.nbcnews.com/news/crime-courts (Attempt 1)
+2026-01-12 02:04:03,727 - crime_scraper - INFO - Scraping website: Fox News Crime
+2026-01-12 02:04:03,727 - crime_scraper - INFO - Fetching URL: https://www.foxnews.com/category/us/crime (Attempt 1)
+2026-01-12 02:04:04,370 - crime_scraper - INFO - Scraping website: CNN Crime and Justice
+2026-01-12 02:04:04,370 - crime_scraper - INFO - Fetching URL: https://www.cnn.com/specials/us/crime-and-justice (Attempt 1)
+2026-01-12 02:04:04,922 - crime_scraper - INFO - Scraping website: New York Post Crime
+2026-01-12 02:04:04,922 - crime_scraper - INFO - Fetching URL: https://nypost.com/metro/ (Attempt 1)
+2026-01-12 02:04:06,076 - crime_scraper - INFO - Scraping website: Chicago Tribune Crime
+2026-01-12 02:04:06,076 - crime_scraper - INFO - Fetching URL: https://www.chicagotribune.com/news/breaking/ (Attempt 1)
+2026-01-12 02:04:07,236 - crime_scraper - INFO - Scraping website: Los Angeles Times Crime
+2026-01-12 02:04:07,236 - crime_scraper - INFO - Fetching URL: https://www.latimes.com/california/ (Attempt 1)
+2026-01-12 02:04:07,813 - crime_scraper - INFO - Scraping website: Washington Post Crime
+2026-01-12 02:04:07,813 - crime_scraper - INFO - Fetching URL: https://www.washingtonpost.com/dc-md-va/ (Attempt 1)
+2026-01-12 02:04:08,492 - crime_scraper - INFO - Scraping website: Miami Herald Crime
+2026-01-12 02:04:08,492 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/ (Attempt 1)
+2026-01-12 02:04:38,734 - crime_scraper - WARNING - Request failed (attempt 1): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2026-01-12 02:04:39,734 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/ (Attempt 2)
+2026-01-12 02:05:09,914 - crime_scraper - WARNING - Request failed (attempt 2): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2026-01-12 02:05:11,914 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/ (Attempt 3)
+2026-01-12 02:05:42,232 - crime_scraper - WARNING - Request failed (attempt 3): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2026-01-12 02:05:42,232 - crime_scraper - ERROR - Failed to fetch https://www.miamiherald.com/news/local/crime/ after 3 attempts
+2026-01-12 02:05:42,232 - crime_scraper - INFO - Scraping website: Boston Globe Crime
+2026-01-12 02:05:42,233 - crime_scraper - INFO - Fetching URL: https://www.bostonglobe.com/metro/ (Attempt 1)
+2026-01-12 02:05:42,748 - crime_scraper - INFO - Scraping website: Atlanta Journal Constitution Crime
+2026-01-12 02:05:42,748 - crime_scraper - INFO - Fetching URL: https://www.ajc.com/news/crime/ (Attempt 1)
+2026-01-12 02:05:43,607 - crime_scraper - INFO - Scraping website: Toronto Sun Crime
+2026-01-12 02:05:43,608 - crime_scraper - INFO - Fetching URL: https://torontosun.com/category/news/crime/ (Attempt 1)
+2026-01-12 02:05:44,025 - crime_scraper - INFO - Scraping website: National Post Crime
+2026-01-12 02:05:44,025 - crime_scraper - INFO - Fetching URL: https://nationalpost.com/category/news/true-crime/ (Attempt 1)
+2026-01-12 02:05:44,472 - crime_scraper - INFO - Scraping website: Global News Crime
+2026-01-12 02:05:44,472 - crime_scraper - INFO - Fetching URL: https://globalnews.ca/crime/ (Attempt 1)
+2026-01-12 02:05:45,057 - crime_scraper - INFO - Scraping website: Sky News UK Crime
+2026-01-12 02:05:45,057 - crime_scraper - INFO - Fetching URL: https://news.sky.com/topic/crime-5782 (Attempt 1)
+2026-01-12 02:05:46,039 - crime_scraper - INFO - Scraping website: UK NewsNow Crime
+2026-01-12 02:05:46,039 - crime_scraper - INFO - Fetching URL: https://www.newsnow.co.uk/h/UK/Crime (Attempt 1)
+2026-01-12 02:05:47,089 - crime_scraper - INFO - Scraping website: Euronews Crime
+2026-01-12 02:05:47,089 - crime_scraper - INFO - Fetching URL: https://www.euronews.com/tag/crime (Attempt 1)
+2026-01-12 02:05:47,758 - crime_scraper - INFO - Scraping website: Deutsche Welle Crime
+2026-01-12 02:05:47,759 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/crime/t-45305936 (Attempt 1)
+2026-01-12 02:05:48,734 - crime_scraper - INFO - Found crime-related article: US: Hundreds of rallies held over ICE shootings
+2026-01-12 02:05:48,736 - crime_scraper - INFO - Found crime-related article: US: Protesters, officers clash after Minneapolis shooting
+2026-01-12 02:05:48,737 - crime_scraper - INFO - Found crime-related article: Germany: Third bank robbery reported in NRW in days
+2026-01-12 02:05:48,738 - crime_scraper - INFO - Found crime-related article: Fact check: Trump claim about Minneapolis ICE shooting false
+2026-01-12 02:05:48,739 - crime_scraper - INFO - Found crime-related article: Fact check: Trump claim about Minneapolis ICE shooting false
+2026-01-12 02:05:48,740 - crime_scraper - INFO - Found crime-related article: Why Germany struggles to fight financial crime
+2026-01-12 02:05:48,741 - crime_scraper - INFO - Found crime-related article: Why Germany struggles to fight financial crime
+2026-01-12 02:05:48,742 - crime_scraper - INFO - Found crime-related article: Fatal ICE shooting in Minnesota sparks protests
+2026-01-12 02:05:48,743 - crime_scraper - INFO - Found crime-related article: Fatal ICE shooting in Minnesota sparks protests
+2026-01-12 02:05:48,744 - crime_scraper - INFO - Found crime-related article: German police suspect arson behind Berlin power outage
+2026-01-12 02:05:48,744 - crime_scraper - INFO - Found crime-related article: German police suspect arson behind Berlin power outage
+2026-01-12 02:05:48,745 - crime_scraper - INFO - Found crime-related article: Australians commemorate Bondi Beach terror attack
+2026-01-12 02:05:48,746 - crime_scraper - INFO - Found crime-related article: Australians commemorate Bondi Beach terror attack
+2026-01-12 02:05:48,747 - crime_scraper - INFO - Found crime-related article: Josef Mengele: Portrait of a Nazi war criminal
+2026-01-12 02:05:48,748 - crime_scraper - INFO - Found crime-related article: The legacy of the Nuremberg Trials
+2026-01-12 02:05:48,749 - crime_scraper - INFO - Found crime-related article: German media bias falsely inflates crime by foreigners
+2026-01-12 02:05:48,750 - crime_scraper - INFO - Found crime-related article: Gaza: Does ceasefire impact international war crimes cases?
+2026-01-12 02:05:49,751 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/us-hundreds-of-rallies-held-over-ice-shootings/live-75462489 (Attempt 1)
+2026-01-12 02:05:50,228 - crime_scraper - INFO - Successfully scraped: US: Hundreds of rallies held over ICE shootings
+2026-01-12 02:05:51,228 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/minneapolis-protesters-law-enforcement-clash-after-fatal-shooting/a-75440502 (Attempt 1)
+2026-01-12 02:05:51,581 - crime_scraper - INFO - Successfully scraped: US: Protesters, officers clash after Minneapolis shooting
+2026-01-12 02:05:52,581 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/germany-third-bank-robbery-reported-in-nrw-in-days/a-75372907 (Attempt 1)
+2026-01-12 02:05:52,901 - crime_scraper - INFO - Successfully scraped: Germany: Third bank robbery reported in NRW in days
+2026-01-12 02:05:53,901 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/fact-check-trump-claim-about-minneapolis-ice-shooting-false/a-75442390 (Attempt 1)
+2026-01-12 02:05:54,137 - crime_scraper - INFO - Successfully scraped: Fact check: Trump claim about Minneapolis ICE shooting false
+2026-01-12 02:05:55,138 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/fact-check-trump-claim-about-minneapolis-ice-shooting-false/a-75442390 (Attempt 1)
+2026-01-12 02:05:55,222 - crime_scraper - INFO - Successfully scraped: Fact check: Trump claim about Minneapolis ICE shooting false
+2026-01-12 02:05:56,223 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/why-germany-struggles-to-fight-financial-crime/a-75423810 (Attempt 1)
+2026-01-12 02:05:56,561 - crime_scraper - INFO - Successfully scraped: Why Germany struggles to fight financial crime
+2026-01-12 02:05:57,561 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/why-germany-struggles-to-fight-financial-crime/a-75423810 (Attempt 1)
+2026-01-12 02:05:57,652 - crime_scraper - INFO - Successfully scraped: Why Germany struggles to fight financial crime
+2026-01-12 02:05:58,652 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/fatal-ice-shooting-in-minnesota-sparks-protests/video-75427776 (Attempt 1)
+2026-01-12 02:05:59,482 - crime_scraper - INFO - Successfully scraped: Fatal ICE shooting in Minnesota sparks protests
+2026-01-12 02:06:00,482 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/fatal-ice-shooting-in-minnesota-sparks-protests/video-75427776 (Attempt 1)
+2026-01-12 02:06:00,576 - crime_scraper - INFO - Successfully scraped: Fatal ICE shooting in Minnesota sparks protests
+2026-01-12 02:06:01,576 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/german-police-suspect-arson-behind-berlin-power-outage/video-75384740 (Attempt 1)
+2026-01-12 02:06:02,145 - crime_scraper - INFO - Successfully scraped: German police suspect arson behind Berlin power outage
+2026-01-12 02:06:03,146 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/german-police-suspect-arson-behind-berlin-power-outage/video-75384740 (Attempt 1)
+2026-01-12 02:06:03,239 - crime_scraper - INFO - Successfully scraped: German police suspect arson behind Berlin power outage
+2026-01-12 02:06:04,239 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/australians-commemorate-bondi-beach-terror-attack/video-75258910 (Attempt 1)
+2026-01-12 02:06:04,653 - crime_scraper - INFO - Successfully scraped: Australians commemorate Bondi Beach terror attack
+2026-01-12 02:06:05,654 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/australians-commemorate-bondi-beach-terror-attack/video-75258910 (Attempt 1)
+2026-01-12 02:06:05,740 - crime_scraper - INFO - Successfully scraped: Australians commemorate Bondi Beach terror attack
+2026-01-12 02:06:06,740 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/josef-mengele-portrait-of-a-nazi-war-criminal/video-74664194 (Attempt 1)
+2026-01-12 02:06:07,253 - crime_scraper - INFO - Successfully scraped: Josef Mengele: Portrait of a Nazi war criminal
+2026-01-12 02:06:08,253 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/the-legacy-of-the-nuremberg-trials/video-74663512 (Attempt 1)
+2026-01-12 02:06:08,701 - crime_scraper - INFO - Successfully scraped: The legacy of the Nuremberg Trials
+2026-01-12 02:06:09,701 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/german-media-bias-falsely-inflates-crime-by-foreigners/a-74410565 (Attempt 1)
+2026-01-12 02:06:10,083 - crime_scraper - INFO - Successfully scraped: German media bias falsely inflates crime by foreigners
+2026-01-12 02:06:11,083 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/ceasefire-gaza-impact-on-icj-icc-cases-against-israel-v2/a-74370945 (Attempt 1)
+2026-01-12 02:06:11,661 - crime_scraper - INFO - Successfully scraped: Gaza: Does ceasefire impact international war crimes cases?
+2026-01-12 02:06:11,661 - crime_scraper - INFO - Scraping website: Le Monde Justice France
+2026-01-12 02:06:11,661 - crime_scraper - INFO - Fetching URL: https://www.lemonde.fr/en/police-and-justice/ (Attempt 1)
+2026-01-12 02:06:12,029 - crime_scraper - INFO - Scraping website: Mediapart Crime France
+2026-01-12 02:06:12,030 - crime_scraper - INFO - Fetching URL: https://www.mediapart.fr/en/english (Attempt 1)
+2026-01-12 02:06:13,012 - crime_scraper - INFO - Scraping website: DutchNews Crime
+2026-01-12 02:06:13,012 - crime_scraper - INFO - Fetching URL: https://www.dutchnews.nl/category/crime/ (Attempt 1)
+2026-01-12 02:06:14,116 - crime_scraper - INFO - Found crime-related article: Firework attacks work of  organised crime : police chief
+2026-01-12 02:06:15,116 - crime_scraper - INFO - Fetching URL: https://www.dutchnews.nl/2026/01/firework-attacks-work-of-organised-crime-police-chief/ (Attempt 1)
+2026-01-12 02:06:15,283 - crime_scraper - INFO - Successfully scraped: Firework attacks work of  organised crime : police chief
+2026-01-12 02:06:15,283 - crime_scraper - INFO - Scraping website: TASS Crime Russia
+2026-01-12 02:06:15,283 - crime_scraper - INFO - Fetching URL: https://tass.com/emergencies (Attempt 1)
+2026-01-12 02:06:16,224 - crime_scraper - INFO - Scraping website: Corriere della Sera Crime
+2026-01-12 02:06:16,224 - crime_scraper - INFO - Fetching URL: https://www.corriere.it/cronache/ (Attempt 1)
+2026-01-12 02:06:20,844 - crime_scraper - INFO - Scraping website: La Repubblica Crime
+2026-01-12 02:06:20,844 - crime_scraper - INFO - Fetching URL: https://www.repubblica.it/cronaca/ (Attempt 1)
+2026-01-12 02:06:21,227 - crime_scraper - WARNING - Request failed (attempt 1): 403 Client Error: Forbidden for url: https://www.repubblica.it/cronaca/
+2026-01-12 02:06:22,228 - crime_scraper - INFO - Fetching URL: https://www.repubblica.it/cronaca/ (Attempt 2)
+2026-01-12 02:06:22,277 - crime_scraper - WARNING - Request failed (attempt 2): 403 Client Error: Forbidden for url: https://www.repubblica.it/cronaca/
+2026-01-12 02:06:24,277 - crime_scraper - INFO - Fetching URL: https://www.repubblica.it/cronaca/ (Attempt 3)
+2026-01-12 02:06:24,326 - crime_scraper - WARNING - Request failed (attempt 3): 403 Client Error: Forbidden for url: https://www.repubblica.it/cronaca/
+2026-01-12 02:06:24,326 - crime_scraper - ERROR - Failed to fetch https://www.repubblica.it/cronaca/ after 3 attempts
+2026-01-12 02:06:24,326 - crime_scraper - INFO - Scraping website: El País Crime Spain
+2026-01-12 02:06:24,326 - crime_scraper - INFO - Fetching URL: https://elpais.com/espana/ (Attempt 1)
+2026-01-12 02:06:25,138 - crime_scraper - INFO - Scraping website: ABC Spain Crime
+2026-01-12 02:06:25,138 - crime_scraper - INFO - Fetching URL: https://www.abc.es/espana/sucesos/ (Attempt 1)
+2026-01-12 02:06:26,088 - crime_scraper - INFO - Scraping website: Japan Times Crime
+2026-01-12 02:06:26,088 - crime_scraper - INFO - Fetching URL: https://www.japantimes.co.jp/news/japan/crime-legal/ (Attempt 1)
+2026-01-12 02:06:27,462 - crime_scraper - INFO - Scraping website: Nikkei Asia Crime
+2026-01-12 02:06:27,462 - crime_scraper - INFO - Fetching URL: https://asia.nikkei.com/Spotlight/Society/Crime (Attempt 1)
+2026-01-12 02:06:29,521 - crime_scraper - INFO - Scraping website: NDTV India Crime
+2026-01-12 02:06:29,521 - crime_scraper - INFO - Fetching URL: https://www.ndtv.com/topic/india-crime (Attempt 1)
+2026-01-12 02:06:29,709 - crime_scraper - WARNING - Request failed (attempt 1): 403 Client Error: Forbidden for url: https://www.ndtv.com/topic/india-crime
+2026-01-12 02:06:30,709 - crime_scraper - INFO - Fetching URL: https://www.ndtv.com/topic/india-crime (Attempt 2)
+2026-01-12 02:06:30,826 - crime_scraper - WARNING - Request failed (attempt 2): 403 Client Error: Forbidden for url: https://www.ndtv.com/topic/india-crime
+2026-01-12 02:06:32,826 - crime_scraper - INFO - Fetching URL: https://www.ndtv.com/topic/india-crime (Attempt 3)
+2026-01-12 02:06:32,942 - crime_scraper - WARNING - Request failed (attempt 3): 403 Client Error: Forbidden for url: https://www.ndtv.com/topic/india-crime
+2026-01-12 02:06:32,942 - crime_scraper - ERROR - Failed to fetch https://www.ndtv.com/topic/india-crime after 3 attempts
+2026-01-12 02:06:32,943 - crime_scraper - INFO - Scraping website: Times of India Crime
+2026-01-12 02:06:32,943 - crime_scraper - INFO - Fetching URL: https://timesofindia.indiatimes.com/topic/crime-news/news (Attempt 1)
+2026-01-12 02:06:33,686 - crime_scraper - INFO - Scraping website: Indian Express Crime
+2026-01-12 02:06:33,686 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/about/crime-2/ (Attempt 1)
+2026-01-12 02:06:34,986 - crime_scraper - INFO - Found crime-related article: Cong leader’s murder in Akola: Hidayat opposed relationship, hence killed him, accused tells police
+2026-01-12 02:06:34,988 - crime_scraper - INFO - Found crime-related article: Pimpri Chinchwad Crime Data for 2025: Firearm seizures, Cyber crime arrests show rise, rape cases report increase
+2026-01-12 02:06:34,990 - crime_scraper - INFO - Found crime-related article: Crime-fiction roundup 2025: From Richard Osman to Peter Swanson, the thrills, chills, and plot twists that stood out this year
+2026-01-12 02:06:34,992 - crime_scraper - INFO - Found crime-related article: Akansh Sen murder case: One report says key accused being extradited, other mentions him untraced: Court directs IO to probe
+2026-01-12 02:06:34,994 - crime_scraper - INFO - Found crime-related article: Solving crime: How blood stains spotted by domestic worker helped uncover brutal murder allegedly by stepson in Vasai
+2026-01-12 02:06:34,996 - crime_scraper - INFO - Found crime-related article: US woman behind 2014 ‘Slender Man stabbing’ caught after fleeing group home
+2026-01-12 02:06:34,998 - crime_scraper - INFO - Found crime-related article: Delhi Police solve 3 murder cases, including 2 which had no initial leads
+2026-01-12 02:06:35,000 - crime_scraper - INFO - Found crime-related article: Pune police swoop down on 'village of pistols' in Madhya Pradesh; 36 detained, 50 kilns destroyed
+2026-01-12 02:06:35,002 - crime_scraper - INFO - Found crime-related article: Solving Crime: How a pink dupatta from an autorickshaw helped Mumbai police solve a murder
+2026-01-12 02:06:35,004 - crime_scraper - INFO - Found crime-related article: ‘Love react’ on an ex-girlfriend’s post leads to violent clash between married couple’s families; police lodge complaint
+2026-01-12 02:06:36,004 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/mumbai/cong-leaders-murder-in-akola-hidayat-opposed-relationship-hence-killed-him-accused-tells-police-10462905/ (Attempt 1)
+2026-01-12 02:06:37,220 - crime_scraper - INFO - Successfully scraped: Cong leader’s murder in Akola: Hidayat opposed relationship, hence killed him, accused tells police
+2026-01-12 02:06:38,221 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/pune/pimpri-chinchwad-crime-data-firearm-seizures-cyber-crime-rape-10460763/ (Attempt 1)
+2026-01-12 02:06:38,378 - crime_scraper - INFO - Successfully scraped: Pimpri Chinchwad Crime Data for 2025: Firearm seizures, Cyber crime arrests show rise, rape cases report increase
+2026-01-12 02:06:39,378 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/books-and-literature/crime-fiction-roundup-2025-richard-osman-peter-swanson-2025-10446809/ (Attempt 1)
+2026-01-12 02:06:39,489 - crime_scraper - INFO - Successfully scraped: Crime-fiction roundup 2025: From Richard Osman to Peter Swanson, the thrills, chills, and plot twists that stood out this year
+2026-01-12 02:06:40,489 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/chandigarh/akansh-sen-murder-case-one-report-says-key-accused-extradited-10422493/ (Attempt 1)
+2026-01-12 02:06:41,928 - crime_scraper - INFO - Successfully scraped: Akansh Sen murder case: One report says key accused being extradited, other mentions him untraced: Court directs IO to probe
+2026-01-12 02:06:42,929 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/mumbai/solving-crime-blood-stains-brutal-murder-stepson-vasai-10415343/ (Attempt 1)
+2026-01-12 02:06:43,803 - crime_scraper - INFO - Successfully scraped: Solving crime: How blood stains spotted by domestic worker helped uncover brutal murder allegedly by stepson in Vasai
+2026-01-12 02:06:44,804 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/world/morgan-geyser-2014-slender-man-stabbing-caught-after-fleeing-10383985/ (Attempt 1)
+2026-01-12 02:06:45,556 - crime_scraper - INFO - Successfully scraped: US woman behind 2014 ‘Slender Man stabbing’ caught after fleeing group home
+2026-01-12 02:06:46,556 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/delhi/delhi-police-solve-3-murder-cases-2-had-no-initial-leads-10381419/ (Attempt 1)
+2026-01-12 02:06:47,583 - crime_scraper - INFO - Successfully scraped: Delhi Police solve 3 murder cases, including 2 which had no initial leads
+2026-01-12 02:06:48,583 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/pune/police-swoop-on-umarti-village-of-pistols-in-madhya-pradesh-10380636/ (Attempt 1)
+2026-01-12 02:06:49,545 - crime_scraper - INFO - Successfully scraped: Pune police swoop down on 'village of pistols' in Madhya Pradesh; 36 detained, 50 kilns destroyed
+2026-01-12 02:06:50,546 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/mumbai/solving-crime-how-a-pink-dupatta-from-an-autorickshaw-helped-mumbai-police-solve-a-murder-10376380/ (Attempt 1)
+2026-01-12 02:06:51,364 - crime_scraper - INFO - Successfully scraped: Solving Crime: How a pink dupatta from an autorickshaw helped Mumbai police solve a murder
+2026-01-12 02:06:52,364 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/kolkata/love-react-ex-girlfriends-post-leads-to-violent-clash-married-couples-families-police-lodge-complaint-10370938/ (Attempt 1)
+2026-01-12 02:06:53,183 - crime_scraper - INFO - Successfully scraped: ‘Love react’ on an ex-girlfriend’s post leads to violent clash between married couple’s families; police lodge complaint
+2026-01-12 02:06:53,183 - crime_scraper - INFO - Scraping website: El Universal Mexico Crime
+2026-01-12 02:06:53,183 - crime_scraper - INFO - Fetching URL: https://www.eluniversal.com.mx/estados/ (Attempt 1)
+2026-01-12 02:06:53,540 - crime_scraper - INFO - Scraping website: La Jornada Mexico Crime
+2026-01-12 02:06:53,541 - crime_scraper - INFO - Fetching URL: https://www.jornada.com.mx/ultimas/ (Attempt 1)
+2026-01-12 02:06:53,932 - crime_scraper - INFO - Scraping website: Folha de S.Paulo Crime
+2026-01-12 02:06:53,932 - crime_scraper - INFO - Fetching URL: https://www1.folha.uol.com.br/cotidiano/ (Attempt 1)
+2026-01-12 02:06:54,849 - crime_scraper - INFO - Scraping website: Daily Maverick Crime
+2026-01-12 02:06:54,850 - crime_scraper - INFO - Fetching URL: https://www.dailymaverick.co.za/article/topic/crime (Attempt 1)
+2026-01-12 02:06:56,169 - crime_scraper - WARNING - Request failed (attempt 1): 404 Client Error: Not Found for url: https://www.dailymaverick.co.za/article/topic/crime/
+2026-01-12 02:06:57,169 - crime_scraper - INFO - Fetching URL: https://www.dailymaverick.co.za/article/topic/crime (Attempt 2)
+2026-01-12 02:06:57,235 - crime_scraper - WARNING - Request failed (attempt 2): 403 Client Error: Forbidden for url: https://www.dailymaverick.co.za/article/topic/crime
+2026-01-12 02:06:59,236 - crime_scraper - INFO - Fetching URL: https://www.dailymaverick.co.za/article/topic/crime (Attempt 3)
+2026-01-12 02:06:59,885 - crime_scraper - WARNING - Request failed (attempt 3): 404 Client Error: Not Found for url: https://www.dailymaverick.co.za/article/topic/crime/
+2026-01-12 02:06:59,885 - crime_scraper - ERROR - Failed to fetch https://www.dailymaverick.co.za/article/topic/crime after 3 attempts
+2026-01-12 02:06:59,885 - crime_scraper - INFO - Scraping website: Sky News Australia Crime
+2026-01-12 02:06:59,885 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime (Attempt 1)
+2026-01-12 02:07:04,367 - crime_scraper - INFO - Found crime-related article: Man charged with murder after detainee found dead at immigration detention centre
+2026-01-12 02:07:04,369 - crime_scraper - INFO - Found crime-related article: Life inside Australia’s toughest prison for accused Bondi terror killer Naveed Akram
+2026-01-12 02:07:04,371 - crime_scraper - INFO - Found crime-related article: Man wearing ‘duct-taped vest’ charged after bomb disposal police called to Bondi
+2026-01-12 02:07:04,373 - crime_scraper - INFO - Found crime-related article: Former detective labels Victoria a ‘laughing stock’ amid spate of youth crime
+2026-01-12 02:07:04,375 - crime_scraper - INFO - Found crime-related article: Accused ‘contract criminal’ charged after allegedly posing with multiple firearms
+2026-01-12 02:07:04,377 - crime_scraper - INFO - Found crime-related article: Man shot dead after tense six-hour stand-off with police on NSW Central Coast
+2026-01-12 02:07:04,379 - crime_scraper - INFO - Found crime-related article: Three charged after cross-border pursuit ends in vineyard crash, accused drug driver hits 180km/h
+2026-01-12 02:07:04,381 - crime_scraper - INFO - Found crime-related article: Queensland Police bust alleged international car theft ring, seven men charged
+2026-01-12 02:07:04,383 - crime_scraper - INFO - Found crime-related article: ‘Diss’ songs glorifying teen’s shooting circulate online, spark fears of retaliatory attacks
+2026-01-12 02:07:04,384 - crime_scraper - INFO - Found crime-related article: Victorian police release vision of teen gang involved in brutal machete ambush
+2026-01-12 02:07:04,386 - crime_scraper - INFO - Found crime-related article: Teen is fighting for life after chaotic Sydney house party stabbing
+2026-01-12 02:07:04,388 - crime_scraper - INFO - Found crime-related article: Man arrested after Rabbi’s car displaying Hanukkah decorations firebombed on Christmas Day
+2026-01-12 02:07:04,390 - crime_scraper - INFO - Found crime-related article: Melbourne teen named after fatal drive-by shooting
+2026-01-12 02:07:04,392 - crime_scraper - INFO - Found crime-related article: Man shot dead by police after standoff on NSW Central Coast
+2026-01-12 02:07:04,394 - crime_scraper - INFO - Found crime-related article: Man on the run in Melbourne after fatally shooting another man
+2026-01-12 02:07:04,395 - crime_scraper - INFO - Found crime-related article: Two New Year’s Eve stabbings in Melbourne
+2026-01-12 02:07:04,397 - crime_scraper - INFO - Found crime-related article: Naveed Akram to appear in court on Monday
+2026-01-12 02:07:04,399 - crime_scraper - INFO - Found crime-related article: Victoria rocked by wave of bushfires as police probe suspected arson ring
+2026-01-12 02:07:04,401 - crime_scraper - INFO - Found crime-related article: Queensland police employee accused of antisemitic posts after Bondi massacre
+2026-01-12 02:07:04,403 - crime_scraper - INFO - Found crime-related article: Former Sydney cop charged with indecent assault involving child
+2026-01-12 02:07:04,405 - crime_scraper - INFO - Found crime-related article: Alleged Bondi shooter moved to supermax prison
+2026-01-12 02:07:04,406 - crime_scraper - INFO - Found crime-related article: Australian comedy trio Sooshi Mango demand tougher crime laws after Melbourne office targeted by would-be thief
+2026-01-12 02:07:04,408 - crime_scraper - INFO - Found crime-related article: NSW Police officer charged after allegedly using technology to harass woman
+2026-01-12 02:07:04,410 - crime_scraper - INFO - Found crime-related article: Man found tied up and stabbed in car boot after violent kidnapping in western Sydney
+2026-01-12 02:07:04,412 - crime_scraper - INFO - Found crime-related article: Man killed in shooting 100m away from Melbourne police station
+2026-01-12 02:07:04,414 - crime_scraper - INFO - Found crime-related article: Fatal house fire under investigation after human remains located
+2026-01-12 02:07:04,416 - crime_scraper - INFO - Found crime-related article: Victorian cops treated like ‘punching bags’ as machete attacks continue to terrorise state
+2026-01-12 02:07:04,418 - crime_scraper - INFO - Found crime-related article: Shocking footage of New Year’s Eve attack as 12-year-old allegedly stabbed at bus stop
+2026-01-12 02:07:04,419 - crime_scraper - INFO - Found crime-related article: Man rushed to hospital following Port Macquarie stabbing as police investigate
+2026-01-12 02:07:04,421 - crime_scraper - INFO - Found crime-related article: NYE machete attack on iconic Melbourne street leaves two in hospital, police hunting armed thugs
+2026-01-12 02:07:04,423 - crime_scraper - INFO - Found crime-related article: Woman charged over alleged role in public shooting after 30 rounds fired into family home
+2026-01-12 02:07:04,425 - crime_scraper - INFO - Found crime-related article: ‘Worst thing I’ve ever seen’: Dog killed after wild NSW attack, leaving three injured
+2026-01-12 02:07:05,425 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/man-charged-with-murder-after-detainee-found-dead-inside-villawood-immigration-detention-centre-in-sydneys-west/news-story/192e0be4bb724a566c704a65cea6bbcf (Attempt 1)
+2026-01-12 02:07:06,586 - crime_scraper - INFO - Successfully scraped: Man charged with murder after detainee found dead at immigration detention centre
+2026-01-12 02:07:07,586 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/jail-within-a-jail-naveed-akram-kept-under-24hour-watch-inside-cell-in-goulburn-supermax-as-authorities-enforce-strict-counterterror-controls/news-story/142c82e2c9bf35f5e6395adfa49e244e (Attempt 1)
+2026-01-12 02:07:08,195 - crime_scraper - INFO - Successfully scraped: Life inside Australia’s toughest prison for accused Bondi terror killer Naveed Akram
+2026-01-12 02:07:09,196 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/man-wearing-ducttaped-vest-charged-after-bomb-disposal-police-called-to-bondi/news-story/3139b9dc34a7c917b686997a85aa0599 (Attempt 1)
+2026-01-12 02:07:10,625 - crime_scraper - INFO - Successfully scraped: Man wearing ‘duct-taped vest’ charged after bomb disposal police called to Bondi
+2026-01-12 02:07:11,626 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/former-homicide-detective-charlie-bezzina-labels-victoria-a-laughing-stock-amid-spate-of-youth-crime/news-story/0a4731541b9cf79166f0a2d065bfa31b (Attempt 1)
+2026-01-12 02:07:12,671 - crime_scraper - INFO - Successfully scraped: Former detective labels Victoria a ‘laughing stock’ amid spate of youth crime
+2026-01-12 02:07:13,671 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/accused-contract-criminal-charged-after-allegedly-posing-with-multiple-firearms/news-story/553d438d9af05371c52ad84df4de5f3a (Attempt 1)
+2026-01-12 02:07:14,643 - crime_scraper - INFO - Successfully scraped: Accused ‘contract criminal’ charged after allegedly posing with multiple firearms
+2026-01-12 02:07:15,643 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/sixhour-springfield-siege-on-nsw-central-coast-ends-in-fatal-confrontation-after-officers-forced-to-open-fire/news-story/901cd6cd551aa6114ea3a9e04917cb8a (Attempt 1)
+2026-01-12 02:07:16,608 - crime_scraper - INFO - Successfully scraped: Man shot dead after tense six-hour stand-off with police on NSW Central Coast
+2026-01-12 02:07:17,608 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/three-women-charged-after-nswvictoria-border-pursuit-ends-in-vineyard-crash-accused-drug-driver-hit-speeds-of-180kmh/news-story/17e060b1e7fb4694651aeace915388ce (Attempt 1)
+2026-01-12 02:07:18,525 - crime_scraper - INFO - Successfully scraped: Three charged after cross-border pursuit ends in vineyard crash, accused drug driver hits 180km/h
+2026-01-12 02:07:19,526 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/queensland-police-bust-alleged-international-car-theft-ring-accused-used-hightech-methods-to-steal-60-luxury-toyotas/news-story/19d7fac817b02a68c812d3e6827eaaf7 (Attempt 1)
+2026-01-12 02:07:21,218 - crime_scraper - INFO - Successfully scraped: Queensland Police bust alleged international car theft ring, seven men charged
+2026-01-12 02:07:22,218 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/diss-songs-glorifying-shooting-of-melbourne-teen-ater-good-circulate-online-spark-fears-of-retaliatory-attacks/news-story/f161e61d04d69438aa96e77bb15236d4 (Attempt 1)
+2026-01-12 02:07:23,701 - crime_scraper - INFO - Successfully scraped: ‘Diss’ songs glorifying teen’s shooting circulate online, spark fears of retaliatory attacks
+2026-01-12 02:07:24,701 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/vision-released-of-masked-teen-group-tied-to-violent-machete-attack-in-melbournes-west/news-story/e3475c5006a631460bbc897b1e952697 (Attempt 1)
+2026-01-12 02:07:25,271 - crime_scraper - INFO - Successfully scraped: Victorian police release vision of teen gang involved in brutal machete ambush
+2026-01-12 02:07:26,271 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/western-sydney-teen-critically-wounded-after-mass-brawl-erupts-at-house-party/news-story/0572bd28674abe20fd0b981afbdf9614 (Attempt 1)
+2026-01-12 02:07:28,411 - crime_scraper - INFO - Successfully scraped: Teen is fighting for life after chaotic Sydney house party stabbing
+2026-01-12 02:07:29,412 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/man-arrested-after-rabbis-car-displaying-hanukkah-decorations-firebombed-on-christmas-day-in-melbourne/news-story/5c440d2eb7ca7a1570a2d9f3dc5e4034 (Attempt 1)
+2026-01-12 02:07:30,406 - crime_scraper - INFO - Successfully scraped: Man arrested after Rabbi’s car displaying Hanukkah decorations firebombed on Christmas Day
+2026-01-12 02:07:31,406 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/family-mourns-16yearold-ater-good-as-police-hunt-gunman-behind-targeted-attack/news-story/1fff1ac9a25213029650d5c6ee23dacb (Attempt 1)
+2026-01-12 02:07:32,348 - crime_scraper - INFO - Successfully scraped: Melbourne teen named after fatal drive-by shooting
+2026-01-12 02:07:33,348 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/man-shot-dead-by-police-after-standoff-on-nsw-central-coast/video/08db158839d67b26940b632ebaec34c9 (Attempt 1)
+2026-01-12 02:07:35,289 - crime_scraper - INFO - Successfully scraped: Man shot dead by police after standoff on NSW Central Coast
+2026-01-12 02:07:36,289 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/man-on-the-run-in-melbourne-after-fatally-shooting-another-man/video/1a4e09646713084c5222188e221207a1 (Attempt 1)
+2026-01-12 02:07:36,966 - crime_scraper - INFO - Successfully scraped: Man on the run in Melbourne after fatally shooting another man
+2026-01-12 02:07:37,967 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/two-new-years-eve-stabbings-in-melbourne/video/690fa3ad68ce9cd94b76c9eb15de9a4e (Attempt 1)
+2026-01-12 02:07:39,446 - crime_scraper - INFO - Successfully scraped: Two New Year’s Eve stabbings in Melbourne
+2026-01-12 02:07:40,446 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/naveed-akram-to-appear-in-court-on-monday/video/b98ca75663cf2679fc51f11058bea0c6 (Attempt 1)
+2026-01-12 02:07:41,506 - crime_scraper - INFO - Successfully scraped: Naveed Akram to appear in court on Monday
+2026-01-12 02:07:42,506 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/police-investigate-multiple-deliberately-lit-bushfires-warning-offenders-of-15-years-behind-bars/news-story/e621237b3770aa243dfdbf5b0401e2c4 (Attempt 1)
+2026-01-12 02:07:43,525 - crime_scraper - INFO - Successfully scraped: Victoria rocked by wave of bushfires as police probe suspected arson ring
+2026-01-12 02:07:44,525 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/longserving-qps-member-faces-dozens-of-charges-following-allegations-of-offensive-online-comments-linked-to-bondi-massacre/news-story/3630ef61e196cd32d3cb1c1abac38541 (Attempt 1)
+2026-01-12 02:07:45,561 - crime_scraper - INFO - Successfully scraped: Queensland police employee accused of antisemitic posts after Bondi massacre
+2026-01-12 02:07:46,561 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/former-sydney-cop-charged-with-three-counts-of-indecent-assault-involving-child/news-story/495fee1ecde2b6b031c27b2a30d704e6 (Attempt 1)
+2026-01-12 02:07:48,120 - crime_scraper - INFO - Successfully scraped: Former Sydney cop charged with indecent assault involving child
+2026-01-12 02:07:49,120 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/alleged-bondi-shooter-naveed-akram-moved-to-supermax-prison-following-13day-stay-at-sydney-prison-hospital/news-story/3de6ec74012d24335a423e2eb6ee1ad3 (Attempt 1)
+2026-01-12 02:07:50,594 - crime_scraper - INFO - Successfully scraped: Alleged Bondi shooter moved to supermax prison
+2026-01-12 02:07:51,595 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/filthy-leeches-australian-comedy-trio-sooshi-mango-demand-tougher-crime-laws-after-melbourne-office-targeted-by-wouldbe-thief-in-broad-daylight/news-story/af3dd0e4c492d017013b154434f83513 (Attempt 1)
+2026-01-12 02:07:53,799 - crime_scraper - INFO - Successfully scraped: Australian comedy trio Sooshi Mango demand tougher crime laws after Melbourne office targeted by would-be thief
+2026-01-12 02:07:54,799 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/sydney-police-officer-charged-with-using-technology-to-harass-offend-woman/news-story/5fd3550bb628807bc8334ed8f3832589 (Attempt 1)
+2026-01-12 02:07:55,367 - crime_scraper - INFO - Successfully scraped: NSW Police officer charged after allegedly using technology to harass woman
+2026-01-12 02:07:56,367 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/bloodied-victim-rescued-from-vehicle-after-being-found-tied-up-and-stabbed-in-sydney-carpark/news-story/75b3a1527145b11a3f4c32bcba72bb9a (Attempt 1)
+2026-01-12 02:07:57,946 - crime_scraper - INFO - Successfully scraped: Man found tied up and stabbed in car boot after violent kidnapping in western Sydney
+2026-01-12 02:07:58,947 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/man-killed-in-shooting-just-metres-away-from-melbourne-police-station/news-story/b1aa1ff25337594346c5a274422de2de (Attempt 1)
+2026-01-12 02:08:00,767 - crime_scraper - INFO - Successfully scraped: Man killed in shooting 100m away from Melbourne police station
+2026-01-12 02:08:01,768 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/fatal-spring-farm-blaze-under-investigation-after-human-remains-located/news-story/e7858bb49747597ad536b55526964d41 (Attempt 1)
+2026-01-12 02:08:03,530 - crime_scraper - INFO - Successfully scraped: Fatal house fire under investigation after human remains located
+2026-01-12 02:08:04,531 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/so-frustrating-victorian-cops-treated-like-punching-bags-as-machete-attacks-continue-to-terrorise-state/news-story/06df37c9e35175c428a653249c46c9c4 (Attempt 1)
+2026-01-12 02:08:06,396 - crime_scraper - INFO - Successfully scraped: Victorian cops treated like ‘punching bags’ as machete attacks continue to terrorise state
+2026-01-12 02:08:07,396 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/shocking-footage-of-new-years-eve-attack-as-teenage-girls-arrested-after-12yearold-allegedly-stabbed-at-bus-stop/news-story/11a2fe79d5b733e3fe28b58b7ef6fc4d (Attempt 1)
+2026-01-12 02:08:08,038 - crime_scraper - INFO - Successfully scraped: Shocking footage of New Year’s Eve attack as 12-year-old allegedly stabbed at bus stop
+2026-01-12 02:08:09,038 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/man-rushed-to-hospital-following-earlymorning-stabbing-at-port-macquarie-service-station/news-story/68961409d2a1907ae2c96a6f9739cde4 (Attempt 1)
+2026-01-12 02:08:10,357 - crime_scraper - INFO - Successfully scraped: Man rushed to hospital following Port Macquarie stabbing as police investigate
+2026-01-12 02:08:11,358 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/two-men-in-hospital-after-machete-attack-on-busy-street-during-melbourne-new-years-eve-celebrations/news-story/7779f5db2c3aff688496ddde80d1c8d5 (Attempt 1)
+2026-01-12 02:08:12,360 - crime_scraper - INFO - Successfully scraped: NYE machete attack on iconic Melbourne street leaves two in hospital, police hunting armed thugs
+2026-01-12 02:08:13,360 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/woman-charged-over-alleged-role-in-mount-druitt-shooting-after-30-rounds-fired-into-family-home-in-western-sydney/news-story/04c651c2791eb5912e8469c0dbf64eac (Attempt 1)
+2026-01-12 02:08:13,947 - crime_scraper - INFO - Successfully scraped: Woman charged over alleged role in public shooting after 30 rounds fired into family home
+2026-01-12 02:08:14,947 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/worst-thing-ive-ever-seen-crazed-dog-killed-after-wild-attack-leaving-three-injured-in-nsws-hunter-region/news-story/c11ce60680e1f1e62c6f86646bf44188 (Attempt 1)
+2026-01-12 02:08:16,482 - crime_scraper - INFO - Successfully scraped: ‘Worst thing I’ve ever seen’: Dog killed after wild NSW attack, leaving three injured
+2026-01-12 02:08:16,482 - crime_scraper - INFO - Scraping website: ABC Australia Crime
+2026-01-12 02:08:16,482 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/topic/crime (Attempt 1)
+2026-01-12 02:08:17,209 - crime_scraper - INFO - Found crime-related article: Muslim leader and wife allegedly abused, assaulted in Melbourne
+2026-01-12 02:08:17,212 - crime_scraper - INFO - Found crime-related article: Thousands affected as suspected copper thieves cut cables in cyclone warning zone
+2026-01-12 02:08:17,214 - crime_scraper - INFO - Found crime-related article: 'Gentle soul' remembered by friends, family after alleged assault in Hobart
+2026-01-12 02:08:17,216 - crime_scraper - INFO - Found crime-related article: US border agent shoots and wounds two people in Portland, Oregon, police say
+2026-01-12 02:08:17,217 - crime_scraper - INFO - Found crime-related article: Vance says ICE agent in Minnesota shooting deserves gratitude
+2026-01-12 02:08:17,219 - crime_scraper - INFO - Found crime-related article: Men charged with manslaughter over alleged Hobart CBD assault face court
+2026-01-12 02:08:17,221 - crime_scraper - INFO - Found crime-related article: ICE shooting the latest flashpoint in Trump's war on migration
+2026-01-12 02:08:17,223 - crime_scraper - INFO - Found crime-related article: CCTV captures trophy theft from Tasmanian Wool Centre
+2026-01-12 02:08:17,225 - crime_scraper - INFO - Found crime-related article: 'Eerie quiet' as tense manhunt continues after shooting in WA's Midwest
+2026-01-12 02:08:17,227 - crime_scraper - INFO - Found crime-related article: Canberra woman charged with attempted murder after stabbing
+2026-01-12 02:08:17,229 - crime_scraper - INFO - Found crime-related article: Men charged over alleged international theft syndicate targeting Toyota 4WDs
+2026-01-12 02:08:17,230 - crime_scraper - INFO - Found crime-related article: Teen charged over convenience store fire faces organised crime threat, court hears
+2026-01-12 02:08:17,232 - crime_scraper - INFO - Found crime-related article: Family mourn 'beautiful soul' as police probe woman's suspicious death
+2026-01-12 02:08:17,234 - crime_scraper - INFO - Found crime-related article: SA MP charged for alleged assault will contest the upcoming state election
+2026-01-12 02:08:17,236 - crime_scraper - INFO - Found crime-related article: Man charged in connection to alleged Hanukkah car arson in Melbourne
+2026-01-12 02:08:17,238 - crime_scraper - INFO - Found crime-related article: Maduro tells judge he has been 'kidnapped' during court appearance
+2026-01-12 02:08:17,240 - crime_scraper - INFO - Found crime-related article: Police are investigating three shooting incidents in Hobart's outer northern suburbs.
+2026-01-12 02:08:17,241 - crime_scraper - INFO - Found crime-related article: Prison escapee attacks Victorian farm worker
+2026-01-12 02:08:18,242 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-01-12/imam-and-wife-allegedly-racially-abused-assaulted-melbourne/106218994 (Attempt 1)
+2026-01-12 02:08:18,986 - crime_scraper - INFO - Successfully scraped: Muslim leader and wife allegedly abused, assaulted in Melbourne
+2026-01-12 02:08:19,986 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-01-10/north-queensland-copper-thieves-cut-phone-internet-services/106216478 (Attempt 1)
+2026-01-12 02:08:20,421 - crime_scraper - INFO - Successfully scraped: Thousands affected as suspected copper thieves cut cables in cyclone warning zone
+2026-01-12 02:08:21,421 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-01-09/tas-tributes-flow-ian-cousens-after-alleged-hobart-cbd-assault/106214484 (Attempt 1)
+2026-01-12 02:08:21,860 - crime_scraper - INFO - Successfully scraped: 'Gentle soul' remembered by friends, family after alleged assault in Hobart
+2026-01-12 02:08:22,861 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-01-09/us-federal-agents-shot-two-people-in-portland-police-say/106213350 (Attempt 1)
+2026-01-12 02:08:23,314 - crime_scraper - INFO - Successfully scraped: US border agent shoots and wounds two people in Portland, Oregon, police say
+2026-01-12 02:08:24,314 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-01-09/minneapolis-shooting-fbi-bca-blocked/106212576 (Attempt 1)
+2026-01-12 02:08:24,803 - crime_scraper - INFO - Successfully scraped: Vance says ICE agent in Minnesota shooting deserves gratitude
+2026-01-12 02:08:25,803 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-01-08/tas-two-charged-with-manslaughter-after-alleged-mall-assault/106211724 (Attempt 1)
+2026-01-12 02:08:26,271 - crime_scraper - INFO - Successfully scraped: Men charged with manslaughter over alleged Hobart CBD assault face court
+2026-01-12 02:08:27,271 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-01-08/ice-shooting-minneapolis-minnesota-immigration-crackdown/106209128 (Attempt 1)
+2026-01-12 02:08:27,757 - crime_scraper - INFO - Successfully scraped: ICE shooting the latest flashpoint in Trump's war on migration
+2026-01-12 02:08:28,758 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-01-08/cctv-captures-trophy-theft-from-tasmanian-wool-centre/106208656 (Attempt 1)
+2026-01-12 02:08:29,285 - crime_scraper - INFO - Successfully scraped: CCTV captures trophy theft from Tasmanian Wool Centre
+2026-01-12 02:08:30,285 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-01-07/reports-of-man-with-firearm-in-wa-town-mullewa/106208060 (Attempt 1)
+2026-01-12 02:08:30,743 - crime_scraper - INFO - Successfully scraped: 'Eerie quiet' as tense manhunt continues after shooting in WA's Midwest
+2026-01-12 02:08:31,743 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-01-07/woman-charged-attempted-murder-steak-knife-lowanna-st-braddon/106207390 (Attempt 1)
+2026-01-12 02:08:32,773 - crime_scraper - INFO - Successfully scraped: Canberra woman charged with attempted murder after stabbing
+2026-01-12 02:08:33,773 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-01-07/men-charged-toyota-landcruisers-prados-stolen-brisbane/106205532 (Attempt 1)
+2026-01-12 02:08:34,291 - crime_scraper - INFO - Successfully scraped: Men charged over alleged international theft syndicate targeting Toyota 4WDs
+2026-01-12 02:08:35,291 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-01-06/teen-charged-arson-attack-baldivis-convenience-store/106204496 (Attempt 1)
+2026-01-12 02:08:35,882 - crime_scraper - INFO - Successfully scraped: Teen charged over convenience store fire faces organised crime threat, court hears
+2026-01-12 02:08:36,882 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-01-06/murder-investigation-port-macquarie/106200890 (Attempt 1)
+2026-01-12 02:08:37,467 - crime_scraper - INFO - Successfully scraped: Family mourn 'beautiful soul' as police probe woman's suspicious death
+2026-01-12 02:08:38,468 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-01-06/mp-nick-mcbride-home-detention-bail-decision-/106201364 (Attempt 1)
+2026-01-12 02:08:38,962 - crime_scraper - INFO - Successfully scraped: SA MP charged for alleged assault will contest the upcoming state election
+2026-01-12 02:08:39,962 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-01-06/hanukkah-car-alleged-arson-arrest-st-kilda-east/106203066 (Attempt 1)
+2026-01-12 02:08:40,581 - crime_scraper - INFO - Successfully scraped: Man charged in connection to alleged Hanukkah car arson in Melbourne
+2026-01-12 02:08:41,581 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-01-06/venezuelan-leader-nicol%C3%A1s-maduro-appears-in-new-york-court/106201846 (Attempt 1)
+2026-01-12 02:08:42,192 - crime_scraper - INFO - Successfully scraped: Maduro tells judge he has been 'kidnapped' during court appearance
+2026-01-12 02:08:43,192 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-01-05/police-investigate-shootings-in-outer-hobart/106200794 (Attempt 1)
+2026-01-12 02:08:43,708 - crime_scraper - INFO - Successfully scraped: Police are investigating three shooting incidents in Hobart's outer northern suburbs.
+2026-01-12 02:08:44,708 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-01-05/prison-escapee-attacks-farm-worker-langi-kal-kal/106199880 (Attempt 1)
+2026-01-12 02:08:45,162 - crime_scraper - INFO - Successfully scraped: Prison escapee attacks Victorian farm worker
+2026-01-12 02:08:45,162 - crime_scraper - INFO - Scraping website: Nine News Australia Crime
+2026-01-12 02:08:45,162 - crime_scraper - INFO - Fetching URL: https://www.9news.com.au/crime (Attempt 1)
+2026-01-12 02:08:46,088 - crime_scraper - INFO - Scraping website: Seven News Australia Crime
+2026-01-12 02:08:46,088 - crime_scraper - INFO - Fetching URL: https://7news.com.au/news/crime (Attempt 1)
+2026-01-12 02:08:48,599 - crime_scraper - INFO - Total articles scraped: 97
+2026-01-12 02:08:48,599 - crime_scraper - INFO - Processing 97 articles with NLP
+2026-01-12 02:08:49,226 - crime_scraper - INFO - Successfully processed article: Husband charged in double homicide after having affair with au pair is going on trial in Virginia
+2026-01-12 02:08:50,091 - crime_scraper - INFO - Successfully processed article: 6 people killed in Mississippi rampage, including 7-year-old girl. Suspect charged with murder
+2026-01-12 02:08:50,558 - crime_scraper - INFO - Successfully processed article: Florida sets execution date for man convicted of killing a traveling salesman during a robbery
+2026-01-12 02:08:50,950 - crime_scraper - INFO - Successfully processed article: Rapper Fetty Wap released from prison early in drug trafficking case
+2026-01-12 02:08:52,745 - crime_scraper - INFO - Successfully processed article: New video of fatal Minnesota ICE shooting, from officer’s perspective, brings fresh scrutiny
+2026-01-12 02:08:53,091 - crime_scraper - INFO - Successfully processed article: Former Catholic priest sentenced to 24 years in prison for underage rape case in Brazil
+2026-01-12 02:08:53,945 - crime_scraper - INFO - Successfully processed article: Suspects in burglary of Shedeur Sanders’ home are from Atlanta area and used stolen rental car
+2026-01-12 02:08:54,460 - crime_scraper - INFO - Successfully processed article: Mexico boasts sharp decline in homicides, but analysts urge caution
+2026-01-12 02:08:55,829 - crime_scraper - INFO - Successfully processed article: Anger and outrage spills onto Minneapolis streets after ICE officer’s fatal shooting of Renee Good
+2026-01-12 02:08:56,316 - crime_scraper - INFO - Successfully processed article: Australia’s leader announces a royal commission into antisemitism after Bondi mass shooting
+2026-01-12 02:08:56,674 - crime_scraper - INFO - Successfully processed article: Chiefs aware of domestic violence allegations that appear to be directed toward Rashee Rice
+2026-01-12 02:08:57,236 - crime_scraper - INFO - Successfully processed article: Wisconsin man accused of killing parents to fund Trump assassination plot pleads guilty to homicide
+2026-01-12 02:08:58,036 - crime_scraper - INFO - Successfully processed article: Harvey Weinstein weighs plea on rape charge but insists he ‘never assaulted anyone’
+2026-01-12 02:08:59,346 - crime_scraper - INFO - Successfully processed article: What to know about the fatal shooting of a woman by an ICE officer in Minneapolis
+2026-01-12 02:08:59,733 - crime_scraper - INFO - Successfully processed article: Mental health evaluation ordered for woman accused of stabbing tourist in Manhattan Macy’s
+2026-01-12 02:09:01,026 - crime_scraper - INFO - Successfully processed article: Minneapolis shooting by ICE agent brings debate over police force and moving vehicles back in focus
+2026-01-12 02:09:01,629 - crime_scraper - INFO - Successfully processed article: Homicides continue to fall in Detroit as city mirrors national trend on violent crime
+2026-01-12 02:09:03,128 - crime_scraper - INFO - Successfully processed article: ICE officer kills a Minneapolis driver in a deadly start to Trump’s latest immigration operation
+2026-01-12 02:09:03,891 - crime_scraper - INFO - Successfully processed article: Pamela Smart seeks to overturn conviction for having teenager murder her husband
+2026-01-12 02:09:05,108 - crime_scraper - INFO - Successfully processed article: US: Hundreds of rallies held over ICE shootings
+2026-01-12 02:09:05,887 - crime_scraper - INFO - Successfully processed article: US: Protesters, officers clash after Minneapolis shooting
+2026-01-12 02:09:06,356 - crime_scraper - INFO - Successfully processed article: Germany: Third bank robbery reported in NRW in days
+2026-01-12 02:09:07,160 - crime_scraper - INFO - Successfully processed article: Fact check: Trump claim about Minneapolis ICE shooting false
+2026-01-12 02:09:07,959 - crime_scraper - INFO - Successfully processed article: Fact check: Trump claim about Minneapolis ICE shooting false
+2026-01-12 02:09:09,220 - crime_scraper - INFO - Successfully processed article: Why Germany struggles to fight financial crime
+2026-01-12 02:09:10,468 - crime_scraper - INFO - Successfully processed article: Why Germany struggles to fight financial crime
+2026-01-12 02:09:10,635 - crime_scraper - INFO - Successfully processed article: Fatal ICE shooting in Minnesota sparks protests
+2026-01-12 02:09:10,796 - crime_scraper - INFO - Successfully processed article: Fatal ICE shooting in Minnesota sparks protests
+2026-01-12 02:09:10,955 - crime_scraper - INFO - Successfully processed article: German police suspect arson behind Berlin power outage
+2026-01-12 02:09:11,105 - crime_scraper - INFO - Successfully processed article: German police suspect arson behind Berlin power outage
+2026-01-12 02:09:11,209 - crime_scraper - INFO - Successfully processed article: Australians commemorate Bondi Beach terror attack
+2026-01-12 02:09:11,312 - crime_scraper - INFO - Successfully processed article: Australians commemorate Bondi Beach terror attack
+2026-01-12 02:09:11,392 - crime_scraper - INFO - Successfully processed article: Josef Mengele: Portrait of a Nazi war criminal
+2026-01-12 02:09:11,466 - crime_scraper - INFO - Successfully processed article: The legacy of the Nuremberg Trials
+2026-01-12 02:09:12,283 - crime_scraper - INFO - Successfully processed article: German media bias falsely inflates crime by foreigners
+2026-01-12 02:09:13,651 - crime_scraper - INFO - Successfully processed article: Gaza: Does ceasefire impact international war crimes cases?
+2026-01-12 02:09:14,013 - crime_scraper - INFO - Successfully processed article: Firework attacks work of  organised crime : police chief
+2026-01-12 02:09:14,292 - crime_scraper - INFO - Successfully processed article: Cong leader’s murder in Akola: Hidayat opposed relationship, hence killed him, accused tells police
+2026-01-12 02:09:14,925 - crime_scraper - INFO - Successfully processed article: Pimpri Chinchwad Crime Data for 2025: Firearm seizures, Cyber crime arrests show rise, rape cases report increase
+2026-01-12 02:09:15,761 - crime_scraper - INFO - Successfully processed article: Crime-fiction roundup 2025: From Richard Osman to Peter Swanson, the thrills, chills, and plot twists that stood out this year
+2026-01-12 02:09:16,132 - crime_scraper - INFO - Successfully processed article: Akansh Sen murder case: One report says key accused being extradited, other mentions him untraced: Court directs IO to probe
+2026-01-12 02:09:16,584 - crime_scraper - INFO - Successfully processed article: Solving crime: How blood stains spotted by domestic worker helped uncover brutal murder allegedly by stepson in Vasai
+2026-01-12 02:09:17,059 - crime_scraper - INFO - Successfully processed article: US woman behind 2014 ‘Slender Man stabbing’ caught after fleeing group home
+2026-01-12 02:09:17,660 - crime_scraper - INFO - Successfully processed article: Delhi Police solve 3 murder cases, including 2 which had no initial leads
+2026-01-12 02:09:18,491 - crime_scraper - INFO - Successfully processed article: Pune police swoop down on 'village of pistols' in Madhya Pradesh; 36 detained, 50 kilns destroyed
+2026-01-12 02:09:18,885 - crime_scraper - INFO - Successfully processed article: Solving Crime: How a pink dupatta from an autorickshaw helped Mumbai police solve a murder
+2026-01-12 02:09:19,181 - crime_scraper - INFO - Successfully processed article: ‘Love react’ on an ex-girlfriend’s post leads to violent clash between married couple’s families; police lodge complaint
+2026-01-12 02:09:19,398 - crime_scraper - INFO - Successfully processed article: Man charged with murder after detainee found dead at immigration detention centre
+2026-01-12 02:09:20,117 - crime_scraper - INFO - Successfully processed article: Life inside Australia’s toughest prison for accused Bondi terror killer Naveed Akram
+2026-01-12 02:09:20,492 - crime_scraper - INFO - Successfully processed article: Man wearing ‘duct-taped vest’ charged after bomb disposal police called to Bondi
+2026-01-12 02:09:21,165 - crime_scraper - INFO - Successfully processed article: Former detective labels Victoria a ‘laughing stock’ amid spate of youth crime
+2026-01-12 02:09:21,473 - crime_scraper - INFO - Successfully processed article: Accused ‘contract criminal’ charged after allegedly posing with multiple firearms
+2026-01-12 02:09:21,828 - crime_scraper - INFO - Successfully processed article: Man shot dead after tense six-hour stand-off with police on NSW Central Coast
+2026-01-12 02:09:22,249 - crime_scraper - INFO - Successfully processed article: Three charged after cross-border pursuit ends in vineyard crash, accused drug driver hits 180km/h
+2026-01-12 02:09:22,733 - crime_scraper - INFO - Successfully processed article: Queensland Police bust alleged international car theft ring, seven men charged
+2026-01-12 02:09:23,173 - crime_scraper - INFO - Successfully processed article: ‘Diss’ songs glorifying teen’s shooting circulate online, spark fears of retaliatory attacks
+2026-01-12 02:09:23,524 - crime_scraper - INFO - Successfully processed article: Victorian police release vision of teen gang involved in brutal machete ambush
+2026-01-12 02:09:23,763 - crime_scraper - INFO - Successfully processed article: Teen is fighting for life after chaotic Sydney house party stabbing
+2026-01-12 02:09:24,019 - crime_scraper - INFO - Successfully processed article: Man arrested after Rabbi’s car displaying Hanukkah decorations firebombed on Christmas Day
+2026-01-12 02:09:24,632 - crime_scraper - INFO - Successfully processed article: Melbourne teen named after fatal drive-by shooting
+2026-01-12 02:09:24,658 - crime_scraper - INFO - Successfully processed article: Man shot dead by police after standoff on NSW Central Coast
+2026-01-12 02:09:24,681 - crime_scraper - INFO - Successfully processed article: Man on the run in Melbourne after fatally shooting another man
+2026-01-12 02:09:24,703 - crime_scraper - INFO - Successfully processed article: Two New Year’s Eve stabbings in Melbourne
+2026-01-12 02:09:24,724 - crime_scraper - INFO - Successfully processed article: Naveed Akram to appear in court on Monday
+2026-01-12 02:09:25,069 - crime_scraper - INFO - Successfully processed article: Victoria rocked by wave of bushfires as police probe suspected arson ring
+2026-01-12 02:09:25,747 - crime_scraper - INFO - Successfully processed article: Queensland police employee accused of antisemitic posts after Bondi massacre
+2026-01-12 02:09:25,981 - crime_scraper - INFO - Successfully processed article: Former Sydney cop charged with indecent assault involving child
+2026-01-12 02:09:26,628 - crime_scraper - INFO - Successfully processed article: Alleged Bondi shooter moved to supermax prison
+2026-01-12 02:09:27,019 - crime_scraper - INFO - Successfully processed article: Australian comedy trio Sooshi Mango demand tougher crime laws after Melbourne office targeted by would-be thief
+2026-01-12 02:09:27,171 - crime_scraper - INFO - Successfully processed article: NSW Police officer charged after allegedly using technology to harass woman
+2026-01-12 02:09:27,573 - crime_scraper - INFO - Successfully processed article: Man found tied up and stabbed in car boot after violent kidnapping in western Sydney
+2026-01-12 02:09:27,774 - crime_scraper - INFO - Successfully processed article: Man killed in shooting 100m away from Melbourne police station
+2026-01-12 02:09:28,023 - crime_scraper - INFO - Successfully processed article: Fatal house fire under investigation after human remains located
+2026-01-12 02:09:28,679 - crime_scraper - INFO - Successfully processed article: Victorian cops treated like ‘punching bags’ as machete attacks continue to terrorise state
+2026-01-12 02:09:29,036 - crime_scraper - INFO - Successfully processed article: Shocking footage of New Year’s Eve attack as 12-year-old allegedly stabbed at bus stop
+2026-01-12 02:09:29,208 - crime_scraper - INFO - Successfully processed article: Man rushed to hospital following Port Macquarie stabbing as police investigate
+2026-01-12 02:09:29,495 - crime_scraper - INFO - Successfully processed article: NYE machete attack on iconic Melbourne street leaves two in hospital, police hunting armed thugs
+2026-01-12 02:09:29,761 - crime_scraper - INFO - Successfully processed article: Woman charged over alleged role in public shooting after 30 rounds fired into family home
+2026-01-12 02:09:30,178 - crime_scraper - INFO - Successfully processed article: ‘Worst thing I’ve ever seen’: Dog killed after wild NSW attack, leaving three injured
+2026-01-12 02:09:31,040 - crime_scraper - INFO - Successfully processed article: Muslim leader and wife allegedly abused, assaulted in Melbourne
+2026-01-12 02:09:32,207 - crime_scraper - INFO - Successfully processed article: Thousands affected as suspected copper thieves cut cables in cyclone warning zone
+2026-01-12 02:09:33,141 - crime_scraper - INFO - Successfully processed article: 'Gentle soul' remembered by friends, family after alleged assault in Hobart
+2026-01-12 02:09:34,295 - crime_scraper - INFO - Successfully processed article: US border agent shoots and wounds two people in Portland, Oregon, police say
+2026-01-12 02:09:35,611 - crime_scraper - INFO - Successfully processed article: Vance says ICE agent in Minnesota shooting deserves gratitude
+2026-01-12 02:09:36,327 - crime_scraper - INFO - Successfully processed article: Men charged with manslaughter over alleged Hobart CBD assault face court
+2026-01-12 02:09:37,994 - crime_scraper - INFO - Successfully processed article: ICE shooting the latest flashpoint in Trump's war on migration
+2026-01-12 02:09:38,234 - crime_scraper - INFO - Successfully processed article: CCTV captures trophy theft from Tasmanian Wool Centre
+2026-01-12 02:09:39,576 - crime_scraper - INFO - Successfully processed article: 'Eerie quiet' as tense manhunt continues after shooting in WA's Midwest
+2026-01-12 02:09:40,188 - crime_scraper - INFO - Successfully processed article: Canberra woman charged with attempted murder after stabbing
+2026-01-12 02:09:41,453 - crime_scraper - INFO - Successfully processed article: Men charged over alleged international theft syndicate targeting Toyota 4WDs
+2026-01-12 02:09:42,494 - crime_scraper - INFO - Successfully processed article: Teen charged over convenience store fire faces organised crime threat, court hears
+2026-01-12 02:09:43,402 - crime_scraper - INFO - Successfully processed article: Family mourn 'beautiful soul' as police probe woman's suspicious death
+2026-01-12 02:09:44,755 - crime_scraper - INFO - Successfully processed article: SA MP charged for alleged assault will contest the upcoming state election
+2026-01-12 02:09:45,504 - crime_scraper - INFO - Successfully processed article: Man charged in connection to alleged Hanukkah car arson in Melbourne
+2026-01-12 02:09:47,219 - crime_scraper - INFO - Successfully processed article: Maduro tells judge he has been 'kidnapped' during court appearance
+2026-01-12 02:09:47,445 - crime_scraper - INFO - Successfully processed article: Police are investigating three shooting incidents in Hobart's outer northern suburbs.
+2026-01-12 02:09:48,907 - crime_scraper - INFO - Successfully processed article: Prison escapee attacks Victorian farm worker
+2026-01-12 02:09:48,907 - crime_scraper - INFO - Processed 97 out of 97 articles
+2026-01-12 02:09:49,194 - crime_scraper - INFO - Successfully processed and saved 97 articles
