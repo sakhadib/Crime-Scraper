@@ -91578,3 +91578,539 @@
 2026-02-09 02:48:41,239 - crime_scraper - INFO - Successfully processed article: Man armed with chainsaw during assault shot dead by police
 2026-02-09 02:48:41,239 - crime_scraper - INFO - Processed 106 out of 106 articles
 2026-02-09 02:48:41,561 - crime_scraper - INFO - Successfully processed and saved 106 articles
+2026-02-10 02:41:18,328 - crime_scraper - INFO - Successfully loaded spaCy model: en_core_web_sm
+2026-02-10 02:41:18,337 - crime_scraper - INFO - Crime Data Scraper initialized
+2026-02-10 02:41:18,337 - crime_scraper - INFO - Starting full scrape process
+2026-02-10 02:41:18,337 - crime_scraper - INFO - Scraping articles from all configured websites
+2026-02-10 02:41:18,337 - crime_scraper - INFO - Scraping website: AP News Crime
+2026-02-10 02:41:18,337 - crime_scraper - INFO - Fetching URL: https://apnews.com/hub/crime (Attempt 1)
+2026-02-10 02:41:18,929 - crime_scraper - INFO - Found crime-related article: Student is shot in a Maryland high school and another student is in custody, police say
+2026-02-10 02:41:18,930 - crime_scraper - INFO - Found crime-related article: Rebels linked to Islamic State group kill at least 20 in Congo village attack, army says
+2026-02-10 02:41:18,931 - crime_scraper - INFO - Found crime-related article: FBI says it’s unaware of Savannah Guthrie talking with her mom’s suspected kidnappers
+2026-02-10 02:41:18,933 - crime_scraper - INFO - Found crime-related article: New video footage released from day of the fatal Brown University shooting
+2026-02-10 02:41:18,934 - crime_scraper - INFO - Found crime-related article: 2 inmates escape from a South Georgia jail
+2026-02-10 02:41:18,935 - crime_scraper - INFO - Found crime-related article: Senegalese police arrest 14 suspects in a child abuse network run by a French national
+2026-02-10 02:41:18,936 - crime_scraper - INFO - Found crime-related article: Jury selection starts in trial for father of Apalachee High School shooting suspect in Georgia
+2026-02-10 02:41:18,937 - crime_scraper - INFO - Found crime-related article: New Zealand mosque shooter seeks to discard his guilty pleas, saying prison made him irrational
+2026-02-10 02:41:18,938 - crime_scraper - INFO - Found crime-related article: Investigation continues a week after Savannah Guthrie mother was reported missing
+2026-02-10 02:41:18,940 - crime_scraper - INFO - Found crime-related article: Takeaways from what the Epstein files show about the FBI investigation of possible sex trafficking
+2026-02-10 02:41:18,941 - crime_scraper - INFO - Found crime-related article: FBI concluded Jeffrey Epstein wasn’t running a sex trafficking ring for powerful men, files show
+2026-02-10 02:41:18,942 - crime_scraper - INFO - Found crime-related article: ‘We will pay,’ Savannah Guthrie says in desperate video plea to potential kidnappers of her mother
+2026-02-10 02:41:18,943 - crime_scraper - INFO - Found crime-related article: Police arrest protesters at Minneapolis federal building on 1-month anniversary of woman’s death
+2026-02-10 02:41:18,944 - crime_scraper - INFO - Found crime-related article: What to know about Nancy Guthrie’s kidnapping and the race to find her
+2026-02-10 02:41:18,945 - crime_scraper - INFO - Found crime-related article: Former Jets 1st-round pick Darron Lee charged with 1st-degree murder in Tennessee
+2026-02-10 02:41:18,946 - crime_scraper - INFO - Found crime-related article: A man tied to the killing of Colombian soccer player Andrés Escobar shot dead in Mexico
+2026-02-10 02:41:18,947 - crime_scraper - INFO - Found crime-related article: Prosecutors drop most serious assault charge against Penn State hockey star McKenna
+2026-02-10 02:41:18,948 - crime_scraper - INFO - Found crime-related article: New York City police officer convicted of manslaughter in cooler throwing death
+2026-02-10 02:41:18,949 - crime_scraper - INFO - Found crime-related article: A 76-year-old British man sentenced to nearly 24 years for drugging and abusing boys at summer camp
+2026-02-10 02:41:18,950 - crime_scraper - INFO - Found crime-related article: Uber found liable in sexual assault case and ordered to pay $8.5 million
+2026-02-10 02:41:18,951 - crime_scraper - INFO - Found crime-related article: A man detonates explosive belt during arrest attempt in Iraq, injuring 2 security members
+2026-02-10 02:41:18,952 - crime_scraper - INFO - Found crime-related article: US strikes another alleged drug-trafficking boat in Eastern Pacific
+2026-02-10 02:41:18,953 - crime_scraper - INFO - Found crime-related article: Nancy Guthrie’s kidnapping is latest abduction case to capture America’s attention
+2026-02-10 02:41:18,954 - crime_scraper - INFO - Found crime-related article: Alabama sets execution for man in auto parts store customer’s death
+2026-02-10 02:41:18,955 - crime_scraper - INFO - Found crime-related article: Some GOP-led states seek to bring back death penalty for child rape convictions
+2026-02-10 02:41:18,956 - crime_scraper - INFO - Found crime-related article: 7 Toronto police officers arrested over suspected ties to organized crime
+2026-02-10 02:41:18,957 - crime_scraper - INFO - Found crime-related article: Savannah Guthrie’s family renews plea to mother’s kidnapper, while sheriff says they have no suspect
+2026-02-10 02:41:19,957 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/wootton-high-school-shooting-rockville-maryland-603c4a4ff70645f2c9867527cec50a93 (Attempt 1)
+2026-02-10 02:41:20,514 - crime_scraper - INFO - Successfully scraped: Student is shot in a Maryland high school and another student is in custody, police say
+2026-02-10 02:41:21,514 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/congo-attack-rebels-adf-244cf88345288bbd90631958059d88e1 (Attempt 1)
+2026-02-10 02:41:21,974 - crime_scraper - INFO - Successfully scraped: Rebels linked to Islamic State group kill at least 20 in Congo village attack, army says
+2026-02-10 02:41:22,974 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/savannah-guthrie-mom-missing-ransom-deadline-arizona-3977f842fd3d1fd66952d1d763944b9d (Attempt 1)
+2026-02-10 02:41:23,573 - crime_scraper - INFO - Successfully scraped: FBI says it’s unaware of Savannah Guthrie talking with her mom’s suspected kidnappers
+2026-02-10 02:41:24,574 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/brown-university-shooting-public-records-police-6c2eaf5e0048f69bcb13792cbfab446a (Attempt 1)
+2026-02-10 02:41:25,060 - crime_scraper - INFO - Successfully scraped: New video footage released from day of the fatal Brown University shooting
+2026-02-10 02:41:26,060 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/sumter-county-jail-escape-georgia-1036dfe63a6cbe5e003ba6ae4580ca69 (Attempt 1)
+2026-02-10 02:41:26,594 - crime_scraper - INFO - Successfully scraped: 2 inmates escape from a South Georgia jail
+2026-02-10 02:41:27,595 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/senegal-child-sex-abuse-rape-france-829fc061ee8bae45785e17982195395e (Attempt 1)
+2026-02-10 02:41:28,122 - crime_scraper - INFO - Successfully scraped: Senegalese police arrest 14 suspects in a child abuse network run by a French national
+2026-02-10 02:41:29,122 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/georgia-school-shooting-apalachee-high-colin-gray-6e7e30bca5cb0bfcd4a8d40c3b3827c0 (Attempt 1)
+2026-02-10 02:41:29,591 - crime_scraper - INFO - Successfully scraped: Jury selection starts in trial for father of Apalachee High School shooting suspect in Georgia
+2026-02-10 02:41:30,591 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/brenton-tarrant-christchurch-shooting-appeal-mosque-zealand-883d9119fe4950ca869acfd320feafae (Attempt 1)
+2026-02-10 02:41:31,147 - crime_scraper - INFO - Successfully scraped: New Zealand mosque shooter seeks to discard his guilty pleas, saying prison made him irrational
+2026-02-10 02:41:32,147 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/savannah-guthrie-mom-missing-48f7ce9dee7770a2b8751c410400a032 (Attempt 1)
+2026-02-10 02:41:32,737 - crime_scraper - INFO - Successfully scraped: Investigation continues a week after Savannah Guthrie mother was reported missing
+2026-02-10 02:41:33,737 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/jeffrey-epstein-fbi-investigation-sex-trafficking-8197504cb0abfa979ea6c9c53cde4c23 (Attempt 1)
+2026-02-10 02:41:34,213 - crime_scraper - INFO - Successfully scraped: Takeaways from what the Epstein files show about the FBI investigation of possible sex trafficking
+2026-02-10 02:41:35,213 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/jeffrey-epstein-client-list-sex-trafficking-049c96080a2ca2c12c84ac506437e50b (Attempt 1)
+2026-02-10 02:41:35,738 - crime_scraper - INFO - Successfully scraped: FBI concluded Jeffrey Epstein wasn’t running a sex trafficking ring for powerful men, files show
+2026-02-10 02:41:36,738 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/savannah-guthrie-mom-missing-92dff046a91f2c5c0093f17cd3b7ad42 (Attempt 1)
+2026-02-10 02:41:37,245 - crime_scraper - INFO - Successfully scraped: ‘We will pay,’ Savannah Guthrie says in desperate video plea to potential kidnappers of her mother
+2026-02-10 02:41:38,245 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/renee-good-minnesota-ice-shooting-memorial-8cf815a6c4b20f1f79874d65c9f1361f (Attempt 1)
+2026-02-10 02:41:38,806 - crime_scraper - INFO - Successfully scraped: Police arrest protesters at Minneapolis federal building on 1-month anniversary of woman’s death
+2026-02-10 02:41:39,807 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/savannah-guthrie-nancy-guthrie-mom-missing-534c68bfb666ab8e08123f130f937c2d (Attempt 1)
+2026-02-10 02:41:40,360 - crime_scraper - INFO - Successfully scraped: What to know about Nancy Guthrie’s kidnapping and the race to find her
+2026-02-10 02:41:41,360 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/murder-jets-darron-lee-f330a62285c7f9f5f604c0131f22eb26 (Attempt 1)
+2026-02-10 02:41:41,799 - crime_scraper - INFO - Successfully scraped: Former Jets 1st-round pick Darron Lee charged with 1st-degree murder in Tennessee
+2026-02-10 02:41:42,800 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/mexico-colombia-soccer-escobar-petro-159fb3dfcc31d5ebe7000f46e14a4697 (Attempt 1)
+2026-02-10 02:41:43,347 - crime_scraper - INFO - Successfully scraped: A man tied to the killing of Colombian soccer player Andrés Escobar shot dead in Mexico
+2026-02-10 02:41:44,347 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/gavin-mckenna-assault-charge-college-hockey-ae8d556f572c2573b22b09b31c38caa3 (Attempt 1)
+2026-02-10 02:41:44,869 - crime_scraper - INFO - Successfully scraped: Prosecutors drop most serious assault charge against Penn State hockey star McKenna
+2026-02-10 02:41:45,869 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/new-york-police-cooler-death-convicted-3d84146766bac526c97d48d687f0ff77 (Attempt 1)
+2026-02-10 02:41:46,471 - crime_scraper - INFO - Successfully scraped: New York City police officer convicted of manslaughter in cooler throwing death
+2026-02-10 02:41:47,471 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/britain-child-abuse-summer-camp-c97752c543b4823b75947b31e137ac00 (Attempt 1)
+2026-02-10 02:41:48,128 - crime_scraper - INFO - Successfully scraped: A 76-year-old British man sentenced to nearly 24 years for drugging and abusing boys at summer camp
+2026-02-10 02:41:49,129 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/uber-sexual-assault-liable-f2aaf57a2b88948107acfcf11ebc0813 (Attempt 1)
+2026-02-10 02:41:49,597 - crime_scraper - INFO - Successfully scraped: Uber found liable in sexual assault case and ordered to pay $8.5 million
+2026-02-10 02:41:50,597 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/iraq-syria-islamic-state-suicide-attacker-hideout-2318fdb20e263115017982246daf91ce (Attempt 1)
+2026-02-10 02:41:51,100 - crime_scraper - INFO - Successfully scraped: A man detonates explosive belt during arrest attempt in Iraq, injuring 2 security members
+2026-02-10 02:41:52,101 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/trump-cartels-strike-boat-pacific-576876c948f283958eb2485c0d7b081a (Attempt 1)
+2026-02-10 02:41:52,608 - crime_scraper - INFO - Successfully scraped: US strikes another alleged drug-trafficking boat in Eastern Pacific
+2026-02-10 02:41:53,608 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/nancy-guthrie-famous-kidnappings-4c4ac60734ea43d6e4edb3261a0d1732 (Attempt 1)
+2026-02-10 02:41:54,043 - crime_scraper - INFO - Successfully scraped: Nancy Guthrie’s kidnapping is latest abduction case to capture America’s attention
+2026-02-10 02:41:55,043 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/alabama-execution-sonny-burton-8f457305c2e495dbf0901ea387b9f511 (Attempt 1)
+2026-02-10 02:41:55,568 - crime_scraper - INFO - Successfully scraped: Alabama sets execution for man in auto parts store customer’s death
+2026-02-10 02:41:56,568 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/alabama-death-penalty-child-abuse-9b2735642f556819dcf63153b7c631ca (Attempt 1)
+2026-02-10 02:41:57,424 - crime_scraper - INFO - Successfully scraped: Some GOP-led states seek to bring back death penalty for child rape convictions
+2026-02-10 02:41:58,424 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/toronto-police-officers-arrested-organized-crime-afa67828a0723fa836a6555af91490c7 (Attempt 1)
+2026-02-10 02:41:58,959 - crime_scraper - INFO - Successfully scraped: 7 Toronto police officers arrested over suspected ties to organized crime
+2026-02-10 02:41:59,959 - crime_scraper - INFO - Fetching URL: https://apnews.com/article/savannah-guthrie-nancy-guthrie-mom-missing-2765f354b498e6146b955162c3b71d4f (Attempt 1)
+2026-02-10 02:42:00,584 - crime_scraper - INFO - Successfully scraped: Savannah Guthrie’s family renews plea to mother’s kidnapper, while sheriff says they have no suspect
+2026-02-10 02:42:00,584 - crime_scraper - INFO - Scraping website: CBS News Crime
+2026-02-10 02:42:00,585 - crime_scraper - INFO - Fetching URL: https://www.cbsnews.com/crime/ (Attempt 1)
+2026-02-10 02:42:00,975 - crime_scraper - INFO - Scraping website: NBC News Crime
+2026-02-10 02:42:00,975 - crime_scraper - INFO - Fetching URL: https://www.nbcnews.com/news/crime-courts (Attempt 1)
+2026-02-10 02:42:02,580 - crime_scraper - INFO - Found crime-related article: Ex-MLB player Yasiel Puig found guilty of obstruction and lying to federal officials
+2026-02-10 02:42:03,580 - crime_scraper - INFO - Fetching URL: https://www.nbcnews.com/news/us-news/ex-mlb-player-yasiel-puig-found-guilty-obstruction-lying-federal-offic-rcna257878 (Attempt 1)
+2026-02-10 02:42:04,018 - crime_scraper - INFO - Successfully scraped: Ex-MLB player Yasiel Puig found guilty of obstruction and lying to federal officials
+2026-02-10 02:42:04,018 - crime_scraper - INFO - Scraping website: Fox News Crime
+2026-02-10 02:42:04,018 - crime_scraper - INFO - Fetching URL: https://www.foxnews.com/category/us/crime (Attempt 1)
+2026-02-10 02:42:04,515 - crime_scraper - INFO - Scraping website: CNN Crime and Justice
+2026-02-10 02:42:04,516 - crime_scraper - INFO - Fetching URL: https://www.cnn.com/specials/us/crime-and-justice (Attempt 1)
+2026-02-10 02:42:05,497 - crime_scraper - INFO - Scraping website: New York Post Crime
+2026-02-10 02:42:05,497 - crime_scraper - INFO - Fetching URL: https://nypost.com/metro/ (Attempt 1)
+2026-02-10 02:42:06,684 - crime_scraper - INFO - Scraping website: Chicago Tribune Crime
+2026-02-10 02:42:06,684 - crime_scraper - INFO - Fetching URL: https://www.chicagotribune.com/news/breaking/ (Attempt 1)
+2026-02-10 02:42:07,568 - crime_scraper - INFO - Scraping website: Los Angeles Times Crime
+2026-02-10 02:42:07,568 - crime_scraper - INFO - Fetching URL: https://www.latimes.com/california/ (Attempt 1)
+2026-02-10 02:42:08,109 - crime_scraper - INFO - Scraping website: Washington Post Crime
+2026-02-10 02:42:08,109 - crime_scraper - INFO - Fetching URL: https://www.washingtonpost.com/dc-md-va/ (Attempt 1)
+2026-02-10 02:42:08,954 - crime_scraper - INFO - Scraping website: Miami Herald Crime
+2026-02-10 02:42:08,955 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/ (Attempt 1)
+2026-02-10 02:42:39,306 - crime_scraper - WARNING - Request failed (attempt 1): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2026-02-10 02:42:40,307 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/ (Attempt 2)
+2026-02-10 02:43:10,542 - crime_scraper - WARNING - Request failed (attempt 2): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2026-02-10 02:43:12,543 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/ (Attempt 3)
+2026-02-10 02:43:12,856 - crime_scraper - INFO - Found crime-related article: Man convicted of trying to kill Trump at his South Florida club sentenced to life
+2026-02-10 02:43:12,858 - crime_scraper - INFO - Found crime-related article: Broward Congresswoman pleads not guilty to stealing $5M in government funds
+2026-02-10 02:43:12,859 - crime_scraper - INFO - Found crime-related article: Miami investment advisor sent to prison after stealing $94M from Venezuelans
+2026-02-10 02:43:12,860 - crime_scraper - INFO - Found crime-related article: Miami club facilitated sex trafficking of women to Alexander Brothers, new lawsuit claims
+2026-02-10 02:43:12,861 - crime_scraper - INFO - Found crime-related article: Fort Lauderdale nursing assistant found guilty of $11 million Medicare fraud
+2026-02-10 02:43:12,862 - crime_scraper - INFO - Found crime-related article: Key West business owner found guilty of murdering football coach‘s son
+2026-02-10 02:43:12,863 - crime_scraper - INFO - Found crime-related article: Miami man is accused of shooting girlfriend at nail salon where she works
+2026-02-10 02:43:12,864 - crime_scraper - INFO - Found crime-related article: Teen injured in early morning drive-by shooting, Miami-Dade deputies say
+2026-02-10 02:43:12,865 - crime_scraper - INFO - Found crime-related article: Atlanta NFL star arrested on domestic violence, stalking charges in Miami
+2026-02-10 02:43:12,866 - crime_scraper - INFO - Found crime-related article: Will prosecutors appeal after woman in jailhouse pregnancy gets new murder trial?
+2026-02-10 02:43:12,867 - crime_scraper - INFO - Found crime-related article: Who were the other men in the Epstein files? This is the FBI’s own list
+2026-02-10 02:43:13,868 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article314560156.html#storylink=mainstage_card (Attempt 1)
+2026-02-10 02:43:43,902 - crime_scraper - WARNING - Request failed (attempt 1): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2026-02-10 02:43:44,903 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article314560156.html#storylink=mainstage_card (Attempt 2)
+2026-02-10 02:44:15,116 - crime_scraper - WARNING - Request failed (attempt 2): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2026-02-10 02:44:17,116 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article314560156.html#storylink=mainstage_card (Attempt 3)
+2026-02-10 02:44:47,350 - crime_scraper - WARNING - Request failed (attempt 3): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2026-02-10 02:44:47,351 - crime_scraper - ERROR - Failed to fetch https://www.miamiherald.com/news/local/crime/article314560156.html#storylink=mainstage_card after 3 attempts
+2026-02-10 02:44:47,351 - crime_scraper - WARNING - Failed to get content for: Man convicted of trying to kill Trump at his South Florida club sentenced to life
+2026-02-10 02:44:48,351 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article314557636.html#storylink=mainstage_card (Attempt 1)
+2026-02-10 02:44:48,899 - crime_scraper - INFO - Successfully scraped: Broward Congresswoman pleads not guilty to stealing $5M in government funds
+2026-02-10 02:44:49,899 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article314543521.html#storylink=mainstage_card (Attempt 1)
+2026-02-10 02:44:50,140 - crime_scraper - INFO - Successfully scraped: Miami investment advisor sent to prison after stealing $94M from Venezuelans
+2026-02-10 02:44:51,141 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article314476946.html#storylink=mainstage_card (Attempt 1)
+2026-02-10 02:44:51,822 - crime_scraper - INFO - Successfully scraped: Miami club facilitated sex trafficking of women to Alexander Brothers, new lawsuit claims
+2026-02-10 02:44:52,822 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article314417805.html#storylink=mainstage_card (Attempt 1)
+2026-02-10 02:45:22,884 - crime_scraper - WARNING - Request failed (attempt 1): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2026-02-10 02:45:23,884 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article314417805.html#storylink=mainstage_card (Attempt 2)
+2026-02-10 02:45:54,028 - crime_scraper - WARNING - Request failed (attempt 2): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2026-02-10 02:45:56,028 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article314417805.html#storylink=mainstage_card (Attempt 3)
+2026-02-10 02:46:26,166 - crime_scraper - WARNING - Request failed (attempt 3): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2026-02-10 02:46:26,167 - crime_scraper - ERROR - Failed to fetch https://www.miamiherald.com/news/local/crime/article314417805.html#storylink=mainstage_card after 3 attempts
+2026-02-10 02:46:26,167 - crime_scraper - WARNING - Failed to get content for: Fort Lauderdale nursing assistant found guilty of $11 million Medicare fraud
+2026-02-10 02:46:27,167 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article314409680.html#storylink=mainstage_card (Attempt 1)
+2026-02-10 02:46:57,306 - crime_scraper - WARNING - Request failed (attempt 1): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2026-02-10 02:46:58,307 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article314409680.html#storylink=mainstage_card (Attempt 2)
+2026-02-10 02:47:28,535 - crime_scraper - WARNING - Request failed (attempt 2): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2026-02-10 02:47:30,535 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article314409680.html#storylink=mainstage_card (Attempt 3)
+2026-02-10 02:47:30,974 - crime_scraper - INFO - Successfully scraped: Key West business owner found guilty of murdering football coach‘s son
+2026-02-10 02:47:31,974 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article314388651.html#storylink=mainstage_card (Attempt 1)
+2026-02-10 02:47:33,562 - crime_scraper - INFO - Successfully scraped: Miami man is accused of shooting girlfriend at nail salon where she works
+2026-02-10 02:47:34,562 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article314375679.html#storylink=mainstage_card (Attempt 1)
+2026-02-10 02:48:04,611 - crime_scraper - WARNING - Request failed (attempt 1): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2026-02-10 02:48:05,612 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article314375679.html#storylink=mainstage_card (Attempt 2)
+2026-02-10 02:48:05,882 - crime_scraper - INFO - Successfully scraped: Teen injured in early morning drive-by shooting, Miami-Dade deputies say
+2026-02-10 02:48:06,882 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article314622153.html#storylink=mainstage_card (Attempt 1)
+2026-02-10 02:48:07,208 - crime_scraper - INFO - Successfully scraped: Atlanta NFL star arrested on domestic violence, stalking charges in Miami
+2026-02-10 02:48:08,208 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article314594421.html#storylink=mainstage_card (Attempt 1)
+2026-02-10 02:48:08,584 - crime_scraper - INFO - Successfully scraped: Will prosecutors appeal after woman in jailhouse pregnancy gets new murder trial?
+2026-02-10 02:48:09,584 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article314609810.html#storylink=mainstage_card (Attempt 1)
+2026-02-10 02:48:39,618 - crime_scraper - WARNING - Request failed (attempt 1): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2026-02-10 02:48:40,618 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article314609810.html#storylink=mainstage_card (Attempt 2)
+2026-02-10 02:49:10,741 - crime_scraper - WARNING - Request failed (attempt 2): HTTPSConnectionPool(host='www.miamiherald.com', port=443): Read timed out. (read timeout=30)
+2026-02-10 02:49:12,741 - crime_scraper - INFO - Fetching URL: https://www.miamiherald.com/news/local/crime/article314609810.html#storylink=mainstage_card (Attempt 3)
+2026-02-10 02:49:13,031 - crime_scraper - INFO - Successfully scraped: Who were the other men in the Epstein files? This is the FBI’s own list
+2026-02-10 02:49:13,031 - crime_scraper - INFO - Scraping website: Boston Globe Crime
+2026-02-10 02:49:13,031 - crime_scraper - INFO - Fetching URL: https://www.bostonglobe.com/metro/ (Attempt 1)
+2026-02-10 02:49:13,845 - crime_scraper - INFO - Scraping website: Atlanta Journal Constitution Crime
+2026-02-10 02:49:13,845 - crime_scraper - INFO - Fetching URL: https://www.ajc.com/news/crime/ (Attempt 1)
+2026-02-10 02:49:16,612 - crime_scraper - INFO - Scraping website: Toronto Sun Crime
+2026-02-10 02:49:16,612 - crime_scraper - INFO - Fetching URL: https://torontosun.com/category/news/crime/ (Attempt 1)
+2026-02-10 02:49:17,033 - crime_scraper - INFO - Scraping website: National Post Crime
+2026-02-10 02:49:17,034 - crime_scraper - INFO - Fetching URL: https://nationalpost.com/category/news/true-crime/ (Attempt 1)
+2026-02-10 02:49:17,483 - crime_scraper - INFO - Scraping website: Global News Crime
+2026-02-10 02:49:17,483 - crime_scraper - INFO - Fetching URL: https://globalnews.ca/crime/ (Attempt 1)
+2026-02-10 02:49:18,264 - crime_scraper - INFO - Scraping website: Sky News UK Crime
+2026-02-10 02:49:18,264 - crime_scraper - INFO - Fetching URL: https://news.sky.com/topic/crime-5782 (Attempt 1)
+2026-02-10 02:49:19,302 - crime_scraper - INFO - Scraping website: UK NewsNow Crime
+2026-02-10 02:49:19,302 - crime_scraper - INFO - Fetching URL: https://www.newsnow.co.uk/h/UK/Crime (Attempt 1)
+2026-02-10 02:49:20,485 - crime_scraper - INFO - Scraping website: Euronews Crime
+2026-02-10 02:49:20,485 - crime_scraper - INFO - Fetching URL: https://www.euronews.com/tag/crime (Attempt 1)
+2026-02-10 02:49:20,882 - crime_scraper - INFO - Scraping website: Deutsche Welle Crime
+2026-02-10 02:49:20,882 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/crime/t-45305936 (Attempt 1)
+2026-02-10 02:49:21,565 - crime_scraper - INFO - Found crime-related article: Arrest in Dubai after shooting of Russian general — FSB
+2026-02-10 02:49:21,566 - crime_scraper - INFO - Found crime-related article: Minnesota: Agents in Pretti shooting placed on leave — media
+2026-02-10 02:49:21,568 - crime_scraper - INFO - Found crime-related article: Migrants from Africa brave deadly Canary Islands crossing
+2026-02-10 02:49:21,569 - crime_scraper - INFO - Found crime-related article: Migrants from Africa brave deadly Canary Islands crossing
+2026-02-10 02:49:21,570 - crime_scraper - INFO - Found crime-related article: Concerns about shady deals ahead of 2026 Winter Olympics
+2026-02-10 02:49:21,571 - crime_scraper - INFO - Found crime-related article: Iran protests: Victim's family recounts fatal shooting
+2026-02-10 02:49:21,572 - crime_scraper - INFO - Found crime-related article: Why Germany struggles to fight financial crime
+2026-02-10 02:49:21,573 - crime_scraper - INFO - Found crime-related article: Josef Mengele: Portrait of a Nazi war criminal
+2026-02-10 02:49:21,574 - crime_scraper - INFO - Found crime-related article: The legacy of the Nuremberg Trials
+2026-02-10 02:49:22,574 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/arrest-in-dubai-after-shooting-of-russian-general-fsb/a-75859699 (Attempt 1)
+2026-02-10 02:49:22,795 - crime_scraper - INFO - Successfully scraped: Arrest in Dubai after shooting of Russian general — FSB
+2026-02-10 02:49:23,796 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/minnesota-agents-in-pretti-shooting-placed-on-leave-media/live-75703608 (Attempt 1)
+2026-02-10 02:49:24,903 - crime_scraper - INFO - Successfully scraped: Minnesota: Agents in Pretti shooting placed on leave — media
+2026-02-10 02:49:25,903 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/migrants-from-africa-brave-deadly-canary-islands-crossing/a-75840372 (Attempt 1)
+2026-02-10 02:49:26,402 - crime_scraper - INFO - Successfully scraped: Migrants from Africa brave deadly Canary Islands crossing
+2026-02-10 02:49:27,402 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/migrants-from-africa-brave-deadly-canary-islands-crossing/a-75840372 (Attempt 1)
+2026-02-10 02:49:27,495 - crime_scraper - INFO - Successfully scraped: Migrants from Africa brave deadly Canary Islands crossing
+2026-02-10 02:49:28,495 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/concerns-about-shady-deals-ahead-of-2026-winter-olympics/video-75630077 (Attempt 1)
+2026-02-10 02:49:29,064 - crime_scraper - INFO - Successfully scraped: Concerns about shady deals ahead of 2026 Winter Olympics
+2026-02-10 02:49:30,064 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/iran-protests-2026-tehran-protest-shooting-death-toll-human-rights-internet-shutdown/a-75592109 (Attempt 1)
+2026-02-10 02:49:30,305 - crime_scraper - INFO - Successfully scraped: Iran protests: Victim's family recounts fatal shooting
+2026-02-10 02:49:31,306 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/why-germany-struggles-to-fight-financial-crime/a-75423810 (Attempt 1)
+2026-02-10 02:49:31,766 - crime_scraper - INFO - Successfully scraped: Why Germany struggles to fight financial crime
+2026-02-10 02:49:32,766 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/josef-mengele-portrait-of-a-nazi-war-criminal/video-74664194 (Attempt 1)
+2026-02-10 02:49:33,412 - crime_scraper - INFO - Successfully scraped: Josef Mengele: Portrait of a Nazi war criminal
+2026-02-10 02:49:34,413 - crime_scraper - INFO - Fetching URL: https://www.dw.com/en/the-legacy-of-the-nuremberg-trials/video-74663512 (Attempt 1)
+2026-02-10 02:49:35,023 - crime_scraper - INFO - Successfully scraped: The legacy of the Nuremberg Trials
+2026-02-10 02:49:35,023 - crime_scraper - INFO - Scraping website: Le Monde Justice France
+2026-02-10 02:49:35,023 - crime_scraper - INFO - Fetching URL: https://www.lemonde.fr/en/police-and-justice/ (Attempt 1)
+2026-02-10 02:49:35,503 - crime_scraper - INFO - Scraping website: Mediapart Crime France
+2026-02-10 02:49:35,503 - crime_scraper - INFO - Fetching URL: https://www.mediapart.fr/en/english (Attempt 1)
+2026-02-10 02:49:36,645 - crime_scraper - INFO - Scraping website: DutchNews Crime
+2026-02-10 02:49:36,645 - crime_scraper - INFO - Fetching URL: https://www.dutchnews.nl/category/crime/ (Attempt 1)
+2026-02-10 02:49:38,209 - crime_scraper - INFO - Found crime-related article: Court sentences cat killer to compulsory psychiatric treatment
+2026-02-10 02:49:39,210 - crime_scraper - INFO - Fetching URL: https://www.dutchnews.nl/2026/02/court-sentences-cat-killer-to-compulsory-psychiatric-treatment/ (Attempt 1)
+2026-02-10 02:49:40,121 - crime_scraper - INFO - Successfully scraped: Court sentences cat killer to compulsory psychiatric treatment
+2026-02-10 02:49:40,121 - crime_scraper - INFO - Scraping website: TASS Crime Russia
+2026-02-10 02:49:40,121 - crime_scraper - INFO - Fetching URL: https://tass.com/emergencies (Attempt 1)
+2026-02-10 02:49:41,266 - crime_scraper - INFO - Scraping website: Corriere della Sera Crime
+2026-02-10 02:49:41,266 - crime_scraper - INFO - Fetching URL: https://www.corriere.it/cronache/ (Attempt 1)
+2026-02-10 02:49:42,192 - crime_scraper - INFO - Scraping website: La Repubblica Crime
+2026-02-10 02:49:42,192 - crime_scraper - INFO - Fetching URL: https://www.repubblica.it/cronaca/ (Attempt 1)
+2026-02-10 02:49:42,999 - crime_scraper - INFO - Scraping website: El País Crime Spain
+2026-02-10 02:49:42,999 - crime_scraper - INFO - Fetching URL: https://elpais.com/espana/ (Attempt 1)
+2026-02-10 02:49:43,382 - crime_scraper - INFO - Found crime-related article: Cae un grupo criminal que perfumaba paquetes de cocaína y los escondía entre lavabos de mármol
+2026-02-10 02:49:44,382 - crime_scraper - INFO - Fetching URL: https://elpais.com/espana/2026-02-09/cae-un-grupo-criminal-que-perfumaba-paquetes-de-cocaina-y-los-escondia-entre-lavabos-de-marmol.html (Attempt 1)
+2026-02-10 02:49:45,134 - crime_scraper - INFO - Successfully scraped: Cae un grupo criminal que perfumaba paquetes de cocaína y los escondía entre lavabos de mármol
+2026-02-10 02:49:45,134 - crime_scraper - INFO - Scraping website: ABC Spain Crime
+2026-02-10 02:49:45,134 - crime_scraper - INFO - Fetching URL: https://www.abc.es/espana/sucesos/ (Attempt 1)
+2026-02-10 02:49:46,639 - crime_scraper - INFO - Scraping website: Japan Times Crime
+2026-02-10 02:49:46,640 - crime_scraper - INFO - Fetching URL: https://www.japantimes.co.jp/news/japan/crime-legal/ (Attempt 1)
+2026-02-10 02:49:47,571 - crime_scraper - INFO - Scraping website: Nikkei Asia Crime
+2026-02-10 02:49:47,571 - crime_scraper - INFO - Fetching URL: https://asia.nikkei.com/Spotlight/Society/Crime (Attempt 1)
+2026-02-10 02:49:50,009 - crime_scraper - INFO - Scraping website: NDTV India Crime
+2026-02-10 02:49:50,009 - crime_scraper - INFO - Fetching URL: https://www.ndtv.com/topic/india-crime (Attempt 1)
+2026-02-10 02:49:50,295 - crime_scraper - WARNING - Request failed (attempt 1): 403 Client Error: Forbidden for url: https://www.ndtv.com/topic/india-crime
+2026-02-10 02:49:51,296 - crime_scraper - INFO - Fetching URL: https://www.ndtv.com/topic/india-crime (Attempt 2)
+2026-02-10 02:49:51,414 - crime_scraper - WARNING - Request failed (attempt 2): 403 Client Error: Forbidden for url: https://www.ndtv.com/topic/india-crime
+2026-02-10 02:49:53,415 - crime_scraper - INFO - Fetching URL: https://www.ndtv.com/topic/india-crime (Attempt 3)
+2026-02-10 02:49:53,585 - crime_scraper - WARNING - Request failed (attempt 3): 403 Client Error: Forbidden for url: https://www.ndtv.com/topic/india-crime
+2026-02-10 02:49:53,585 - crime_scraper - ERROR - Failed to fetch https://www.ndtv.com/topic/india-crime after 3 attempts
+2026-02-10 02:49:53,586 - crime_scraper - INFO - Scraping website: Times of India Crime
+2026-02-10 02:49:53,586 - crime_scraper - INFO - Fetching URL: https://timesofindia.indiatimes.com/topic/crime-news/news (Attempt 1)
+2026-02-10 02:49:54,464 - crime_scraper - INFO - Scraping website: Indian Express Crime
+2026-02-10 02:49:54,464 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/about/crime-2/ (Attempt 1)
+2026-02-10 02:49:55,981 - crime_scraper - INFO - Found crime-related article: ‘Is this a joke?’: SC pulls up prosecution in J&K murder case for examining only 7 witnesses in 7 years as accused remains in jail
+2026-02-10 02:49:55,982 - crime_scraper - INFO - Found crime-related article: ‘Only to satisfy lust’: Calcutta High Court confirms man's guilt for 'luring, raping' teen with marriage promise
+2026-02-10 02:49:55,983 - crime_scraper - INFO - Found crime-related article: Chandigarh pharmacy firing: 2 accused shooters injured in gunfight with cops
+2026-02-10 02:49:55,984 - crime_scraper - INFO - Found crime-related article: Jharkhand: Teen lynched in Ranchi village on motor pump theft suspicion
+2026-02-10 02:49:55,985 - crime_scraper - INFO - Found crime-related article: Delhi history-sheeter shot dead near Kherki Daula toll plaza in Gurgaon
+2026-02-10 02:49:55,986 - crime_scraper - INFO - Found crime-related article: Cong leader’s murder in Akola: Hidayat opposed relationship, hence killed him, accused tells police
+2026-02-10 02:49:55,987 - crime_scraper - INFO - Found crime-related article: Pimpri Chinchwad Crime Data for 2025: Firearm seizures, Cyber crime arrests show rise, rape cases report increase
+2026-02-10 02:49:55,988 - crime_scraper - INFO - Found crime-related article: Crime-fiction roundup 2025: From Richard Osman to Peter Swanson, the thrills, chills, and plot twists that stood out this year
+2026-02-10 02:49:55,989 - crime_scraper - INFO - Found crime-related article: Akansh Sen murder case: One report says key accused being extradited, other mentions him untraced: Court directs IO to probe
+2026-02-10 02:49:55,990 - crime_scraper - INFO - Found crime-related article: Solving crime: How blood stains spotted by domestic worker helped uncover brutal murder allegedly by stepson in Vasai
+2026-02-10 02:49:56,990 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/legal-news/sc-raps-prosecution-jk-murder-case-examined-7-witnesses-7-years-10511264/ (Attempt 1)
+2026-02-10 02:49:58,177 - crime_scraper - INFO - Successfully scraped: ‘Is this a joke?’: SC pulls up prosecution in J&K murder case for examining only 7 witnesses in 7 years as accused remains in jail
+2026-02-10 02:49:59,177 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/legal-news/only-to-satisfy-lust-calcutta-high-court-confirms-mans-guilt-for-luring-raping-teen-with-marriage-promise-10504254/ (Attempt 1)
+2026-02-10 02:49:59,331 - crime_scraper - INFO - Successfully scraped: ‘Only to satisfy lust’: Calcutta High Court confirms man's guilt for 'luring, raping' teen with marriage promise
+2026-02-10 02:50:00,331 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/chandigarh/chandigarh-pharmacy-firing-shooters-injured-in-gunfight-10485971/ (Attempt 1)
+2026-02-10 02:50:01,601 - crime_scraper - INFO - Successfully scraped: Chandigarh pharmacy firing: 2 accused shooters injured in gunfight with cops
+2026-02-10 02:50:02,601 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/india/teenager-beaten-death-villagers-ranchi-stealing-motor-pump-six-arrested-10479005/ (Attempt 1)
+2026-02-10 02:50:03,597 - crime_scraper - INFO - Successfully scraped: Jharkhand: Teen lynched in Ranchi village on motor pump theft suspicion
+2026-02-10 02:50:04,597 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/delhi/delhi-history-sheeter-shot-dead-near-kherki-daula-toll-plaza-in-gurgaon-10472629/ (Attempt 1)
+2026-02-10 02:50:05,827 - crime_scraper - INFO - Successfully scraped: Delhi history-sheeter shot dead near Kherki Daula toll plaza in Gurgaon
+2026-02-10 02:50:06,827 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/mumbai/cong-leaders-murder-in-akola-hidayat-opposed-relationship-hence-killed-him-accused-tells-police-10462905/ (Attempt 1)
+2026-02-10 02:50:08,038 - crime_scraper - INFO - Successfully scraped: Cong leader’s murder in Akola: Hidayat opposed relationship, hence killed him, accused tells police
+2026-02-10 02:50:09,038 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/pune/pimpri-chinchwad-crime-data-firearm-seizures-cyber-crime-rape-10460763/ (Attempt 1)
+2026-02-10 02:50:09,943 - crime_scraper - INFO - Successfully scraped: Pimpri Chinchwad Crime Data for 2025: Firearm seizures, Cyber crime arrests show rise, rape cases report increase
+2026-02-10 02:50:10,943 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/books-and-literature/crime-fiction-roundup-2025-richard-osman-peter-swanson-2025-10446809/ (Attempt 1)
+2026-02-10 02:50:12,092 - crime_scraper - INFO - Successfully scraped: Crime-fiction roundup 2025: From Richard Osman to Peter Swanson, the thrills, chills, and plot twists that stood out this year
+2026-02-10 02:50:13,092 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/chandigarh/akansh-sen-murder-case-one-report-says-key-accused-extradited-10422493/ (Attempt 1)
+2026-02-10 02:50:14,117 - crime_scraper - INFO - Successfully scraped: Akansh Sen murder case: One report says key accused being extradited, other mentions him untraced: Court directs IO to probe
+2026-02-10 02:50:15,117 - crime_scraper - INFO - Fetching URL: https://indianexpress.com/article/cities/mumbai/solving-crime-blood-stains-brutal-murder-stepson-vasai-10415343/ (Attempt 1)
+2026-02-10 02:50:16,043 - crime_scraper - INFO - Successfully scraped: Solving crime: How blood stains spotted by domestic worker helped uncover brutal murder allegedly by stepson in Vasai
+2026-02-10 02:50:16,043 - crime_scraper - INFO - Scraping website: El Universal Mexico Crime
+2026-02-10 02:50:16,043 - crime_scraper - INFO - Fetching URL: https://www.eluniversal.com.mx/estados/ (Attempt 1)
+2026-02-10 02:50:16,598 - crime_scraper - INFO - Scraping website: La Jornada Mexico Crime
+2026-02-10 02:50:16,598 - crime_scraper - INFO - Fetching URL: https://www.jornada.com.mx/ultimas/ (Attempt 1)
+2026-02-10 02:50:17,059 - crime_scraper - INFO - Scraping website: Folha de S.Paulo Crime
+2026-02-10 02:50:17,059 - crime_scraper - INFO - Fetching URL: https://www1.folha.uol.com.br/cotidiano/ (Attempt 1)
+2026-02-10 02:50:18,167 - crime_scraper - INFO - Scraping website: Daily Maverick Crime
+2026-02-10 02:50:18,167 - crime_scraper - INFO - Fetching URL: https://www.dailymaverick.co.za/article/topic/crime (Attempt 1)
+2026-02-10 02:50:18,736 - crime_scraper - WARNING - Request failed (attempt 1): 404 Client Error: Not Found for url: https://www.dailymaverick.co.za/article/topic/crime/
+2026-02-10 02:50:19,736 - crime_scraper - INFO - Fetching URL: https://www.dailymaverick.co.za/article/topic/crime (Attempt 2)
+2026-02-10 02:50:19,875 - crime_scraper - WARNING - Request failed (attempt 2): 404 Client Error: Not Found for url: https://www.dailymaverick.co.za/article/topic/crime/
+2026-02-10 02:50:21,875 - crime_scraper - INFO - Fetching URL: https://www.dailymaverick.co.za/article/topic/crime (Attempt 3)
+2026-02-10 02:50:22,098 - crime_scraper - WARNING - Request failed (attempt 3): 404 Client Error: Not Found for url: https://www.dailymaverick.co.za/article/topic/crime/
+2026-02-10 02:50:22,098 - crime_scraper - ERROR - Failed to fetch https://www.dailymaverick.co.za/article/topic/crime after 3 attempts
+2026-02-10 02:50:22,098 - crime_scraper - INFO - Scraping website: Sky News Australia Crime
+2026-02-10 02:50:22,098 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime (Attempt 1)
+2026-02-10 02:50:27,727 - crime_scraper - INFO - Found crime-related article: ‘Rolling fights’: Police hit out at protesters after violent clashes at rally against Israeli President’s visit
+2026-02-10 02:50:27,728 - crime_scraper - INFO - Found crime-related article: ‘Genuine safety crisis’ plaguing Victoria’s retail workers as crime spikes
+2026-02-10 02:50:27,730 - crime_scraper - INFO - Found crime-related article: Unusual item at Bondi sparks specialist police search amid Israeli President’s high-security visit
+2026-02-10 02:50:27,731 - crime_scraper - INFO - Found crime-related article: ‘Action will be taken’: Police issue stern warning to activists protesting Herzog’s Sydney visit
+2026-02-10 02:50:27,732 - crime_scraper - INFO - Found crime-related article: Man arrested after fatal stabbing in Melbourne’s outer west
+2026-02-10 02:50:27,733 - crime_scraper - INFO - Found crime-related article: Liberal MP demands federal police get involved in ‘serious’ illicit tobacco problem
+2026-02-10 02:50:27,734 - crime_scraper - INFO - Found crime-related article: Italian jailed for attempting to traffic Christmas toys stuffed with ketamine into WA
+2026-02-10 02:50:27,735 - crime_scraper - INFO - Found crime-related article: Allan government under fire over transgender prison policy after secret payout revealed
+2026-02-10 02:50:27,736 - crime_scraper - INFO - Found crime-related article: Gus Lamont’s grandparents ‘devastated’ after disappearance declared ‘major crime’
+2026-02-10 02:50:27,737 - crime_scraper - INFO - Found crime-related article: 3,000 police officers to be deployed for Israeli president’s visit
+2026-02-10 02:50:27,738 - crime_scraper - INFO - Found crime-related article: Man shot dead by police on NSW Mid North Coast after stabbing woman in a home invasion
+2026-02-10 02:50:27,739 - crime_scraper - INFO - Found crime-related article: Gus Lamont’s grandparents lawyer up after police’s major admission about fresh probe
+2026-02-10 02:50:27,740 - crime_scraper - INFO - Found crime-related article: ‘Major crime’: Update provided in search for four-year-old Gus Lamont
+2026-02-10 02:50:27,741 - crime_scraper - INFO - Found crime-related article: Sydney man sentenced over death threats sent to Jewish group avoids jail
+2026-02-10 02:50:27,742 - crime_scraper - INFO - Found crime-related article: Four dead in suspected double murder-suicide
+2026-02-10 02:50:27,743 - crime_scraper - INFO - Found crime-related article: Pregnant woman among victims of deadly NSW shooting as manhunt continues
+2026-02-10 02:50:27,744 - crime_scraper - INFO - Found crime-related article: Duo charged with murder after woman’s body found riddled with stab wounds in NSW home
+2026-02-10 02:50:27,746 - crime_scraper - INFO - Found crime-related article: Suspect in Gus Lamont’s disappearance ‘long way’ from being found guilty
+2026-02-10 02:50:27,747 - crime_scraper - INFO - Found crime-related article: NSW Police raid uncovers alleged exotic zoo home to deadly snakes and drug operation
+2026-02-10 02:50:27,748 - crime_scraper - INFO - Found crime-related article: ‘Major crime’: Police identify suspect in case of Gus Lamont
+2026-02-10 02:50:27,749 - crime_scraper - INFO - Found crime-related article: Man charged over alleged involvement in murder at petrol station
+2026-02-10 02:50:27,750 - crime_scraper - INFO - Found crime-related article: ‘Middle finger to police’: NSW govt under fire after e-bike joyriders go unpunished
+2026-02-10 02:50:27,751 - crime_scraper - INFO - Found crime-related article: NSW man charged with running drug, cryptocurrency operation over dark web
+2026-02-10 02:50:27,752 - crime_scraper - INFO - Found crime-related article: Alleged ‘satanic’ paedophile arrested in dawn raid in Sydney
+2026-02-10 02:50:27,753 - crime_scraper - INFO - Found crime-related article: Driver on the run after car ploughs into police officer on Gold Coast
+2026-02-10 02:50:27,754 - crime_scraper - INFO - Found crime-related article: Another firebomb launched at Sydney home after terrifying weekend attack
+2026-02-10 02:50:27,755 - crime_scraper - INFO - Found crime-related article: Fiery scenes as nurses accused of threatening Israeli patients face court
+2026-02-10 02:50:27,756 - crime_scraper - INFO - Found crime-related article: Victoria Police ‘strongly believe’ Dezi Freeman is dead as detectives launch fresh search for the fugitive
+2026-02-10 02:50:28,756 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/police-hit-out-at-rolling-fights-blame-inflammatory-language-after-27-arrested-cops-assaulted-at-wild-sydney-protest-against-israeli-presidents-visit/news-story/d9d6de8a9f1ec6c6426f3a928f5767b1 (Attempt 1)
+2026-02-10 02:50:29,699 - crime_scraper - INFO - Successfully scraped: ‘Rolling fights’: Police hit out at protesters after violent clashes at rally against Israeli President’s visit
+2026-02-10 02:50:30,699 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/genuine-safety-crisis-plaguing-victorias-retail-workers-australian-retail-council-warns-as-crime-spikes-in-202425/news-story/8cad08e01007619b145a99b23a3de9cf (Attempt 1)
+2026-02-10 02:50:31,930 - crime_scraper - INFO - Successfully scraped: ‘Genuine safety crisis’ plaguing Victoria’s retail workers as crime spikes
+2026-02-10 02:50:32,930 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/specialist-police-officers-assess-suspicious-item-near-bondi-pavilion-during-israeli-president-isaac-herzogs-visit/news-story/d85ac636dce294a45387de25dc8143d5 (Attempt 1)
+2026-02-10 02:50:34,306 - crime_scraper - INFO - Successfully scraped: Unusual item at Bondi sparks specialist police search amid Israeli President’s high-security visit
+2026-02-10 02:50:35,306 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/no-tolerance-for-illegal-behaviour-polices-stern-warning-for-activists-protesting-israeli-president-isaac-herzogs-trip/news-story/a8b05fe7e79ff84008508fdc4c5952e3 (Attempt 1)
+2026-02-10 02:50:36,870 - crime_scraper - INFO - Successfully scraped: ‘Action will be taken’: Police issue stern warning to activists protesting Herzog’s Sydney visit
+2026-02-10 02:50:37,870 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/wyndham-vale-man-39-arrested-after-fatal-stabbing-in-melbournes-outer-west/news-story/490a302d63640a961c5974f92b6f5283 (Attempt 1)
+2026-02-10 02:50:39,201 - crime_scraper - INFO - Successfully scraped: Man arrested after fatal stabbing in Melbourne’s outer west
+2026-02-10 02:50:40,201 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/victorian-liberal-mp-mary-aldred-demands-federal-govt-get-afp-involved-in-serious-illicit-tobacco-industry/news-story/7c7bd63c1f71c39442e0e7b39840242d (Attempt 1)
+2026-02-10 02:50:41,125 - crime_scraper - INFO - Successfully scraped: Liberal MP demands federal police get involved in ‘serious’ illicit tobacco problem
+2026-02-10 02:50:42,125 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/italian-national-jailed-for-attempting-to-traffic-christmas-toys-stuffed-with-ketamine-into-western-australia/news-story/70e076c6527762e55206ff24e8f3cdbe (Attempt 1)
+2026-02-10 02:50:43,644 - crime_scraper - INFO - Successfully scraped: Italian jailed for attempting to traffic Christmas toys stuffed with ketamine into WA
+2026-02-10 02:50:44,644 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/jacinta-allan-ducks-questions-over-transgender-prison-policy-after-confidential-settlement-revealed/news-story/b21c6f2f93aa83e5c07f92faaade6612 (Attempt 1)
+2026-02-10 02:50:45,677 - crime_scraper - INFO - Successfully scraped: Allan government under fire over transgender prison policy after secret payout revealed
+2026-02-10 02:50:46,678 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/gus-lamonts-grandparents-absolutely-devastated-after-fouryearolds-disappearance-declared-major-crime-by-south-australia-police/news-story/6436d6243352950c50e7693c05b08863 (Attempt 1)
+2026-02-10 02:50:48,808 - crime_scraper - INFO - Successfully scraped: Gus Lamont’s grandparents ‘devastated’ after disappearance declared ‘major crime’
+2026-02-10 02:50:49,809 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/massive-security-operation-with-3000-police-deployed-as-protesters-put-on-notice-ahead-of-herzog-tour/news-story/005873631b8103ee4a6fb143f63d3e0c (Attempt 1)
+2026-02-10 02:50:52,323 - crime_scraper - INFO - Successfully scraped: 3,000 police officers to be deployed for Israeli president’s visit
+2026-02-10 02:50:53,323 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/man-shot-dead-by-police-near-forster-on-the-nsw-mid-north-coast-after-woman-is-stabbed-during-a-home-invasion-triggering-wild-road-chase/news-story/18591819fa86083047131b4ecf8b241f (Attempt 1)
+2026-02-10 02:50:55,071 - crime_scraper - INFO - Successfully scraped: Man shot dead by police on NSW Mid North Coast after stabbing woman in a home invasion
+2026-02-10 02:50:56,072 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/gus-lamonts-grandparents-hire-lawyers-as-police-reveal-their-new-major-crime-probe-centres-on-a-family-member/news-story/39745457c01b414fe2e1494e498f18c6 (Attempt 1)
+2026-02-10 02:50:57,788 - crime_scraper - INFO - Successfully scraped: Gus Lamont’s grandparents lawyer up after police’s major admission about fresh probe
+2026-02-10 02:50:58,788 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/major-crime-update-provided-in-search-for-fouryearold-gus-lamont/video/e041193e985a0248cc33759ecd11010e (Attempt 1)
+2026-02-10 02:50:59,707 - crime_scraper - INFO - Successfully scraped: ‘Major crime’: Update provided in search for four-year-old Gus Lamont
+2026-02-10 02:51:00,707 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/sydney-man-sentenced-over-death-threats-sent-to-jewish-group-avoids-jail/video/dcc286c8ff4da750a7d85dee075bf5cf (Attempt 1)
+2026-02-10 02:51:02,608 - crime_scraper - INFO - Successfully scraped: Sydney man sentenced over death threats sent to Jewish group avoids jail
+2026-02-10 02:51:03,608 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/four-dead-in-suspected-double-murdersuicide/video/de428a0b719b5e5d6edb1d8afe001fff (Attempt 1)
+2026-02-10 02:51:05,631 - crime_scraper - INFO - Successfully scraped: Four dead in suspected double murder-suicide
+2026-02-10 02:51:06,632 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/pregnant-woman-among-victims-of-deadly-nsw-shooting-as-manhunt-continues/video/18e8d08802b2b19b061972d0da743912 (Attempt 1)
+2026-02-10 02:51:08,722 - crime_scraper - INFO - Successfully scraped: Pregnant woman among victims of deadly NSW shooting as manhunt continues
+2026-02-10 02:51:09,723 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/two-charged-with-dvrelated-murder-after-womans-body-found-riddled-with-stab-wounds-in-goulburn-new-south-wales/news-story/feb024f5153e1cee1ad49a3cf22d9c9f (Attempt 1)
+2026-02-10 02:51:11,897 - crime_scraper - INFO - Successfully scraped: Duo charged with murder after woman’s body found riddled with stab wounds in NSW home
+2026-02-10 02:51:12,898 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/key-suspect-identified-in-gus-lamonts-disappearance-still-very-long-way-from-being-found-guilty-says-leading-criminologist/news-story/f6f0a8b7b2009a3bc7c80fba3c44a123 (Attempt 1)
+2026-02-10 02:51:14,151 - crime_scraper - INFO - Successfully scraped: Suspect in Gus Lamont’s disappearance ‘long way’ from being found guilty
+2026-02-10 02:51:15,152 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/nsw-police-raid-uncovers-alleged-exotic-zoo-home-to-deadly-snakes-hedgehogs-dogs-cats-and-85k-worth-of-cannabis/news-story/e99d0f539695a28acc90514eaca79a53 (Attempt 1)
+2026-02-10 02:51:16,147 - crime_scraper - INFO - Successfully scraped: NSW Police raid uncovers alleged exotic zoo home to deadly snakes and drug operation
+2026-02-10 02:51:17,147 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/cops-to-provide-major-update-in-search-for-fouryearold-gus-lamont-as-mystery-disappearance-continues-to-grip-sa/news-story/96b12178a5e86a1fb367a4a930310f06 (Attempt 1)
+2026-02-10 02:51:18,554 - crime_scraper - INFO - Successfully scraped: ‘Major crime’: Police identify suspect in case of Gus Lamont
+2026-02-10 02:51:19,554 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/man-charged-over-alleged-involvement-in-brutal-murder-at-busy-sydney-innercity-petrol-station/news-story/855b2de242f31574ea0c7b757cbd876b (Attempt 1)
+2026-02-10 02:51:22,529 - crime_scraper - INFO - Successfully scraped: Man charged over alleged involvement in murder at petrol station
+2026-02-10 02:51:23,529 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/middle-finger-to-police-minns-government-under-fire-after-gang-of-youths-go-unpunished-after-ebike-joyride-over-harbour-bridge/news-story/d206b827c386c752f170b6bc4dfb9891 (Attempt 1)
+2026-02-10 02:51:26,764 - crime_scraper - INFO - Successfully scraped: ‘Middle finger to police’: NSW govt under fire after e-bike joyriders go unpunished
+2026-02-10 02:51:27,765 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/nsw-man-charged-with-running-drug-cryptocurrency-operation-over-dark-web/news-story/c97115fca312e727285ddd6a215e7904 (Attempt 1)
+2026-02-10 02:51:30,788 - crime_scraper - INFO - Successfully scraped: NSW man charged with running drug, cryptocurrency operation over dark web
+2026-02-10 02:51:31,788 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/alleged-satanic-paedophile-ring-participant-arrested-in-early-morning-raid-in-sydneys-inner-east/news-story/5a320da46a55f66491d4b7ded665ad57 (Attempt 1)
+2026-02-10 02:51:33,566 - crime_scraper - INFO - Successfully scraped: Alleged ‘satanic’ paedophile arrested in dawn raid in Sydney
+2026-02-10 02:51:34,566 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/driver-on-the-run-after-car-ploughs-into-and-injures-police-officer-on-gold-coast/news-story/0a9ed7eb35e607f7501f3227b06b0f72 (Attempt 1)
+2026-02-10 02:51:36,658 - crime_scraper - INFO - Successfully scraped: Driver on the run after car ploughs into police officer on Gold Coast
+2026-02-10 02:51:37,658 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/firebomb-launched-at-sydney-home-just-over-24-hours-after-multiple-firebombs-hurled-at-nearby-house/news-story/0e846cae3b688d5e128c36181ced6acf (Attempt 1)
+2026-02-10 02:51:39,749 - crime_scraper - INFO - Successfully scraped: Another firebomb launched at Sydney home after terrifying weekend attack
+2026-02-10 02:51:40,749 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/fiery-scenes-outside-court-as-trial-date-set-for-bankstown-nurses-accused-of-threatening-violence-against-israeli-patients/news-story/ef90eddc2bdb5ccdbcfd6459d6adf420 (Attempt 1)
+2026-02-10 02:51:42,551 - crime_scraper - INFO - Successfully scraped: Fiery scenes as nurses accused of threatening Israeli patients face court
+2026-02-10 02:51:43,551 - crime_scraper - INFO - Fetching URL: https://www.skynews.com.au/australia-news/crime/remains-our-number-one-priority-detectives-launch-fresh-targeted-search-for-accused-cop-killer-dezi-freeman/news-story/c12d5bd8e8d9e27049aeaf70d2d584ce (Attempt 1)
+2026-02-10 02:51:44,912 - crime_scraper - INFO - Successfully scraped: Victoria Police ‘strongly believe’ Dezi Freeman is dead as detectives launch fresh search for the fugitive
+2026-02-10 02:51:44,912 - crime_scraper - INFO - Scraping website: ABC Australia Crime
+2026-02-10 02:51:44,912 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/topic/crime (Attempt 1)
+2026-02-10 02:51:45,712 - crime_scraper - INFO - Found crime-related article: DNA breakthrough links six terrifying beach attacks to one man
+2026-02-10 02:51:45,714 - crime_scraper - INFO - Found crime-related article: Man jailed for raping teenager under care of SA Department for Child Protection
+2026-02-10 02:51:45,715 - crime_scraper - INFO - Found crime-related article: Geoff Clark was jailed for fraud but questions persist for community
+2026-02-10 02:51:45,716 - crime_scraper - INFO - Found crime-related article: Man arrested over stabbing and hit-run near Victoria's Swan Hill
+2026-02-10 02:51:45,717 - crime_scraper - INFO - Found crime-related article: Alleged murderer asks to be 'locked up' before women stabbed, court hears
+2026-02-10 02:51:45,718 - crime_scraper - INFO - Found crime-related article: New Queensland guns laws to restrict weapons ownership to citizens
+2026-02-10 02:51:45,719 - crime_scraper - INFO - Found crime-related article: Man and woman jailed for Christmas Eve killing of Charlie Gander
+2026-02-10 02:51:45,720 - crime_scraper - INFO - Found crime-related article: Two dead in head-on crash after utility driven on wrong side of freeway
+2026-02-10 02:51:45,721 - crime_scraper - INFO - Found crime-related article: Hong Kong media mogul Jimmy Lai sentenced to 20 years' jail in landmark case
+2026-02-10 02:51:45,723 - crime_scraper - INFO - Found crime-related article: Iranian Nobel Peace Prize winner sentenced to further jail time
+2026-02-10 02:51:45,724 - crime_scraper - INFO - Found crime-related article: Police investigate shots fired into gym as shop, car set alight
+2026-02-10 02:51:45,725 - crime_scraper - INFO - Found crime-related article: Almost half a billion dollars paid to victims of crime over three years in Qld
+2026-02-10 02:51:45,726 - crime_scraper - INFO - Found crime-related article: How a cheating socialite orchestrated her high-flying husband's murder
+2026-02-10 02:51:45,727 - crime_scraper - INFO - Found crime-related article: Even a criminal conviction can't taint 'good bloke' status
+2026-02-10 02:51:45,728 - crime_scraper - INFO - Found crime-related article: Why it took police nine days to declare the Invasion Day attempted bomb attack in Perth terrorism
+2026-02-10 02:51:46,729 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-02-10/central-coast-sexual-assault-cold-cases-dna-breakthrough/106324982 (Attempt 1)
+2026-02-10 02:51:47,216 - crime_scraper - INFO - Successfully scraped: DNA breakthrough links six terrifying beach attacks to one man
+2026-02-10 02:51:48,216 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-02-10/man-who-raped-teenager-in-state-care-jailed/106322554 (Attempt 1)
+2026-02-10 02:51:48,635 - crime_scraper - INFO - Successfully scraped: Man jailed for raping teenager under care of SA Department for Child Protection
+2026-02-10 02:51:49,635 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-02-10/framlingham-aboriginal-trust-shares-court-fallout-geoff-clark/106305592 (Attempt 1)
+2026-02-10 02:51:50,069 - crime_scraper - INFO - Successfully scraped: Geoff Clark was jailed for fraud but questions persist for community
+2026-02-10 02:51:51,069 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-02-10/piangil-swan-hill-stabbing-hit-run/106324746 (Attempt 1)
+2026-02-10 02:51:52,264 - crime_scraper - INFO - Successfully scraped: Man arrested over stabbing and hit-run near Victoria's Swan Hill
+2026-02-10 02:51:53,264 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-02-09/shaun-dunk-asks-to-be-locked-up-weeks-before-alleged-murder/106323324 (Attempt 1)
+2026-02-10 02:51:54,341 - crime_scraper - INFO - Successfully scraped: Alleged murderer asks to be 'locked up' before women stabbed, court hears
+2026-02-10 02:51:55,341 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-02-09/queensland-gun-laws-premier-bondi-response/106322868 (Attempt 1)
+2026-02-10 02:51:55,680 - crime_scraper - INFO - Successfully scraped: New Queensland guns laws to restrict weapons ownership to citizens
+2026-02-10 02:51:56,680 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-02-09/charlie-gander-dimitri-delio-murder-manslaughter-sentence/106320770 (Attempt 1)
+2026-02-10 02:51:57,212 - crime_scraper - INFO - Successfully scraped: Man and woman jailed for Christmas Eve killing of Charlie Gander
+2026-02-10 02:51:58,212 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-02-09/two-people-dead-after-mitchell-freeway-butler-head-on-crash/106321408 (Attempt 1)
+2026-02-10 02:51:58,793 - crime_scraper - INFO - Successfully scraped: Two dead in head-on crash after utility driven on wrong side of freeway
+2026-02-10 02:51:59,794 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-02-09/hong-kong-media-mogul-jimmy-lai-sentenced-to-20-years-jail/106321070 (Attempt 1)
+2026-02-10 02:52:00,307 - crime_scraper - INFO - Successfully scraped: Hong Kong media mogul Jimmy Lai sentenced to 20 years' jail in landmark case
+2026-02-10 02:52:01,308 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-02-09/nobel-peace-laureate-narges-mohammadi-sentenced-iran/106314130 (Attempt 1)
+2026-02-10 02:52:02,695 - crime_scraper - INFO - Successfully scraped: Iranian Nobel Peace Prize winner sentenced to further jail time
+2026-02-10 02:52:03,695 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-02-09/police-investigate-string-of-townsville-crime-one-million-strong/106320796 (Attempt 1)
+2026-02-10 02:52:04,079 - crime_scraper - INFO - Successfully scraped: Police investigate shots fired into gym as shop, car set alight
+2026-02-10 02:52:05,080 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-02-08/qld-victim-of-crime-payments-500-million-lee-lovell/106314616 (Attempt 1)
+2026-02-10 02:52:05,568 - crime_scraper - INFO - Successfully scraped: Almost half a billion dollars paid to victims of crime over three years in Qld
+2026-02-10 02:52:06,568 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-02-07/brisbane-murder-plot-roy-ferguson-1953/106263782 (Attempt 1)
+2026-02-10 02:52:07,382 - crime_scraper - INFO - Successfully scraped: How a cheating socialite orchestrated her high-flying husband's murder
+2026-02-10 02:52:08,383 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-02-07/jeffrey-epstein-good-character-reference/106307992 (Attempt 1)
+2026-02-10 02:52:08,869 - crime_scraper - INFO - Successfully scraped: Even a criminal conviction can't taint 'good bloke' status
+2026-02-10 02:52:09,869 - crime_scraper - INFO - Fetching URL: https://www.abc.net.au/news/2026-02-06/process-to-declare-invasion-day-alleged-attack-terrorism-/106314916 (Attempt 1)
+2026-02-10 02:52:10,335 - crime_scraper - INFO - Successfully scraped: Why it took police nine days to declare the Invasion Day attempted bomb attack in Perth terrorism
+2026-02-10 02:52:10,335 - crime_scraper - INFO - Scraping website: Nine News Australia Crime
+2026-02-10 02:52:10,336 - crime_scraper - INFO - Fetching URL: https://www.9news.com.au/crime (Attempt 1)
+2026-02-10 02:52:11,056 - crime_scraper - INFO - Scraping website: Seven News Australia Crime
+2026-02-10 02:52:11,056 - crime_scraper - INFO - Fetching URL: https://7news.com.au/news/crime (Attempt 1)
+2026-02-10 02:52:13,335 - crime_scraper - INFO - Total articles scraped: 101
+2026-02-10 02:52:13,335 - crime_scraper - INFO - Processing 101 articles with NLP
+2026-02-10 02:52:13,841 - crime_scraper - INFO - Successfully processed article: Student is shot in a Maryland high school and another student is in custody, police say
+2026-02-10 02:52:14,237 - crime_scraper - INFO - Successfully processed article: Rebels linked to Islamic State group kill at least 20 in Congo village attack, army says
+2026-02-10 02:52:15,089 - crime_scraper - INFO - Successfully processed article: FBI says it’s unaware of Savannah Guthrie talking with her mom’s suspected kidnappers
+2026-02-10 02:52:15,994 - crime_scraper - INFO - Successfully processed article: New video footage released from day of the fatal Brown University shooting
+2026-02-10 02:52:16,230 - crime_scraper - INFO - Successfully processed article: 2 inmates escape from a South Georgia jail
+2026-02-10 02:52:16,528 - crime_scraper - INFO - Successfully processed article: Senegalese police arrest 14 suspects in a child abuse network run by a French national
+2026-02-10 02:52:17,512 - crime_scraper - INFO - Successfully processed article: Jury selection starts in trial for father of Apalachee High School shooting suspect in Georgia
+2026-02-10 02:52:18,388 - crime_scraper - INFO - Successfully processed article: New Zealand mosque shooter seeks to discard his guilty pleas, saying prison made him irrational
+2026-02-10 02:52:19,122 - crime_scraper - INFO - Successfully processed article: Investigation continues a week after Savannah Guthrie mother was reported missing
+2026-02-10 02:52:20,074 - crime_scraper - INFO - Successfully processed article: Takeaways from what the Epstein files show about the FBI investigation of possible sex trafficking
+2026-02-10 02:52:21,672 - crime_scraper - INFO - Successfully processed article: FBI concluded Jeffrey Epstein wasn’t running a sex trafficking ring for powerful men, files show
+2026-02-10 02:52:22,612 - crime_scraper - INFO - Successfully processed article: ‘We will pay,’ Savannah Guthrie says in desperate video plea to potential kidnappers of her mother
+2026-02-10 02:52:23,358 - crime_scraper - INFO - Successfully processed article: Police arrest protesters at Minneapolis federal building on 1-month anniversary of woman’s death
+2026-02-10 02:52:24,273 - crime_scraper - INFO - Successfully processed article: What to know about Nancy Guthrie’s kidnapping and the race to find her
+2026-02-10 02:52:24,549 - crime_scraper - INFO - Successfully processed article: Former Jets 1st-round pick Darron Lee charged with 1st-degree murder in Tennessee
+2026-02-10 02:52:24,852 - crime_scraper - INFO - Successfully processed article: A man tied to the killing of Colombian soccer player Andrés Escobar shot dead in Mexico
+2026-02-10 02:52:25,177 - crime_scraper - INFO - Successfully processed article: Prosecutors drop most serious assault charge against Penn State hockey star McKenna
+2026-02-10 02:52:26,089 - crime_scraper - INFO - Successfully processed article: New York City police officer convicted of manslaughter in cooler throwing death
+2026-02-10 02:52:26,532 - crime_scraper - INFO - Successfully processed article: A 76-year-old British man sentenced to nearly 24 years for drugging and abusing boys at summer camp
+2026-02-10 02:52:27,214 - crime_scraper - INFO - Successfully processed article: Uber found liable in sexual assault case and ordered to pay $8.5 million
+2026-02-10 02:52:27,508 - crime_scraper - INFO - Successfully processed article: A man detonates explosive belt during arrest attempt in Iraq, injuring 2 security members
+2026-02-10 02:52:27,978 - crime_scraper - INFO - Successfully processed article: US strikes another alleged drug-trafficking boat in Eastern Pacific
+2026-02-10 02:52:28,778 - crime_scraper - INFO - Successfully processed article: Nancy Guthrie’s kidnapping is latest abduction case to capture America’s attention
+2026-02-10 02:52:29,264 - crime_scraper - INFO - Successfully processed article: Alabama sets execution for man in auto parts store customer’s death
+2026-02-10 02:52:29,818 - crime_scraper - INFO - Successfully processed article: Some GOP-led states seek to bring back death penalty for child rape convictions
+2026-02-10 02:52:30,650 - crime_scraper - INFO - Successfully processed article: 7 Toronto police officers arrested over suspected ties to organized crime
+2026-02-10 02:52:31,789 - crime_scraper - INFO - Successfully processed article: Savannah Guthrie’s family renews plea to mother’s kidnapper, while sheriff says they have no suspect
+2026-02-10 02:52:32,392 - crime_scraper - INFO - Successfully processed article: Ex-MLB player Yasiel Puig found guilty of obstruction and lying to federal officials
+2026-02-10 02:52:33,425 - crime_scraper - INFO - Successfully processed article: Broward Congresswoman pleads not guilty to stealing $5M in government funds
+2026-02-10 02:52:34,664 - crime_scraper - INFO - Successfully processed article: Miami investment advisor sent to prison after stealing $94M from Venezuelans
+2026-02-10 02:52:36,672 - crime_scraper - INFO - Successfully processed article: Miami club facilitated sex trafficking of women to Alexander Brothers, new lawsuit claims
+2026-02-10 02:52:37,561 - crime_scraper - INFO - Successfully processed article: Key West business owner found guilty of murdering football coach‘s son
+2026-02-10 02:52:37,989 - crime_scraper - INFO - Successfully processed article: Miami man is accused of shooting girlfriend at nail salon where she works
+2026-02-10 02:52:38,369 - crime_scraper - INFO - Successfully processed article: Teen injured in early morning drive-by shooting, Miami-Dade deputies say
+2026-02-10 02:52:38,711 - crime_scraper - INFO - Successfully processed article: Atlanta NFL star arrested on domestic violence, stalking charges in Miami
+2026-02-10 02:52:39,508 - crime_scraper - INFO - Successfully processed article: Will prosecutors appeal after woman in jailhouse pregnancy gets new murder trial?
+2026-02-10 02:52:43,173 - crime_scraper - INFO - Successfully processed article: Who were the other men in the Epstein files? This is the FBI’s own list
+2026-02-10 02:52:43,719 - crime_scraper - INFO - Successfully processed article: Arrest in Dubai after shooting of Russian general — FSB
+2026-02-10 02:52:45,865 - crime_scraper - INFO - Successfully processed article: Minnesota: Agents in Pretti shooting placed on leave — media
+2026-02-10 02:52:46,833 - crime_scraper - INFO - Successfully processed article: Migrants from Africa brave deadly Canary Islands crossing
+2026-02-10 02:52:47,776 - crime_scraper - INFO - Successfully processed article: Migrants from Africa brave deadly Canary Islands crossing
+2026-02-10 02:52:47,979 - crime_scraper - INFO - Successfully processed article: Concerns about shady deals ahead of 2026 Winter Olympics
+2026-02-10 02:52:48,910 - crime_scraper - INFO - Successfully processed article: Iran protests: Victim's family recounts fatal shooting
+2026-02-10 02:52:50,169 - crime_scraper - INFO - Successfully processed article: Why Germany struggles to fight financial crime
+2026-02-10 02:52:50,248 - crime_scraper - INFO - Successfully processed article: Josef Mengele: Portrait of a Nazi war criminal
+2026-02-10 02:52:50,321 - crime_scraper - INFO - Successfully processed article: The legacy of the Nuremberg Trials
+2026-02-10 02:52:50,705 - crime_scraper - INFO - Successfully processed article: Court sentences cat killer to compulsory psychiatric treatment
+2026-02-10 02:52:51,364 - crime_scraper - INFO - Successfully processed article: Cae un grupo criminal que perfumaba paquetes de cocaína y los escondía entre lavabos de mármol
+2026-02-10 02:52:51,878 - crime_scraper - INFO - Successfully processed article: ‘Is this a joke?’: SC pulls up prosecution in J&K murder case for examining only 7 witnesses in 7 years as accused remains in jail
+2026-02-10 02:52:52,053 - crime_scraper - INFO - Successfully processed article: ‘Only to satisfy lust’: Calcutta High Court confirms man's guilt for 'luring, raping' teen with marriage promise
+2026-02-10 02:52:52,320 - crime_scraper - INFO - Successfully processed article: Chandigarh pharmacy firing: 2 accused shooters injured in gunfight with cops
+2026-02-10 02:52:52,484 - crime_scraper - INFO - Successfully processed article: Jharkhand: Teen lynched in Ranchi village on motor pump theft suspicion
+2026-02-10 02:52:52,766 - crime_scraper - INFO - Successfully processed article: Delhi history-sheeter shot dead near Kherki Daula toll plaza in Gurgaon
+2026-02-10 02:52:53,028 - crime_scraper - INFO - Successfully processed article: Cong leader’s murder in Akola: Hidayat opposed relationship, hence killed him, accused tells police
+2026-02-10 02:52:53,655 - crime_scraper - INFO - Successfully processed article: Pimpri Chinchwad Crime Data for 2025: Firearm seizures, Cyber crime arrests show rise, rape cases report increase
+2026-02-10 02:52:54,481 - crime_scraper - INFO - Successfully processed article: Crime-fiction roundup 2025: From Richard Osman to Peter Swanson, the thrills, chills, and plot twists that stood out this year
+2026-02-10 02:52:54,844 - crime_scraper - INFO - Successfully processed article: Akansh Sen murder case: One report says key accused being extradited, other mentions him untraced: Court directs IO to probe
+2026-02-10 02:52:55,296 - crime_scraper - INFO - Successfully processed article: Solving crime: How blood stains spotted by domestic worker helped uncover brutal murder allegedly by stepson in Vasai
+2026-02-10 02:52:56,170 - crime_scraper - INFO - Successfully processed article: ‘Rolling fights’: Police hit out at protesters after violent clashes at rally against Israeli President’s visit
+2026-02-10 02:52:56,921 - crime_scraper - INFO - Successfully processed article: ‘Genuine safety crisis’ plaguing Victoria’s retail workers as crime spikes
+2026-02-10 02:52:57,317 - crime_scraper - INFO - Successfully processed article: Unusual item at Bondi sparks specialist police search amid Israeli President’s high-security visit
+2026-02-10 02:52:58,248 - crime_scraper - INFO - Successfully processed article: ‘Action will be taken’: Police issue stern warning to activists protesting Herzog’s Sydney visit
+2026-02-10 02:52:58,424 - crime_scraper - INFO - Successfully processed article: Man arrested after fatal stabbing in Melbourne’s outer west
+2026-02-10 02:52:59,273 - crime_scraper - INFO - Successfully processed article: Liberal MP demands federal police get involved in ‘serious’ illicit tobacco problem
+2026-02-10 02:52:59,716 - crime_scraper - INFO - Successfully processed article: Italian jailed for attempting to traffic Christmas toys stuffed with ketamine into WA
+2026-02-10 02:53:00,412 - crime_scraper - INFO - Successfully processed article: Allan government under fire over transgender prison policy after secret payout revealed
+2026-02-10 02:53:00,853 - crime_scraper - INFO - Successfully processed article: Gus Lamont’s grandparents ‘devastated’ after disappearance declared ‘major crime’
+2026-02-10 02:53:01,532 - crime_scraper - INFO - Successfully processed article: 3,000 police officers to be deployed for Israeli president’s visit
+2026-02-10 02:53:01,874 - crime_scraper - INFO - Successfully processed article: Man shot dead by police on NSW Mid North Coast after stabbing woman in a home invasion
+2026-02-10 02:53:02,755 - crime_scraper - INFO - Successfully processed article: Gus Lamont’s grandparents lawyer up after police’s major admission about fresh probe
+2026-02-10 02:53:02,783 - crime_scraper - INFO - Successfully processed article: ‘Major crime’: Update provided in search for four-year-old Gus Lamont
+2026-02-10 02:53:02,807 - crime_scraper - INFO - Successfully processed article: Sydney man sentenced over death threats sent to Jewish group avoids jail
+2026-02-10 02:53:02,826 - crime_scraper - INFO - Successfully processed article: Four dead in suspected double murder-suicide
+2026-02-10 02:53:02,848 - crime_scraper - INFO - Successfully processed article: Pregnant woman among victims of deadly NSW shooting as manhunt continues
+2026-02-10 02:53:03,192 - crime_scraper - INFO - Successfully processed article: Duo charged with murder after woman’s body found riddled with stab wounds in NSW home
+2026-02-10 02:53:03,837 - crime_scraper - INFO - Successfully processed article: Suspect in Gus Lamont’s disappearance ‘long way’ from being found guilty
+2026-02-10 02:53:04,364 - crime_scraper - INFO - Successfully processed article: NSW Police raid uncovers alleged exotic zoo home to deadly snakes and drug operation
+2026-02-10 02:53:05,113 - crime_scraper - INFO - Successfully processed article: ‘Major crime’: Police identify suspect in case of Gus Lamont
+2026-02-10 02:53:05,378 - crime_scraper - INFO - Successfully processed article: Man charged over alleged involvement in murder at petrol station
+2026-02-10 02:53:06,242 - crime_scraper - INFO - Successfully processed article: ‘Middle finger to police’: NSW govt under fire after e-bike joyriders go unpunished
+2026-02-10 02:53:06,503 - crime_scraper - INFO - Successfully processed article: NSW man charged with running drug, cryptocurrency operation over dark web
+2026-02-10 02:53:06,983 - crime_scraper - INFO - Successfully processed article: Alleged ‘satanic’ paedophile arrested in dawn raid in Sydney
+2026-02-10 02:53:07,246 - crime_scraper - INFO - Successfully processed article: Driver on the run after car ploughs into police officer on Gold Coast
+2026-02-10 02:53:07,626 - crime_scraper - INFO - Successfully processed article: Another firebomb launched at Sydney home after terrifying weekend attack
+2026-02-10 02:53:08,089 - crime_scraper - INFO - Successfully processed article: Fiery scenes as nurses accused of threatening Israeli patients face court
+2026-02-10 02:53:08,956 - crime_scraper - INFO - Successfully processed article: Victoria Police ‘strongly believe’ Dezi Freeman is dead as detectives launch fresh search for the fugitive
+2026-02-10 02:53:10,185 - crime_scraper - INFO - Successfully processed article: DNA breakthrough links six terrifying beach attacks to one man
+2026-02-10 02:53:11,220 - crime_scraper - INFO - Successfully processed article: Man jailed for raping teenager under care of SA Department for Child Protection
+2026-02-10 02:53:13,215 - crime_scraper - INFO - Successfully processed article: Geoff Clark was jailed for fraud but questions persist for community
+2026-02-10 02:53:13,948 - crime_scraper - INFO - Successfully processed article: Man arrested over stabbing and hit-run near Victoria's Swan Hill
+2026-02-10 02:53:15,008 - crime_scraper - INFO - Successfully processed article: Alleged murderer asks to be 'locked up' before women stabbed, court hears
+2026-02-10 02:53:16,187 - crime_scraper - INFO - Successfully processed article: New Queensland guns laws to restrict weapons ownership to citizens
+2026-02-10 02:53:17,187 - crime_scraper - INFO - Successfully processed article: Man and woman jailed for Christmas Eve killing of Charlie Gander
+2026-02-10 02:53:18,172 - crime_scraper - INFO - Successfully processed article: Two dead in head-on crash after utility driven on wrong side of freeway
+2026-02-10 02:53:19,519 - crime_scraper - INFO - Successfully processed article: Hong Kong media mogul Jimmy Lai sentenced to 20 years' jail in landmark case
+2026-02-10 02:53:20,370 - crime_scraper - INFO - Successfully processed article: Iranian Nobel Peace Prize winner sentenced to further jail time
+2026-02-10 02:53:21,163 - crime_scraper - INFO - Successfully processed article: Police investigate shots fired into gym as shop, car set alight
+2026-02-10 02:53:22,445 - crime_scraper - INFO - Successfully processed article: Almost half a billion dollars paid to victims of crime over three years in Qld
+2026-02-10 02:53:24,691 - crime_scraper - INFO - Successfully processed article: How a cheating socialite orchestrated her high-flying husband's murder
+2026-02-10 02:53:26,275 - crime_scraper - INFO - Successfully processed article: Even a criminal conviction can't taint 'good bloke' status
+2026-02-10 02:53:27,717 - crime_scraper - INFO - Successfully processed article: Why it took police nine days to declare the Invasion Day attempted bomb attack in Perth terrorism
+2026-02-10 02:53:27,717 - crime_scraper - INFO - Processed 101 out of 101 articles
+2026-02-10 02:53:28,029 - crime_scraper - INFO - Successfully processed and saved 101 articles
